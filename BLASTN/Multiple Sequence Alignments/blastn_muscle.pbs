@@ -1,0 +1,101 @@
+#!/bin/bash
+#PBS -l walltime=2:00:00
+#PBS -l select=1:ncpus=16:mem=32gb:ompthreads=4
+
+
+#============================================================
+## ONLY WHEN RUNNING SCRIPT FOR FIRST TIME
+echo "Loading HPC's miniforge module..."
+module load miniforge/3
+#============================================================
+
+echo " "
+
+# Install conda.
+echo "Installing conda..."
+eval "$(~/miniforge3/bin/conda shell.bash hook)"
+# Disable automatic loading of base environment - to create new environment for each workflow and never modify the base environment (which can break the conda installation).
+conda config --set auto_activate_base false
+# Add miniforge3 directory (containing conda, etc.) and to job PATH.
+PBS_O_PATH=$PBS_O_PATH:/rds/general/user/nb122/home/miniforge3/
+
+echo " "
+
+
+cd $PBS_O_WORKDIR
+
+# Copy input file into job's temporary directory.
+echo "Copying input file/s into TMPDIR..."
+cp ../../../blastn_representative.fasta $TMPDIR
+
+echo " "
+
+echo "Investigating TMPDIR..."
+echo $TMPDIR
+ls $TMPDIR
+
+echo " "
+echo " "
+
+echo "Investigating PBS_O_WORKDIR..."
+echo $PBS_O_WORKDIR
+ls $PBS_O_WORKDIR
+
+echo " "
+echo " "
+
+
+#---------------------------------------------------------------------------------------------------
+
+
+#============================================================
+## ONLY WHEN RUNNING SCRIPT FOR FIRST TIME
+# Create new conda environment.
+#conda create -n blastn_muscle
+#============================================================
+
+# Activate prior conda environment.
+echo "Activating 'blastn_muscle' conda environment..."
+conda activate blastn_muscle
+
+echo " "
+
+#============================================================
+## ONLY WHEN RUNNING SCRIPT FOR FIRST TIME
+# Install muscle program into conda environment.
+echo "Installing muscle into conda environment..."
+conda install bioconda::muscle
+#============================================================
+
+# Confirm whether muscle found by job in HPC --> YES.
+echo "Identifying if muscle found in miniforge's HPC directory..."
+find ~/miniforge3/pkgs/ -name "muscle"
+
+echo " "
+echo " "
+
+
+#---------------------------------------------------------------------------------------------------
+
+
+# Run muscle to align DNA sequences.
+echo "Running muscle..."
+muscle -align $PBS_O_HOME/Y3_Project/BLASTN/blastn_representative.fasta -output blastn_musclealigned.phy -nt
+
+
+#---------------------------------------------------------------------------------------------------
+
+echo " "
+echo " "
+
+# Deactivate conda environment.
+echo "Deactivating conda environment..."
+conda deactivate
+
+echo " "
+echo " "
+
+# Print job's environment.
+echo "Printing job environment..."
+printenv
+
