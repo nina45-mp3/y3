@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -l walltime=00:30:00
+#PBS -l select=1:ncpus=16:mem=32gb:ompthreads=4
+
+cd $PBS_O_WORKDIR
+
+for f in *.tar.gz; do tar zxvf "$f"; done
+
+
+
