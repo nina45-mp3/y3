@@ -1,0 +1,180 @@
+--------------------------------------------------------------------------------
+ModelTest-NG v0.1.7
+
+Input data:
+  MSA:        C:\Users\Nina\Downloads\blastn_aligned_modified_modified.fasta
+  Tree:       Maximum parsimony
+    file:           -
+  #taxa:            149
+  #sites:           1079
+  #patterns:        967
+  Max. thread mem:  70 MB
+
+Output:
+  Log:           C:\Users\Nina\Downloads\RAxML_GUI_ModelTest_blastn_aligned_modified_modified.log
+  Starting tree: C:\Users\Nina\Downloads\RAxML_GUI_ModelTest_blastn_aligned_modified_modified.tree
+  Results:       C:\Users\Nina\Downloads\RAxML_GUI_ModelTest_blastn_aligned_modified_modified.out
+
+Selection options:
+  # dna schemes:      11
+  # dna models:       88
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: true
+    #categories:     4
+  gamma rates mode:   mean
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.05
+  keep branches:      false
+
+Additional options:
+  verbosity:        very low
+  threads:          2/4
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10    -54628.4743    111387.0046         0.0000    0.5259
+       2  TIM3+I+G4          8    -54635.5620    111387.2123         0.2077    0.4740
+       3  TVM+I+G4           9    -54640.6945    111404.4612        17.4566    0.0001
+       4  TPM3uf+I+G4        7    -54649.9367    111408.9779        21.9733    0.0000
+       5  GTR+G4             9    -54706.5515    111536.1751       149.1705    0.0000
+       6  TIM3+G4            7    -54714.9761    111539.0568       152.0522    0.0000
+       7  TVM+G4             8    -54714.9806    111546.0497       159.0450    0.0000
+       8  TPM3uf+G4          6    -54726.1128    111554.3464       167.3418    0.0000
+       9  TPM1uf+I+G4        7    -54782.9610    111675.0266       288.0220    0.0000
+      10  TIM1+I+G4          8    -54779.9881    111676.0647       289.0601    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              GTR+I+G4
+lnL:                -54628.4743
+Frequencies:        0.3672 0.1503 0.1490 0.3335
+Subst. Rates:       2.3603 4.1093 0.7577 2.4015 5.9760 1.0000 
+Inv. sites prop:    0.0916
+Gamma shape:        0.6980
+Score:              111387.0046
+Weight:             0.5259
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              0.5854
+Alpha-P.Inv:        0.7090
+P.Inv-Alpha:        0.0936
+Frequencies:        0.3648 0.1507 0.1513 0.3332 
+
+Commands:
+  > phyml  -i C:\Users\Nina\Downloads\blastn_aligned_modified_modified.fasta -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s C:\Users\Nina\Downloads\blastn_aligned_modified_modified.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa C:\Users\Nina\Downloads\blastn_aligned_modified_modified.fasta --model GTR+I+G4
+  > paup -s C:\Users\Nina\Downloads\blastn_aligned_modified_modified.fasta
+  > iqtree -s C:\Users\Nina\Downloads\blastn_aligned_modified_modified.fasta -m GTR+I+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10    -54628.4743    109866.9487         0.0000    0.9939
+       2  TIM3+I+G4          8    -54635.5620    109877.1240        10.1753    0.0061
+       3  TVM+I+G4           9    -54640.6945    109889.3891        22.4404    0.0000
+       4  TPM3uf+I+G4        7    -54649.9367    109903.8733        36.9246    0.0000
+       5  GTR+G4             9    -54706.5515    110021.1030       154.1543    0.0000
+       6  TIM3+G4            7    -54714.9761    110033.9523       167.0036    0.0000
+       7  TVM+G4             8    -54714.9806    110035.9613       169.0126    0.0000
+       8  TPM3uf+G4          6    -54726.1128    110054.2256       187.2770    0.0000
+       9  TIM1+I+G4          8    -54779.9881    110165.9763       299.0276    0.0000
+      10  TPM1uf+I+G4        7    -54782.9610    110169.9221       302.9734    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              GTR+I+G4
+lnL:                -54628.4743
+Frequencies:        0.3672 0.1503 0.1490 0.3335
+Subst. Rates:       2.3603 4.1093 0.7577 2.4015 5.9760 1.0000 
+Inv. sites prop:    0.0916
+Gamma shape:        0.6980
+Score:              109866.9487
+Weight:             0.9939
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              0.5873
+Alpha-P.Inv:        0.6982
+P.Inv-Alpha:        0.0916
+Frequencies:        0.3672 0.1503 0.1490 0.3335 
+
+Commands:
+  > phyml  -i C:\Users\Nina\Downloads\blastn_aligned_modified_modified.fasta -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s C:\Users\Nina\Downloads\blastn_aligned_modified_modified.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa C:\Users\Nina\Downloads\blastn_aligned_modified_modified.fasta --model GTR+I+G4
+  > paup -s C:\Users\Nina\Downloads\blastn_aligned_modified_modified.fasta
+  > iqtree -s C:\Users\Nina\Downloads\blastn_aligned_modified_modified.fasta -m GTR+I+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10    -54628.4743    110107.9487         0.0000    0.9563
+       2  TIM3+I+G4          8    -54635.5620    110114.1240         6.1753    0.0436
+       3  TVM+I+G4           9    -54640.6945    110128.3891        20.4404    0.0000
+       4  TPM3uf+I+G4        7    -54649.9367    110138.8733        30.9246    0.0000
+       5  GTR+G4             9    -54706.5515    110260.1030       152.1543    0.0000
+       6  TIM3+G4            7    -54714.9761    110268.9523       161.0036    0.0000
+       7  TVM+G4             8    -54714.9806    110272.9613       165.0126    0.0000
+       8  TPM3uf+G4          6    -54726.1128    110287.2256       179.2770    0.0000
+       9  TIM1+I+G4          8    -54779.9881    110402.9763       295.0276    0.0000
+      10  TPM1uf+I+G4        7    -54782.9610    110404.9221       296.9734    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              GTR+I+G4
+lnL:                -54628.4743
+Frequencies:        0.3672 0.1503 0.1490 0.3335
+Subst. Rates:       2.3603 4.1093 0.7577 2.4015 5.9760 1.0000 
+Inv. sites prop:    0.0916
+Gamma shape:        0.6980
+Score:              110107.9487
+Weight:             0.9563
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              0.5872
+Alpha-P.Inv:        0.6990
+P.Inv-Alpha:        0.0917
+Frequencies:        0.3670 0.1503 0.1492 0.3335 
+
+Commands:
+  > phyml  -i C:\Users\Nina\Downloads\blastn_aligned_modified_modified.fasta -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s C:\Users\Nina\Downloads\blastn_aligned_modified_modified.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa C:\Users\Nina\Downloads\blastn_aligned_modified_modified.fasta --model GTR+I+G4
+  > paup -s C:\Users\Nina\Downloads\blastn_aligned_modified_modified.fasta
+  > iqtree -s C:\Users\Nina\Downloads\blastn_aligned_modified_modified.fasta -m GTR+I+G4
+Done
