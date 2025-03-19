@@ -1,0 +1,67 @@
+
+#!/bin/bash
+#PBS -l walltime=00:10:00
+#PBS -l select=1:ncpus=2:mem=10gb
+#PBS -o ./logs -e ./errors
+#PBS -J 0-1
+
+
+cd $PBS_O_WORKDIR
+
+# Copy input files and cd-hit master folder into job's temporary directory.
+echo "Copying input files into TMPDIR..."
+cp -r ../Cluster_FASTAs $TMPDIR
+
+echo " "
+
+# Create new directory, titled 'Cluster_x', to separately store contents of each job.
+mkdir ./Cluster_$PBS_ARRAY_INDEX
+
+echo " "
+
+# Inspecting $TMPDIR and $PBS_O_WORKDIR to confirm all expected files are present.
+echo "Investigating TMPDIR..."
+echo $TMPDIR
+ls $TMPDIR
+
+echo " "
+
+echo "Investigating PBS_O_WORKDIR..."
+echo $PBS_O_WORKDIR
+ls $PBS_O_WORKDIR
+
+echo " "
+echo " "
+
+
+#-----------------------------------------------------------------------------
+
+
+# Get the right input file.
+
+# Create a for loop, just in case one input file happens to be missing.
+# ('-e' checks for existence of a file.)
+if [[ ! -e ../Cluster_FASTAs/$PBS_ARRAY_INDEX ]]; then
+	echo "FASTA file for cluster $PBS_ARRAY_INDEX missing."
+fi
+
+# Create INPUT_FILE variable.
+INPUT_FILE=$(../Cluster_FASTAs/$PBS_ARRAY_INDEX)
+
+
+#-----------------------------------------------------------------------------
+
+
+# Perform text manipulation of each input FASTA file, extracting only the accession ID and entry name into a separate file.
+
+#less ../Cluster_FASTAs/0 | sed -n 'p;n' | awk '{print $1}' | sed 's/>//g' > ./Cluster_0/IDs_0
+
+
+# Obtain accession IDs, saving to 'IDs_$PBS_ARRAY_INDEX' in that run's directory.
+touch ./Cluster_$PBS_ARRAY_INDEX/IDs_$PBS_ARRAY_INDEX
+sed -n 'p;n' $INPUT_FILE | awk '{print $1}' | sed 's/>//g' >> ./Cluster_$PBS_ARRAY_INDEX/IDs_$PBS_ARRAY_INDEX
+
+# Obtain entry names, saving to 'names_$PBS_ARRAY_INDEX' in that run's directory.
+touch ./Cluster_$PBS_ARRAY_INDEX/names_$PBS_ARRAY_INDEX
+sed -n 'p;n' $INPUT_FILE | cut -d "=" -f2- >> ./Cluster_$PBS_ARRAY_INDEX/names_$PBS_ARRAY_INDEX
+

@@ -1,0 +1,13 @@
+Copying input file/s into TMPDIR...
+ 
+ 
+Subjects' accession IDs already extracted from .fasta creation.
+ 
+Subjects' accession IDs already appended with '>' at the start.
+ 
+Adding 'RecName: Full=' to the beginning of each subject name...
+ 
+Combining '>'-appended subject accession IDs with their names...
+ 
+ 
+Merging together 'combinedIDsdatasetnames' with 'blastn_sequences' as interchanging lines...

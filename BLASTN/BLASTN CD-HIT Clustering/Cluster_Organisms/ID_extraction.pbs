@@ -1,0 +1,95 @@
+#!/bin/bash
+#PBS -l walltime=00:05:00
+#PBS -l select=1:ncpus=2:mem=10gb
+#PBS -o ./outputs -e ./errors
+#PBS -J 0-1
+
+
+cd $PBS_O_WORKDIR
+
+#echo "This is PBS_ARRAY_INDEX:"
+#echo $PBS_ARRAY_INDEX
+
+#INDEX=$(($PBS_ARRAY_INDEX-1))
+#echo "Checking value of INDEX..."
+#echo $INDEX
+
+#echo " "
+#echo " "
+
+
+# Copy input files into job's temporary directory.
+echo "Copying input files into TMPDIR..."
+cp all_IDs $TMPDIR
+cp Missing_Clusters $TMPDIR
+cp temp $TMPDIR
+
+echo " "
+
+# Create new directory, titled 'Cluster_x', to separately store contents of each job.
+#echo "Creating new Cluster_PBS_ARRAY_INDEX directory..."
+#mkdir ./Cluster_$PBS_ARRAY_INDEX
+
+#echo " "
+#echo " "
+
+
+# Inspect $TMPDIR and $PBS_O_WORKDIR to confirm all expected files are present.
+echo "Investigating TMPDIR..."
+echo $TMPDIR
+ls $TMPDIR
+
+echo " "
+
+echo "Investigating PBS_O_WORKDIR..."
+echo $PBS_O_WORKDIR
+ls $PBS_O_WORKDIR
+
+echo " "
+echo " "
+
+
+#-----------------------------------------------------------------------------
+
+
+# Create for loop, just in case one 'Cluster x' line happens to be missing in the 'all_IDs' file.
+#if grep -q "Cluster $PBS_ARRAY_INDEX" all_IDs | echo $? == 1; then
+	#echo "Cluster $PBS_ARRAY_INDEX" > Missing_Clusters
+	#echo "Cluster $PBS_ARRAY_INDEX is missing from 'all_IDs'."
+#fi
+
+
+#-----------------------------------------------------------------------------
+
+
+# Create variable, equal to ($PBS_ARRAY_INDEX + 1), for ease of inputting into sed function.
+PLUS_ONE=$(($PBS_ARRAY_INDEX+1))
+echo "Checking value of PLUS_ONE..."
+echo $PLUS_ONE
+
+echo " "
+echo " "
+
+
+# Run the command, isolating IDs between each 'cluster' sandwich and copying them to new 'IDs_x' file.
+echo "Running data-wrangling command for IDs from cluster $PBS_ARRAY_INDEX..."
+sed '/^Cluster_$PBS_ARRAY_INDEX/,/^Cluster_$PLUS_ONE/p' temp > testone.$PBS_ARRAY_INDEX
+
+#sed '/^\<Cluster_$PBS_ARRAY_INDEX\>/,/^\<Cluster_$PLUS_ONE\>/p' temp > testtwo.$PBS_ARRAY_INDEX
+
+#sed '/^Cluster_$PBS_ARRAY_INDEX/,/^Cluster_$PLUS_ONE/{p;/^Cluster_$PLUS_ONE/q}' temp > testthree.$PBS_ARRAY_INDEX
+
+
+#sed '/^Cluster_$PBS_ARRAY_INDEX/,/^Cluster_$PLUS_ONE/{p;/^Cluster_$PLUS_ONE/q}' temp >> Cluster_$PBS_ARRAY_INDEX/IDs_$PBS_ARRAY_INDEX
+#sed '/Cluster $PBS_ARRAY_INDEX/,/Cluster $PLUS_ONE/p' all_IDs >> Cluster_$PBS_ARRAY_INDEX/IDs_$PBS_ARRAY_INDEX
+
+echo " "
+echo " "
+
+
+#-----------------------------------------------------------------------------
+
+
+# Redirect error and output logs into job's dedicated folder.
+#mv errors output Cluster_$PBS_ARRAY_INDEX
+

@@ -1,0 +1,41 @@
+
+#!/bin/bash
+#PBS -l walltime=00:50:00
+#PBS -l select=1:ncpus=8:mem=16gb:ompthreads=4
+
+# Load required modules.
+echo "Loading required modules..."
+module load intel-suite/2019.4 
+module load blast+/2.11.1
+
+echo " "
+
+
+cd $PBS_O_WORKDIR
+
+# Copy input file/s into job's temporary directory.
+echo "Copying input file/s into TMPDIR..."
+cp Lplantarum-nuc-seq-file.txt $TMPDIR
+cp blastn_newfasta.fasta $TMPDIR
+
+echo " "
+echo " "
+
+
+#--------------------------------------------------------------------------
+
+
+# Create my own BLAST database using the FASTA file of the initial BLASTN result.
+echo "Converting FASTA file into BLAST-able database..."
+makeblastdb -dbtype nucl -in blastn_newfasta.fasta -input_type fasta -blastdb_version 5 -title blastn_db -parse_seqids -out blastn_db
+
+echo " "
+echo " "
+
+
+#--------------------------------------------------------------------------
+
+
+# Print job's environment.
+echo "Printing job environment..."
+printenv

@@ -1,0 +1,35 @@
+Copying input files into TMPDIR...
+ 
+ 
+Investigating TMPDIR...
+/var/tmp/pbs.524489[1].pbs
+Cluster_FASTAs
+ 
+Investigating PBS_O_WORKDIR...
+/rds/general/user/nb122/home/Y3_Project/BLASTN/Clustering/CDHIT_Clustering/SUCCESSFUL_CDHIT_Without_Conda/Cluster_Organisms
+AL935263
+blastn_clustered_organisms.pbs
+Cluster_0
+Cluster_1
+CP028219
+CP028220
+CP035143
+CP042255
+CP142769
+CP162015
+CP172861
+CP174183
+errors
+logs
+ 
+ 
+
+============================================
+
+        Job resource usage summary 
+
+                 Memory (GB)    NCPUs
+ Requested  :        10             2
+ Used       :         0 (peak)   1.00 (ave)
+
+============================================
