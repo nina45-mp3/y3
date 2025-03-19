@@ -1,0 +1,2 @@
+/bin/ar qc libtldevel.a CMakeFiles/tldevel.dir/src/tldevel.c.o CMakeFiles/tldevel.dir/src/tlmisc.c.o CMakeFiles/tldevel.dir/src/tlrng.c.o CMakeFiles/tldevel.dir/src/esl_stopwatch.c.o
+/bin/ranlib libtldevel.a

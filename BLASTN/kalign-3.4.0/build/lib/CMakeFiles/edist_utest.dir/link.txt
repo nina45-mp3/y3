@@ -1,0 +1,1 @@
+/bin/cc  -mavx2 -DHAVE_AVX2 -fPIC -O3 -DNDEBUG CMakeFiles/edist_utest.dir/src/tldevel.c.o CMakeFiles/edist_utest.dir/src/tlrng.c.o CMakeFiles/edist_utest.dir/src/esl_stopwatch.c.o CMakeFiles/edist_utest.dir/src/euclidean_dist.c.o -o edist_utest  -lm 

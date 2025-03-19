@@ -1,0 +1,1 @@
+/bin/cc  -mavx2 -DHAVE_AVX2 -fPIC -O3 -DNDEBUG CMakeFiles/alphabet_utest.dir/src/tldevel.c.o CMakeFiles/alphabet_utest.dir/src/alphabet.c.o -o alphabet_utest 
