@@ -1,0 +1,13 @@
+bpm_utest 6 1.8044
+alphabet_utest 6 0.00265078
+edist_utest 6 0.00507918
+task_utest 6 0.00404215
+C++Lib 6 0.00675725
+kalign_itest_BB11001.tfa 6 0.00893983
+kalign_itest_BB11001_EOF.msf 6 0.00170352
+kalign_itest_BB12006.msf 6 0.00177636
+kalign_itest_BB12006.tfa 6 0.00196844
+kalign_itest_BB30014.msf 6 0.00174698
+kalign_itest_BB30014.tfa 6 0.0151477
+DSSIM_takes_a_min 6 9.5979
+---

@@ -1,0 +1,10 @@
+/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/NINA_INSTALLATION/lib64/libkalign.so.3.4.0
+/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/NINA_INSTALLATION/lib64/libkalign.so.3
+/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/NINA_INSTALLATION/lib64/libkalign.so
+/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/NINA_INSTALLATION/include/kalign/kalign.h
+/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/NINA_INSTALLATION/include/kalign/kalign_export.h
+/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/NINA_INSTALLATION/lib64/cmake/kalign/kalignTargets.cmake
+/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/NINA_INSTALLATION/lib64/cmake/kalign/kalignTargets-release.cmake
+/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/NINA_INSTALLATION/lib64/cmake/kalign/kalignConfig.cmake
+/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/NINA_INSTALLATION/lib64/cmake/kalign/kalignConfigVersion.cmake
+/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/NINA_INSTALLATION/bin/kalign

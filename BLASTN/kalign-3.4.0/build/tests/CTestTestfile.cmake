@@ -1,0 +1,22 @@
+# CMake generated Testfile for 
+# Source directory: /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests
+# Build directory: /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/tests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(C++Lib "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/tests/kaligncpp")
+set_tests_properties(C++Lib PROPERTIES  WORKING_DIRECTORY "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests" _BACKTRACE_TRIPLES "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/CMakeLists.txt;48;add_test;/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/CMakeLists.txt;0;")
+add_test(kalign_itest_BB11001.tfa "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/src/kalign" "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/data/BB11001.tfa")
+set_tests_properties(kalign_itest_BB11001.tfa PROPERTIES  WORKING_DIRECTORY "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests" _BACKTRACE_TRIPLES "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/CMakeLists.txt;56;add_test;/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/CMakeLists.txt;0;")
+add_test(kalign_itest_BB11001_EOF.msf "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/src/kalign" "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/data/BB11001_EOF.msf")
+set_tests_properties(kalign_itest_BB11001_EOF.msf PROPERTIES  WORKING_DIRECTORY "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests" _BACKTRACE_TRIPLES "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/CMakeLists.txt;63;add_test;/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/CMakeLists.txt;0;")
+add_test(kalign_itest_BB12006.msf "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/src/kalign" "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/data/BB12006.msf")
+set_tests_properties(kalign_itest_BB12006.msf PROPERTIES  WORKING_DIRECTORY "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests" _BACKTRACE_TRIPLES "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/CMakeLists.txt;70;add_test;/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/CMakeLists.txt;0;")
+add_test(kalign_itest_BB12006.tfa "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/src/kalign" "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/data/BB12006.tfa")
+set_tests_properties(kalign_itest_BB12006.tfa PROPERTIES  WORKING_DIRECTORY "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests" _BACKTRACE_TRIPLES "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/CMakeLists.txt;77;add_test;/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/CMakeLists.txt;0;")
+add_test(kalign_itest_BB30014.msf "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/src/kalign" "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/data/BB12006.tfa")
+set_tests_properties(kalign_itest_BB30014.msf PROPERTIES  WORKING_DIRECTORY "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests" _BACKTRACE_TRIPLES "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/CMakeLists.txt;84;add_test;/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/CMakeLists.txt;0;")
+add_test(kalign_itest_BB30014.tfa "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/src/kalign" "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/data/BB30014.tfa")
+set_tests_properties(kalign_itest_BB30014.tfa PROPERTIES  WORKING_DIRECTORY "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests" _BACKTRACE_TRIPLES "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/CMakeLists.txt;91;add_test;/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/CMakeLists.txt;0;")
+add_test(DSSIM_takes_a_min "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/tests/dssim")
+set_tests_properties(DSSIM_takes_a_min PROPERTIES  WORKING_DIRECTORY "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests" _BACKTRACE_TRIPLES "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/CMakeLists.txt;99;add_test;/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/CMakeLists.txt;0;")

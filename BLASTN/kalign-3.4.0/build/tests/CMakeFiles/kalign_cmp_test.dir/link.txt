@@ -1,0 +1,1 @@
+/bin/cc  -mavx2 -DHAVE_AVX2 -O3 -DNDEBUG CMakeFiles/kalign_cmp_test.dir/kalign_cmp_test.c.o -o kalign_cmp_test  -Wl,-rpath,/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/lib ../lib/libkalign.so.3.4.0 

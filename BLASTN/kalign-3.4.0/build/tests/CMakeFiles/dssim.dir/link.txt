@@ -1,0 +1,1 @@
+/bin/cc  -mavx2 -DHAVE_AVX2 -O3 -DNDEBUG CMakeFiles/dssim.dir/dssim_test.c.o CMakeFiles/dssim.dir/dssim.c.o -o dssim  -Wl,-rpath,/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/lib ../lib/libtldevel.a ../lib/libkalign.so.3.4.0 -lm 

@@ -1,0 +1,965 @@
+Start testing: Jan 10 13:14 GMT
+----------------------------------------------------------
+1/12 Testing: bpm_utest
+1/12 Test: bpm_utest
+Command: "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/lib/bpm_utest"
+Directory: /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/lib
+"bpm_utest" start time: Jan 10 13:14 GMT
+Output:
+----------------------------------------------------------
+LEN: 256
+[2025-01-10 13:14:57] :     LOG : Testing correctness of serial bpm.
+  0   0   0   0 
+  0   0   0   0 
+  0   0   0   0 
+  0   0   0   0 
+
+[2025-01-10 13:14:58] :     LOG : Testing correctness of AVX bpm.
+  0   0   0   0 
+  0   0   0   0 
+  0   0   0   0 
+  0   0   0   0 
+
+Dyn	AVX	DYN/AVX
+[2025-01-10 13:15:06] :     LOG : Timing DYN 256
+[2025-01-10 13:15:08] :     LOG : 2.141689  - dyn 
+[2025-01-10 13:15:08] :     LOG : 0.074072  - bpm 
+[2025-01-10 13:15:08] :     LOG : 0.132242  - bpm_block2 
+[2025-01-10 13:15:08] :     LOG : 0.150884  - bpm_block 
+<end of output>
+Test time =  10.83 sec
+----------------------------------------------------------
+Test Passed.
+"bpm_utest" end time: Jan 10 13:15 GMT
+"bpm_utest" time elapsed: 00:00:10
+----------------------------------------------------------
+
+2/12 Testing: alphabet_utest
+2/12 Test: alphabet_utest
+Command: "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/lib/alphabet_utest"
+Directory: /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/lib
+"alphabet_utest" start time: Jan 10 13:15 GMT
+Output:
+----------------------------------------------------------
+LEN: 21
+@	-1
+A	0
+B	20
+C	1
+D	2
+E	3
+F	4
+G	5
+H	6
+I	7
+J	-1
+K	8
+L	9
+M	10
+N	11
+O	-1
+P	12
+Q	13
+R	14
+S	15
+T	16
+U	20
+V	17
+W	18
+X	20
+Y	19
+Z	20
+[	-1
+\	-1
+]	-1
+^	-1
+_	-1
+LEN: 13
+@	-1
+A	0
+B	2
+C	1
+D	2
+E	3
+F	4
+G	5
+H	6
+I	7
+J	-1
+K	8
+L	9
+M	9
+N	2
+O	-1
+P	10
+Q	3
+R	8
+S	0
+T	0
+U	-1
+V	7
+W	11
+X	12
+Y	4
+Z	3
+[	-1
+\	-1
+]	-1
+^	-1
+_	-1
+LEN: 5
+@	-1
+A	0
+B	4
+C	1
+D	4
+E	-1
+F	-1
+G	2
+H	4
+I	-1
+J	-1
+K	4
+L	-1
+M	4
+N	4
+O	-1
+P	-1
+Q	-1
+R	4
+S	4
+T	3
+U	3
+V	4
+W	4
+X	-1
+Y	4
+Z	-1
+[	-1
+\	-1
+]	-1
+^	-1
+_	-1
+LEN: 6
+@	-1
+A	0
+B	5
+C	1
+D	2
+E	2
+F	1
+G	3
+H	3
+I	1
+J	-1
+K	2
+L	4
+M	0
+N	2
+O	-1
+P	2
+Q	2
+R	2
+S	3
+T	3
+U	-1
+V	1
+W	4
+X	5
+Y	4
+Z	5
+[	-1
+\	-1
+]	-1
+^	-1
+_	-1
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"alphabet_utest" end time: Jan 10 13:15 GMT
+"alphabet_utest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/12 Testing: edist_utest
+3/12 Test: edist_utest
+Command: "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/lib/edist_utest"
+Directory: /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/lib
+"edist_utest" start time: Jan 10 13:15 GMT
+Output:
+----------------------------------------------------------
+[2025-01-10 13:15:08] :     LOG : Check for correctness.
+[2025-01-10 13:15:08] :     LOG : Timing serial
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.01u 00:00:00.00 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Timing AVX
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"edist_utest" end time: Jan 10 13:15 GMT
+"edist_utest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/12 Testing: task_utest
+4/12 Test: task_utest
+Command: "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/lib/task_utest"
+Directory: /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/lib
+"task_utest" start time: Jan 10 13:15 GMT
+Output:
+----------------------------------------------------------
+406 251 561 526 455
+408 177 504 509 343
+391 309 934 33 609
+148 835 771 575 683
+265 30 700 370 246
+37 835 628 16 239
+652 338 338 992 430
+303 434 80 479 641
+739 920 28 616 283
+786 772 307 372 631
+58 911 542 372 74
+322 868 107 595 862
+89 893 193 721 536
+763 442 563 659 59
+548 822 522 84 913
+225 406 886 72 559
+342 337 273 335 626
+871 216 538 113 986
+852 942 36 184 72
+139 346 104 453 570
+691 820 236 383 681
+678 702 571 671 225
+518 797 419 139 916
+936 542 455 870 804
+688 548 433 660 865
+737 495 778 28 128
+743 518 100 429 547
+893 297 729 329 749
+855 361 432 73 523
+293 93 438 453 190
+245 89 835 685 361
+372 240 200 776 461
+467 96 249 47 75
+683 758 323 399 350
+382 33 256 830 214
+730 232 656 154 164
+591 338 396 225 525
+11 879 254 449 273
+399 757 292 128 893
+184 28 941 558 324
+602 945 786 984 799
+864 951 606 762 294
+24 575 488 737 614
+898 669 675 877 597
+268 97 379 636 544
+463 47 246 461 0
+558 62 473 609 964
+19 248 697 291 166
+389 260 651 637 659
+570 223 566 473 629
+39 659 630 642 756
+128 780 331 804 64
+737 70 817 390 449
+42 873 234 360 783
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"task_utest" end time: Jan 10 13:15 GMT
+"task_utest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/12 Testing: C++Lib
+5/12 Test: C++Lib
+Command: "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/tests/kaligncpp"
+Directory: /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests
+"C++Lib" start time: Jan 10 13:15 GMT
+Output:
+----------------------------------------------------------
+Aligned:
+---GKGDPKKPRGKMSSYAFFVQTSREEHKKKHPDASVNFSEFSKKCSERWKTMSAKEKGKFEDMAKADKARYEREMKTYIPPKGE----------
+------MQDRVKRPMNAFIVWSRDQRRKMALENPRMR-NS-EISKQLGYQWKMLTEAEKWPFFQEAQKLQAMHREKYPNYKYRP---RRKAKMLPK
+MKKLKKHPDFPKKPLTPYFRFFMEKRAKYAKLHPEMS-NL-DLTKILSKKYKELPEKKKMKYIQDFQREKQEFERNLARFREDHPDLIQNAKK---
+--------MHIKKPLNAFMLYMKEMRANVVAESTLKE-SA-AINQILGRRWHALSREEQAKYYELARKERQLHMQLYPGWSARDNYGKKKKRKREK
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"C++Lib" end time: Jan 10 13:15 GMT
+"C++Lib" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/12 Testing: kalign_itest_BB11001.tfa
+6/12 Test: kalign_itest_BB11001.tfa
+Command: "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/src/kalign" "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/data/BB11001.tfa"
+Directory: /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests
+"kalign_itest_BB11001.tfa" start time: Jan 10 13:15 GMT
+Output:
+----------------------------------------------------------
+
+Kalign (3.4.0)
+
+Copyright (C) 2006,2019,2020,2021,2023 Timo Lassmann
+
+This program comes with ABSOLUTELY NO WARRANTY; for details type:
+`kalign -showw'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; consult the COPYING file for details.
+
+Please cite:
+  Lassmann, Timo.
+  "Kalign 3: multiple sequence alignment of large data sets."
+  Bioinformatics (2019) 
+  https://doi.org/10.1093/bioinformatics/btz795
+
+[2025-01-10 13:15:08] :     LOG : Detected protein sequences.
+[2025-01-10 13:15:08] :     LOG : Read 4 sequences from /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/data/BB11001.tfa.
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Calculating pairwise distances
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Building guide tree.
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Aligning
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+>1aab_
+---GKGDPKKPRGKMSSYAFFVQTSREEHKKKHPDASVNFSEFSKKCSERWKTMSAKEKG
+KFEDMAKADKARYEREMKTYIPPKGE----------
+>1j46_A
+------MQDRVKRPMNAFIVWSRDQRRKMALENPRMR-NS-EISKQLGYQWKMLTEAEKW
+PFFQEAQKLQAMHREKYPNYKYRP---RRKAKMLPK
+>1k99_A
+MKKLKKHPDFPKKPLTPYFRFFMEKRAKYAKLHPEMS-NL-DLTKILSKKYKELPEKKKM
+KYIQDFQREKQEFERNLARFREDHPDLIQNAKK---
+>2lef_A
+--------MHIKKPLNAFMLYMKEMRANVVAESTLKE-SA-AINQILGRRWHALSREEQA
+KYYELARKERQLHMQLYPGWSARDNYGKKKKRKREK
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"kalign_itest_BB11001.tfa" end time: Jan 10 13:15 GMT
+"kalign_itest_BB11001.tfa" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/12 Testing: kalign_itest_BB11001_EOF.msf
+7/12 Test: kalign_itest_BB11001_EOF.msf
+Command: "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/src/kalign" "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/data/BB11001_EOF.msf"
+Directory: /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests
+"kalign_itest_BB11001_EOF.msf" start time: Jan 10 13:15 GMT
+Output:
+----------------------------------------------------------
+
+Kalign (3.4.0)
+
+Copyright (C) 2006,2019,2020,2021,2023 Timo Lassmann
+
+This program comes with ABSOLUTELY NO WARRANTY; for details type:
+`kalign -showw'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; consult the COPYING file for details.
+
+Please cite:
+  Lassmann, Timo.
+  "Kalign 3: multiple sequence alignment of large data sets."
+  Bioinformatics (2019) 
+  https://doi.org/10.1093/bioinformatics/btz795
+
+[2025-01-10 13:15:08] :     LOG : Detected protein sequences.
+[2025-01-10 13:15:08] :     LOG : Read 4 sequences from /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/data/BB11001_EOF.msf.
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Calculating pairwise distances
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Building guide tree.
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Aligning
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+>1aab_
+---GKGDPKKPRGKMSSYAFFVQTSREEHKKKHPDASVNFSEFSKKCSERWKTMSAKEKG
+KFEDMAKADKARYEREMKTYIPPKGE----------
+>1j46_A
+------MQDRVKRPMNAFIVWSRDQRRKMALENPRMR-NS-EISKQLGYQWKMLTEAEKW
+PFFQEAQKLQAMHREKYPNYKYRP---RRKAKMLPK
+>1k99_A
+MKKLKKHPDFPKKPLTPYFRFFMEKRAKYAKLHPEMS-NL-DLTKILSKKYKELPEKKKM
+KYIQDFQREKQEFERNLARFREDHPDLIQNAKK---
+>2lef_A
+--------MHIKKPLNAFMLYMKEMRANVVAESTLKE-SA-AINQILGRRWHALSREEQA
+KYYELARKERQLHMQLYPGWSARDNYGKKKKRKREK
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"kalign_itest_BB11001_EOF.msf" end time: Jan 10 13:15 GMT
+"kalign_itest_BB11001_EOF.msf" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/12 Testing: kalign_itest_BB12006.msf
+8/12 Test: kalign_itest_BB12006.msf
+Command: "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/src/kalign" "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/data/BB12006.msf"
+Directory: /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests
+"kalign_itest_BB12006.msf" start time: Jan 10 13:15 GMT
+Output:
+----------------------------------------------------------
+
+Kalign (3.4.0)
+
+Copyright (C) 2006,2019,2020,2021,2023 Timo Lassmann
+
+This program comes with ABSOLUTELY NO WARRANTY; for details type:
+`kalign -showw'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; consult the COPYING file for details.
+
+Please cite:
+  Lassmann, Timo.
+  "Kalign 3: multiple sequence alignment of large data sets."
+  Bioinformatics (2019) 
+  https://doi.org/10.1093/bioinformatics/btz795
+
+[2025-01-10 13:15:08] :     LOG : Detected protein sequences.
+[2025-01-10 13:15:08] :     LOG : Read 4 sequences from /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/data/BB12006.msf.
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Calculating pairwise distances
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Building guide tree.
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Aligning
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.01u 00:00:00.00 Elapsed: 00:00:00.00
+>1al2_ad
+G-LPVMNTPGSNQYLTADNFQSPCALPEFDVTPPIDIPGEVKNMMELAEI-DTMIPFDLS
+ATKKNTMEMYRVRLSDKPHTDDPILCLSLSPASDPRLSHTMLGEILNYYTHWAGSLKFTF
+LFCGSMMATGKLLVSYAPPGADPPKKRKEAMLGTHVIWDIGLQSSCTMVVPWISNTTYRQ
+TIDD-----SFTEGGYISVFYQTRIVVPLSTPREMDILGFVSACNDFSVRLLRDTTHIEQ
+KA---
+>1bbt_ac
+GIFPVACSDGYGGLVTTDPKTADPVYGKVFNPPRNQLPGRFTNLLDVAEACPTFL--R--
+---FEGGVPYVTTKTDSDRV---LAQFDMSLAAK-HMSNTFLAGLAQYYTQYSGTINLHF
+MFTGPTDAKARYMVAYAPPGMEPPKTPEAAAHCIHAEWDTGLNSKFTFSIPYLSAADYTY
+TASDVA--ETTNVQGWVCLFQITH-----GKADGDALVVLASAGKDFELRLPVDARAE--
+-----
+>1bev_ac
+G-LPTKPGPGSYQFMTTDEDCSPCILPDFQPTPEIFIPGKVNNLLEIAQV-ESILEAN-N
+REGVEGVERYVIPVSVQDALDAQIYALRLELGGSGPLSSSLLGTLAKHYTQWSGSVEITC
+MFTGTFMTTGKVLLAYTPPGGDMPRNREEAMLGTHVIWDFGLQSSITLVIPWISASHFRG
+VSNDDVLNYQYYAAGHVTIWYQTNMVIPPGFPNTAGIIMMIAAQPNFSFRIQKDREDMTQ
+TAILQ
+>1mec_ac
+SPIPVTIREHAGTWYSTLPDSTVPIYGKTPVAPANYMVGEYKDFLEIAQI-PTFIGNK--
+---MPNAVPYIEASNTAVKTQ-PLAVYQVTLSCS-CLANTFLAALSRNFAQYRGSLVYTF
+VFTGTAMMKGKFLIAYTPPGAGKPTSRDQAMQATYAIWDLGLNSSYSFTVPFISPTHFRM
+VGTDQA--NITNVDGWVTVWQLTPLTYPPGCPTSAKILTMVSAGKDFSLKMPISPAPWSP
+Q----
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"kalign_itest_BB12006.msf" end time: Jan 10 13:15 GMT
+"kalign_itest_BB12006.msf" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/12 Testing: kalign_itest_BB12006.tfa
+9/12 Test: kalign_itest_BB12006.tfa
+Command: "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/src/kalign" "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/data/BB12006.tfa"
+Directory: /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests
+"kalign_itest_BB12006.tfa" start time: Jan 10 13:15 GMT
+Output:
+----------------------------------------------------------
+
+Kalign (3.4.0)
+
+Copyright (C) 2006,2019,2020,2021,2023 Timo Lassmann
+
+This program comes with ABSOLUTELY NO WARRANTY; for details type:
+`kalign -showw'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; consult the COPYING file for details.
+
+Please cite:
+  Lassmann, Timo.
+  "Kalign 3: multiple sequence alignment of large data sets."
+  Bioinformatics (2019) 
+  https://doi.org/10.1093/bioinformatics/btz795
+
+[2025-01-10 13:15:08] :     LOG : Detected protein sequences.
+[2025-01-10 13:15:08] :     LOG : Read 4 sequences from /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/data/BB12006.tfa.
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Calculating pairwise distances
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Building guide tree.
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Aligning
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.01u 00:00:00.01 Elapsed: 00:00:00.00
+>1al2_ad
+G-LPVMNTPGSNQYLTADNFQSPCALPEFDVTPPIDIPGEVKNMMELAEI-DTMIPFDLS
+ATKKNTMEMYRVRLSDKPHTDDPILCLSLSPASDPRLSHTMLGEILNYYTHWAGSLKFTF
+LFCGSMMATGKLLVSYAPPGADPPKKRKEAMLGTHVIWDIGLQSSCTMVVPWISNTTYRQ
+TIDD-----SFTEGGYISVFYQTRIVVPLSTPREMDILGFVSACNDFSVRLLRDTTHIEQ
+KA---
+>1bbt_ac
+GIFPVACSDGYGGLVTTDPKTADPVYGKVFNPPRNQLPGRFTNLLDVAEACPTFL--R--
+---FEGGVPYVTTKTDSDRV---LAQFDMSLAAK-HMSNTFLAGLAQYYTQYSGTINLHF
+MFTGPTDAKARYMVAYAPPGMEPPKTPEAAAHCIHAEWDTGLNSKFTFSIPYLSAADYTY
+TASDVA--ETTNVQGWVCLFQITH-----GKADGDALVVLASAGKDFELRLPVDARAE--
+-----
+>1bev_ac
+G-LPTKPGPGSYQFMTTDEDCSPCILPDFQPTPEIFIPGKVNNLLEIAQV-ESILEAN-N
+REGVEGVERYVIPVSVQDALDAQIYALRLELGGSGPLSSSLLGTLAKHYTQWSGSVEITC
+MFTGTFMTTGKVLLAYTPPGGDMPRNREEAMLGTHVIWDFGLQSSITLVIPWISASHFRG
+VSNDDVLNYQYYAAGHVTIWYQTNMVIPPGFPNTAGIIMMIAAQPNFSFRIQKDREDMTQ
+TAILQ
+>1mec_ac
+SPIPVTIREHAGTWYSTLPDSTVPIYGKTPVAPANYMVGEYKDFLEIAQI-PTFIGNK--
+---MPNAVPYIEASNTAVKTQ-PLAVYQVTLSCS-CLANTFLAALSRNFAQYRGSLVYTF
+VFTGTAMMKGKFLIAYTPPGAGKPTSRDQAMQATYAIWDLGLNSSYSFTVPFISPTHFRM
+VGTDQA--NITNVDGWVTVWQLTPLTYPPGCPTSAKILTMVSAGKDFSLKMPISPAPWSP
+Q----
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"kalign_itest_BB12006.tfa" end time: Jan 10 13:15 GMT
+"kalign_itest_BB12006.tfa" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/12 Testing: kalign_itest_BB30014.msf
+10/12 Test: kalign_itest_BB30014.msf
+Command: "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/src/kalign" "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/data/BB12006.tfa"
+Directory: /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests
+"kalign_itest_BB30014.msf" start time: Jan 10 13:15 GMT
+Output:
+----------------------------------------------------------
+
+Kalign (3.4.0)
+
+Copyright (C) 2006,2019,2020,2021,2023 Timo Lassmann
+
+This program comes with ABSOLUTELY NO WARRANTY; for details type:
+`kalign -showw'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; consult the COPYING file for details.
+
+Please cite:
+  Lassmann, Timo.
+  "Kalign 3: multiple sequence alignment of large data sets."
+  Bioinformatics (2019) 
+  https://doi.org/10.1093/bioinformatics/btz795
+
+[2025-01-10 13:15:08] :     LOG : Detected protein sequences.
+[2025-01-10 13:15:08] :     LOG : Read 4 sequences from /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/data/BB12006.tfa.
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Calculating pairwise distances
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Building guide tree.
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Aligning
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.01u 00:00:00.01 Elapsed: 00:00:00.00
+>1al2_ad
+G-LPVMNTPGSNQYLTADNFQSPCALPEFDVTPPIDIPGEVKNMMELAEI-DTMIPFDLS
+ATKKNTMEMYRVRLSDKPHTDDPILCLSLSPASDPRLSHTMLGEILNYYTHWAGSLKFTF
+LFCGSMMATGKLLVSYAPPGADPPKKRKEAMLGTHVIWDIGLQSSCTMVVPWISNTTYRQ
+TIDD-----SFTEGGYISVFYQTRIVVPLSTPREMDILGFVSACNDFSVRLLRDTTHIEQ
+KA---
+>1bbt_ac
+GIFPVACSDGYGGLVTTDPKTADPVYGKVFNPPRNQLPGRFTNLLDVAEACPTFL--R--
+---FEGGVPYVTTKTDSDRV---LAQFDMSLAAK-HMSNTFLAGLAQYYTQYSGTINLHF
+MFTGPTDAKARYMVAYAPPGMEPPKTPEAAAHCIHAEWDTGLNSKFTFSIPYLSAADYTY
+TASDVA--ETTNVQGWVCLFQITH-----GKADGDALVVLASAGKDFELRLPVDARAE--
+-----
+>1bev_ac
+G-LPTKPGPGSYQFMTTDEDCSPCILPDFQPTPEIFIPGKVNNLLEIAQV-ESILEAN-N
+REGVEGVERYVIPVSVQDALDAQIYALRLELGGSGPLSSSLLGTLAKHYTQWSGSVEITC
+MFTGTFMTTGKVLLAYTPPGGDMPRNREEAMLGTHVIWDFGLQSSITLVIPWISASHFRG
+VSNDDVLNYQYYAAGHVTIWYQTNMVIPPGFPNTAGIIMMIAAQPNFSFRIQKDREDMTQ
+TAILQ
+>1mec_ac
+SPIPVTIREHAGTWYSTLPDSTVPIYGKTPVAPANYMVGEYKDFLEIAQI-PTFIGNK--
+---MPNAVPYIEASNTAVKTQ-PLAVYQVTLSCS-CLANTFLAALSRNFAQYRGSLVYTF
+VFTGTAMMKGKFLIAYTPPGAGKPTSRDQAMQATYAIWDLGLNSSYSFTVPFISPTHFRM
+VGTDQA--NITNVDGWVTVWQLTPLTYPPGCPTSAKILTMVSAGKDFSLKMPISPAPWSP
+Q----
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"kalign_itest_BB30014.msf" end time: Jan 10 13:15 GMT
+"kalign_itest_BB30014.msf" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/12 Testing: kalign_itest_BB30014.tfa
+11/12 Test: kalign_itest_BB30014.tfa
+Command: "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/src/kalign" "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/data/BB30014.tfa"
+Directory: /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests
+"kalign_itest_BB30014.tfa" start time: Jan 10 13:15 GMT
+Output:
+----------------------------------------------------------
+
+Kalign (3.4.0)
+
+Copyright (C) 2006,2019,2020,2021,2023 Timo Lassmann
+
+This program comes with ABSOLUTELY NO WARRANTY; for details type:
+`kalign -showw'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; consult the COPYING file for details.
+
+Please cite:
+  Lassmann, Timo.
+  "Kalign 3: multiple sequence alignment of large data sets."
+  Bioinformatics (2019) 
+  https://doi.org/10.1093/bioinformatics/btz795
+
+[2025-01-10 13:15:08] :     LOG : Detected protein sequences.
+[2025-01-10 13:15:08] :     LOG : Read 44 sequences from /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests/data/BB30014.tfa.
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Calculating pairwise distances
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.03u 00:00:00.02 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Building guide tree.
+[2025-01-10 13:15:08] :     LOG : CPU Time: 0.06u 00:00:00.05 Elapsed: 00:00:00.00
+[2025-01-10 13:15:08] :     LOG : Aligning
+[2025-01-10 13:15:09] :     LOG : CPU Time: 0.07u 00:00:00.07 Elapsed: 00:00:01.00
+>1ags_A
+----------------------------------AEKPKLHYFNARGRMESTRWLLAAAG
+VEFEEKFIKSAEDLDKLRNDG--YLMFQQVPMVEI-----DG--MKLVQTRAILNYIA--
+SKYNLY-RKDIKEK--------ALIDMYIE-GIADLGEMILLLPFTQ-------------
+-PEEQDAKLALIKEK-IKNRYFPAFEKVLKSH--GQDYL-VGNKLSRADIHLVELLYY--
+-----VEE--LDSSLIS--S-FPLLKALKTRI-SNLPTVKKFLQPGSPRKPPMDEKSLEE
+ARKIFRF-------
+>GTA1_BOVIN
+----------------------------------AGKPTLHYFNGRGRMECIRWLLAAAG
+VEFEEKFIEKPEDLDKLKNDG--SLMFQQVPMVEI-----DG--MKLVQTRAILNYIA--
+TKYNLY-GKDMKER--------ALIDMYSE-GVADLGEMIMHFPLCP-------------
+-PAEKDAKLTLIREK-TTNRYLPAFENVLKSH--GQDYL-VGNKLSRADIHLVELLYY--
+-----VEE--LDPSLLA--N-FPLLKALKARV-SSLPAVKKFLQPGSQRKPPTDEKKIEE
+ARKVFKF-------
+>GTA1_MOUSE
+----------------------------------AGKPVLHYFNARGRMECIRWLLAAAG
+VEFEEKFIQSPEDLEKLKKDG--NLMFDQVPMVEI-----DG--MKLAQTRAILNYIA--
+TKYDLY-GKDMKER--------ALIDMYSE-GILDLTEMIGQLVLCP-------------
+-PDQREAKTALAKDR-TKNRYLPAFEKVLKSH--GQDYL-VGNRLTRVDIHLLEVLLY--
+-----VEE--FDASLLT--P-FPLLKAFKSRI-SSLPNVKKFLQPGSQRKPPMDAKQIQE
+ARKAFKIQ------
+>GTC1_RAT
+----------------------------------PGKPVLHYFDGRGRMEPIRWLLAAAG
+VEFEEQFLKTRDDLARLRNDG--SLMFQQVPMVEI-----DG--MKLVQTRAILNYIA--
+TKYNLY-GKDMKER--------ALIDMYAE-GVADLDEIVLHYPYIP-------------
+-PGEKEASLAKIKDK-ARNRYFPAFEKVLKSH--GQDYL-VGNRLSRADVYLVQVLYH--
+-----VEE--LDPSALA--N-FPLLKALRTRV-SNLPTVKKFLQPGSQRKPLEDEKCVES
+AVKIFS--------
+>GTC_RABIT
+----------------------------------AGKPKLHYFNARGRMESIRWLLTAAG
+VEFEEKCMKTREDLEKLRKDG--VLMFQQVPMVEI-----DG--MKLVQTRAIFNYIA--
+DKHNLY-GKDIKER--------ALIDMYTE-GIVDLNELILTRPFLP-------------
+-PEEQEAKLAQIKDK-AKNRYFPAFEKVLKSH--GQDYL-VGNKLSKADILLVELLYN--
+-----VEE--LNPGATA--S-FPLLQALKTRI-SNLPTVKKFLQPGSQRNPPDDEKCREE
+AKIIFH--------
+>GTA1_RABIT
+---------------------------------MARKPLLHYFNGRGRMESIRWLLAAAG
+EEFDEKFMETAEDLDKLRNDG--SLMYQQVPMVEI-----DG--MKLVQTRAILNYVA--
+NKHNLY-GKDMKER--------ALIDMYTE-GVADLYELVLLLPLCP-------------
+-PEQKDAKVDFIKEK-IRTRYFPAFEKVLKSH--GQDYL-VGNRLSKADILLVELLYN--
+-----VEE--LDPSAIA--S-FPLLKALKTRI-SSLPTVKKFLQPGSQRKPPMDEKNLEK
+AKKIFKIP------
+>GTA1_CAVPO
+----------------------------------SGKPVLHYFNVQGRMESIRWLLAAAG
+VEFEEKLIMCQEDLDKLKNDG--LLMFQQVPMVEM-----DG--MKMVQSRAILNYIA--
+TKYNLY-GKDTKER--------LLIDMYTE-GMTDLYELFFKVILAP-------------
+-PEEKDAAKSLIKDR-AKNRFLPAFEKVLKSH--GQGYL-VGNKLSKADILLTELLYM--
+-----VEE--FDASLLA--N-FTLLQALKTRV-SNLPNVKKFLQPGSQRKPFPTQEMFEE
+MRKF----------
+>GTA3_RAT
+---------------------------------MEVKPKLYYFQGRGRMESIRWLLATAG
+VEFEEEFLETREQYEKLQKDG--CLLFGQVPLVEI-----DG--MLLTQTRAILSYLA--
+AKYNLY-GKDLKER--------VRIDMYAD-GTQDLMMMIIGAPFKA-------------
+-PQEKEESLALAVKR-AKNRYFPVFEKILKDH--GEAFL-VGNQLSWADIQLLEAILM--
+-----VEE--VSAPVLS--D-FPLLQAFKTRI-SNIPTIKKFLQPGSQRKPPPDGHYVDV
+VRTVLKF-------
+>GTA3_CHICK
+----------------------------------AAKPVLYYFNGRGKMESIRWLLAAAG
+VEFEEVFLETREQYEKLLQSG--ILMFQQVPMVEI-----DG--MKLVQTRAILNYIA--
+GKYNLY-GKDLKER--------ALIDMYVG-GTDDLMGFLLSFPFLS-------------
+-AEDKVKQCAFVVEK-ATSRYFPAYEKVLKDH--GQDFL-VGNRLSWADIHLLEAILM--
+-----VEE--KKSDALS--G-FPLLQAFKKRI-SSIPTIKKFLAPGSKRKPISDDKYVET
+VRRVLRMYYDVKPH
+>GTA2_CHICK
+---------------------------------MAGKPKLHYTRGRGKMESIRWLLAAAG
+VEFEEEFIEKKEDLEKLRNDG--SLLFQQVPMVEI-----DG--MKMVQSRAILCYIA--
+GKYNLY-GKDLKER--------AWIDMYVE-GTTDLMGMIMALPFQA-------------
+-ADVKEKNIALITER-ATTRYFPVYEKALKDH--GQDYL-VGNKLSWADIHLLEAILM--
+-----TEE--LKSDILS--A-FPLLQAFKGRM-SNVPTIKKFLQPGSQRKPPLDEKSIAN
+VRKIFSF-------
+>GTA1_CHICK
+---------------------------------MSGKPVLHYANTRGRMESVRWLLAAAG
+VEFEEKFLEKKEDLQKLKSDG--SLLFQQVPMVEI-----DG--MKMVQTRAILNYIA--
+GKYNLY-GKDLKER--------ALIDMYVE-GLADLYELIMMNVVQP-------------
+-ADKKEEHLANALDK-AANRYFPVFEKVLKDH--GHDFL-VGNKLSRADVHLLETILA--
+-----VEE--SKPDALA--K-FPLLQSFKART-SNIPNIKKFLQPGSQRKPRLEEKDIPR
+LMAIFH--------
+>GTA1_ANTST
+---------------------------------MAGEQNIKYFNIKGRMEAIRWLLAVAG
+VEFEEKFFETKEQLQKLKET---VLLFQQVPMVEI-----DG--MKLVQTRAILHYIA--
+EKYNLL-GKDMKEH--------AQIIMYSE-GTMDLMELIMIYPFLK-------------
+-GEEKKQRLVEIANK-AKGRYFPAFENVLKTH--GQNFL-VGNQLSMADVQLFEAILM--
+-----VEE--KVPDALS--G-FPLLQAFKTRI-SNIPTVKTFLAPGSKRKPVPDAKYVED
+IIKIFYF-------
+>GTA4_HUMAN
+---------------------------------MAARPKLHYPNGRGRMESVRWVLAAAG
+VEFDEEFLETKEQLYKLQDGN--HLLFQQVPMVEI-----DG--MKLVQTRSILHYIA--
+DKHNLF-GKNLKER--------TLIDMYVE-GTLDLLELLIMHPFLK-------------
+-PDDQQKEVVNMAQK-AIIRYFPVFEKILRGH--GQSFL-VGNQLSLADVILLQTILA--
+-----LEE--KIPNILS--A-FPFLQEYTVKL-SNIPTIKRFLEPGSKKKPPPDEIYVRT
+VYNIFRP-------
+>1oe7_A
+-----------------------------------DHIKVIYFNGRGRAESIRMTLVAAG
+VNYEDERISF-QDWPKIKP----TIPGGRLPAVKITDNHGHV--KWMVESLAIARYMA--
+KKHHMM-GGTEEEY--------YNVEKLIG-QAEDLEHEYYKTLMKP-------------
+-EEEKQKIIKEILNG-KVPVLLDIICESLKAS--TGKLA-VGDKVTLADLVLIAVIDH--
+-----VTD--LDKEFLT--GKYPEIHKHRENLLASSPRLAKYL---SDRA----------
+--------------
+>GTP1_BUFBU
+-----------------------------------PEYTIIYFNARGRCEAMRMLMADQG
+AQWKEEVVTS-DDWQKGDLKK--AAVYGQLPGFK------DGD-FTLYQSNAMLRLLA--
+RNHDLY-GKNPREA--------SLIDMVND-GVEDLRLKYLKMIYQN-------------
+-YENGKDDYV----K-ALPTNLGHFERLLASNNEGKGFV-VGAHISFADYNLVDLLHN--
+-----HLV--LAPDCLS--G-FPLLCAYVKRI-SSRPKLEAYLSSDAHKKRPINGNGKQQ
+--------------
+>GT28_SCHJA
+-------------------------------------VKLIYFNGRGRAEPIRMILVAAG
+VEFEDERIEF-QDWPKIKP----TIPGGRLPIVKITDKRGDV--KTMSESLAIARFIA--
+RKHNMM-GDTDDEY--------YIIEKMIG-QVEDVESEYHKTLIKP-------------
+-PEEKEKISKEILNG-KVPILLQAICETLKES--TGNLT-VGDKVTLADVVLIASIDH--
+-----ITD--LDKEFLT--GKYPEIHKHRKHLLATSPKLAKYL---SERHATAF------
+--------------
+>GTS1_ASCSU
+-----------------------------------PQYKLTYFDIRGLGEGARLIFHQAG
+VKFEDNRLKR-EDWPALKP----KTPFGQLPLLEV-----DGE--VLAQSAAIYRYLG--
+RQFGLA-GKTPMEE--------AQVDSIFD-QFKDFMAELRPC-FRV-----LAGFE---
+-EGDKEKVLKEVAVP-ARDKHLPLLEKFLA--KSGSEYM-VGKSVTWADLVITDSLAS--
+-----WES--LIPDFLS--G-HLQLKKYIEHV-RELPNIKKWIAERPKTPY---------
+--------------
+>GTS9_CAEEL
+----------------------------------MVSYKLIYFQSRGNGEIARQVFAFAG
+QEFIDERISK-EQWAEIKN----MTPFGQVPVLEV-----DGR--QLAQSITIVRYLS--
+KQFGIS-GKSSWEE--------AQVDALGD-QFKDYRVEARPF-FRA-----KMGFS---
+-DGDVDQLYKDLFVP-AFNKMYSIFTESLK--SSGSGFL-VGDSLTWMDLAIAQHSAD--
+-----LLE--ADGKILD--T-FLEMKDHQKKI-HSIPNVKKWIEKRPVTSR---------
+--------------
+>GTS3_CAEEL
+----------------------------------MVHYKLTYFNARGLAEISRQLFHMAG
+VEFEDERINE-EKFSQLKP----TFPSGQVPILCI-----DGA--QFSQSTAIARYLA--
+RKFGFV-GQTAEEE--------LQADEVVD-TFKDFIESFRKFVIAV-----LSGES---
+-EEILKNIREEVIKP-AVKTYTAYLKAILE--KSSSGYL-VGNELTWADLVIADNLTT--
+-----LIN--AELLDIE--N-DKLLKEFREKI-IETPKLKEWLAKRPETRF---------
+--------------
+>GTS5_CAEEL
+----------------------------------MVSYKLTYFNGRGAGEVSRQIFAYAG
+QQYEDNRVTQ-EQWPALKETC--AAPFGQLPFLEV-----DGK--KLAQSHAIARFLA--
+REFKLN-GKTAWEE--------AQVNSLAD-QYKDYSSEARPY-FYA-----VMGFG---
+-PGDVETLKKDIFLP-AFEKFYGFLVNFLK--ASGSGFL-VGDSLTWIDLAIAQHSAD--
+-----LI---AKGGDFS--K-FPELKAHAEKI-QAIPQIKKWIETRPVTPF---------
+--------------
+>GTS6_CAEEL
+----------------------------------MVHYKLVYFPLRARAEIARQIFAYAG
+QDYSEENLSF-EQWPARKN----NTPFGQLPILEV-----DGK--PLGQSYAIARYLA--
+REFGIA-GQNDTEA--------AEVDAIAD-QFKDYLNDVSPY-LTV-----LAGFK---
+-PGDKDQLRTDVFVP-AFKKNFEFFENILA--SNHSGFF-VGNSLTWVDLLISQHVQD--
+-----ILD--KDLAVVE--E-FKKVLAHRKKV-QSIDRIQKYIANRPDYPF---------
+--------------
+>GTS4_CAEEL
+----------------------------------MPNYKLLYFDARALAEPIRIMFAMLN
+VPYEDYRVSV-EEWSKLKP----TTPFGQLPILQV-----DGE--QFGQSMSITRYLA--
+RKFGLA-GKTAEEE--------AYADSIVD-QYRDFIFFFRQFTSSV-----FYGSD---
+-ADHINKVRFEVVEP-ARDDFLAIINKFLA--KSKSGFL-VGDSLTWADIVIADNLTS--
+-----LLK--NGFLDFN--K-EKKLEEFYNKI-HSIPEIKNYVATRKDSIV---------
+--------------
+>GTS2_CAEEL
+----------------------------------MVHYKLMCFDVRGLGEVIRQLFYLGD
+VSFEDFRVSR-EEFKSLKS----NLPSGQLPVLEI-----DGV--MISQSASIGRFLA--
+RQYGYS-GKTPTEE--------MQVDSIID-LFKDFMLTFRQFFFAV-----IHGYP---
+-EYEKERMKRDIVKP-AIKNYFIALNKILL--RSKSGFL-VGDDLTWADLQIADNLST--
+-----LIN--IRLF-AE--K-EPHLNVFIRKL----------------------------
+--------------
+>GTS1_CAEEL
+----------------------------------MPHFKFYYFDVRGRGEAIRLLFHLAD
+EKFDDERFGM-EQWGVLKS----EMPLGQVPVLEI-----DGV--KISQTTAIARYLG--
+HQFHRA-GTNAVDC--------ARLDMIAE-VIQEFMSSSGMGKFSR----VLLGMI---
+-QANKEQFFKENVLP-DVEKYAPIVEKFLL-ENGNNGLL-LGDRETWVDVFAAESFSK--
+-----LIDY-GSPDALD--A-YPHILALINRV-FNHPNIKKYVSQRKATPA---------
+--------------
+>GTS_ANOGA
+-------------------LSSSSISRSSLKCNIMPDYKVYYFNVKALGEPLRFLLSYGN
+LPFDDVRITR-EEWPALKP----TMPMRQMPVLEV-----DGK--RVHQSLAMCRYVA--
+KQINLA-GDNPLEA--------LQIDAIVD-TINDFRLKIAIVAYEP------DDMV---
+-KEKKMVTLNNEVIPFYLTKLNVIAKE-------NNGHL-VLGKPTWADVYFAGILDY--
+-----L-NYLTKTNLLE--N-FPNLQEVVQKV-LDNENVKAYIAKRPITEV---------
+--------------
+>GTS2_MANSE
+----------------------------------MPKVVFHYFGAKGWARP-TMLLAYGG
+QEFEDHRVEY-EQWPEFKP----NTPFGQMPVLEI-----DGK--KYAQSLAISRYLG--
+RKYGLA-GNDIEED--------FEIDQIVD-FVNDIRASAASVEYEQ------DAAN---
+-KEVKHEENMKNKYPFQLNKLSEIITK-------NNGFL-ALGRLTWADFVFVGMFDY--
+-----LKKMLRMPDLEE--Q-YPIFKKPIETV-LSNPKLKAYLDSAPKKEF---------
+--------------
+>GT1_ONCVO
+FITMNFVVEAASSNANQAITSENSIKPKGKLQPQMEKYTLTYFNGRGRAEVIRLLFALAN
+VSYEDNRITR-DEWKYLKP----RTPFGHVPMLNV-----SGN--VLGESHAIELLLG--
+GRFGLL-GTNDWEE--------AKIMAVVL-NIDELFQKLIPWTHEK-----NTTKK---
+-AELFRNLSESDVMP-FLGRY----EKFLK--ESTTGHI-VGNKVSVADLTVFNMLMT--
+-----L----DDEVKLE--E-YPQLASFVNKI-GQMPGIKEWIKKRPKTYF---------
+--------------
+>SC11_OMMSL
+----------------------------------MPSYTLYYFNGRGRAEICRMLFAVAS
+VQYQDKRIEL-AEWTQFKT----KMPCHMLPILEI-----DTE-TQVPQSMAISRYLA--
+REFGFY-GKNNMDM--------FKVDCLCD-SLFELFNDYMAVYNEK-------------
+-DAAKKTELQKRFQN-TCLRVLPYMEKTLEANKGGAGWF-IGDQILLCDMMTHAALEN--
+-----PIQ--ENANLLK--E-YPKLAALRTRV-AAHPKIAAYIKKRNNTAF---------
+--------------
+>SC2_OCTDO
+----------------------------------MPSYTLNYFNHRGRAEICRMLFAAAG
+VQYNDRRIET-SEWSNMRS----KMPCSMMPMLDI-----DNR-HQIPQTMAIARYLA--
+REFGFH-GKNNMEM--------ARVEYISD-CFYDILDDYLRMYQDDNCRMMFQRSG---
+-DRNGSSEKRTRYQE-TLRRILPFMERTLEMYKSGGQFF-MGDQMTMADMMCYCALEN--
+-----PIM--EESSLLN--S-YPKLQALRTRV-MSHLKMSPYLKKRSSTEF---------
+--------------
+>1aw9_
+----------------------------------AP-LKLYGMPLSPNVVRVATVLNEKG
+LDFEIVPVDLTTGAHKQPDFL-ALNPFGQIPALV------DGD-EVLFESRAINRYIA--
+SKYASE-GTDLLPATASA----AKLEVWLEVESHHFYPNASPLVFQL----LVRPLL---
+-GGAPDAAVVDKHAE-QLAKVLDVYEAHLA----RNKYL-AGDEFTLADANHASYLLY--
+-----L-SKTPKAGLVA--A-RPHVKAWWEAI-VARPAFQKTVAAIPLPPPP--------
+--------------
+>GTH3_ARATH
+-----------------------------------V-LTIYA-PLFASSKRAVVTLVEKG
+VSFETVNVDLMKGEQRQPEYL-AIQPFGKIPVLV------DGD-YKIFESRAIMRYIA--
+EKYRSQ-GPDLLGKTIEER---GQVEQWLDVEATSYHPPLLALTLNI----VFAPLM---
+-GFPADEKVIKESEE-KLAEVLDVYEAQLS----KNEYL-AGDFVSLADLAHLPFTEY--
+-----LVGPIGKAHLIK--D-RKHVSAWWDKI-SSRAAWKEVSAKYSLPV----------
+--------------
+>GTH7_ARATH
+----------------------------------MV-VKVYGQIKAANPQRVLLCFLEKD
+IEFEVIHVDLDKLEQKKPQHL-LRQPFGQVPAIE------DGY-LKLFESRAIARYYA--
+TKYADQ-GTDLLGKTLEGR---AIVDQWVEVENNYFYAVALPLVMNV----VFKPKS---
+-GKPCDVALVEELKV-KFDKVLDVYENRLA----TNRYL-GGDEFTLADLSHMPGMRY--
+-----IMNETSLSGLVT--S-RENLNRWWNEI-SARPAWKKLMELAAY------------
+--------------
+>GTH6_ARATH
+---------------------------------MAS-IKVHGVPMSTATMRVLATLYEKD
+LQFELIPVDMRAGAHKQEAHL-ALNPFGQIPALE------DGD-LTLFESRAITQYLA--
+EEYSEK-GEKLISQDCKKVK--ATTNVWLQVEGQQFDPNASKLAFER----VFKGMF---
+-GMTTDPAAVQELEG-KLQKVLDVYEARLA----KSEFL-AGDSFTLADLHHLPAIHY--
+-----LLGTDSKV-LFD--S-RPKVSEWIKKI-SARPAWAKVIDLQKQ------------
+--------------
+>GTH_SILCU
+-----------------------------------T-IKVHGNPRSTATQRVLVALYEKH
+LEFEFVPIDMGAGGHKQPSYL-ALNPFGQVPALE------DGE-IKLFESRAITKYLAYT
+HDHQNE-GTSLIHKE-KHEM--AAQLVWEEVEAHQFDPVASKLAWEL----VFKGIF---
+-GMQTDTTVVEENEA-KLAKVLDVYEARLT----ESEYLGANDSFTLVDLHHLPLLGY--
+-----LMGTQVKK-LFE--E-RAHVSAWCKKI-LARPSWEKTLALQKQA-----------
+--------------
+>GTH1_ARATH
+---------------------------------MAG-IKVFGHPASTATRRVLIALHEKN
+VDFEFVHVELKDGEHKKEPFI-LRNPFGKVPAFE------DGD-FKIFESRAITQYIA--
+HEFSDK-GNNLLST-GKDM---AIIAMGIEIESHEFDPVGSKLVWEQ----VLKPLY---
+-GMTTDKTVVEEEEA-KLAKVLDVYEHRLG----ESKYL-ASDHFTLVDLHTIPVIQY--
+-----LLGTPTKK-LFD--E-RPHVSAWVADI-TSRPSAQKVL-----------------
+--------------
+>GTH4_ARATH
+----------------------------------AG-IKVFGHPASIATRRVLIALHEKN
+LDFELVHVELKDGEHKKEPFL-SRNPFGQVPAFE------DGD-LKLFESRAITQYIA--
+HRYENQ-GTNLLQTDSKNISQYAIMAIGMQVEDHQFDPVASKLAFEQ----IFKSIY---
+-GLTTDEAVVAEEEA-KLAKVLDVYEARLK----EFKYL-AGETFTLTDLHHIPAIQY--
+-----LLGTPTKK-LFT--E-RPRVNEWVAEI-TKRPASEKVQ-----------------
+--------------
+>GTH4_MAIZE
+---------------------------------ATPAVKVYGWAISPFVSRALLALEEAG
+VDYELVPMSRQDGDHRRPEHL-ARNPFGKVPVLE------DGD-LTLFESRAIARHVL--
+RKHKP----ELLGGGR-LEQT-AMVDVWLEVEAHQLSPPAIAIVVEC----VFAPFL---
+-GRERNQAVVDENVE-KLKKVLEVYEARLA----TCTYL-AGDFLSLADLSPFTIMHC--
+-----LMATEYAA-LVH--A-LPHVSAWWQGL-AARPAANKVAQFMPVGAGAPKEQE---
+--------------
+>GTH1_MAIZE
+---------------------------------A-P-MKLYGAVMSWNLTRCATALEEAG
+SDYEIVPINFATAEHKSPEHL-VRNPFGQVPALQ------DGD-LYLFESRAICKYAA--
+RKNKP----ELLREGN-LEEA-AMVDVWIEVEANQYTAALNPILFQV----LISPML---
+-GGTTDQKVVDENLE-KLKKVLEVYEARLT----KCKYL-AGDFLSLADLNHVSVTLC--
+-----LFATPYAS-VLD--A-YPHVKAWWSGL-MERPSVQKVAALMKPSA----------
+--------------
+>GTH1_WHEAT
+---------------------------------MSP-VKVFGHPMLTNVARVLLFLEEVG
+AEYELVPMDFVAGEHKRPQHV-QLNPFAKMPGFQ------DGD-LVLFESRAIAKYIL--
+RKYGGTAGLDLLGENSGIEEL-AMVDVWTEVEAQQYYPAISPVVFEC----IIIPFIIPG
+GGAAPNQTVVDESLE-RLRGVLGIYEARLE----KSRYL-AGDSITFADLNHIPFTFY--
+-----FMTTPYAK-VFD--D-YPKVKAWWEML-MARPAVQRVCKHMPTEFKLGAQY----
+--------------
+>GTH5_ARATH
+---------------------------------MVT-VKLYGMAYSTCTKRVYTTAKEIG
+VDVKIVPVDLMKGEHKEPAYLDNYHPFGVIPVLE------DEDGTKIYESRAISRYLV--
+AKYGK--GSSLLPSPSDPKAY-GLFEQAASVEYSSFDPPASSLAYER----VFAGMR---
+-GLKTNEELAKKYVD-TLNAKMDGYERILS----KQKYL-AGNDFTLADLFHLPY-GA--
+-----MVAQLEPT-VLD--S-KPHVKAWWAA--SLRVIPGRLLRNSSKEFM---------
+--------------
+>1eem_A
+---------------SARSLGKGSAPPGPV---PEGSIRIYSMRFCPFAERTRLVLKAKG
+IRHEVININLKNKPEWFFK----KNPFGLVPVLENS----QGQ--LIYESAITCEYLD--
+EAYP---GKKLLPDDPYEK---ACQKMILE-LFSKVPSLVGSFIRSQ-------------
+-N-KEDYAGLKE----EFRKEFTKLEEVLTNK--KTTFF-GGNSISMIDYLIWPWFER--
+-----LEAM-KLNECVD--H-TPKLKLWMAAM-KEDPTVSALLTSEKDWQGFLE-LYLQN
+SPEACDYGL-----
+>GTO1_MOUSE
+-----------MSGESSRSLGKGSAPPGPV---PEGQIRVYSMRFCPFAQRTLMVLKAKG
+IRHEVININLKNKPEWFFE----KNPLGLVPVLENS----QGH--LVTESVITCEYLD--
+EAYP---EKKLFPDDPYKK---ARQKMTLE-SFSKVPPLIASFVRSK-------------
+-R-KEDSPNLRE----ALENEFKKLEEGMDNY--K-SFL-GGDSPSMVDYLTWPWFQR--
+-----LEAL-ELKECLA--H-TPKLKLWMAAM-QQDPVASSHKIDAKTYREYLN-LYLQD
+SPEACDYGL-----
+>GTO2_HUMAN
+-----------MSGDATRTLGKGSQPPGPV---PEGLIRIYSMRFCPYSHRTRLVLKAKD
+IRHEVVNINLRNKPEWYYT----KHPFGHIPVLETS----QCQ--LIYESVIACEYLD--
+DAYP---GRKLFPYDPYER---ARQKMLLE-LFCKVPHLTKECLVAL-------------
+-RCGRECTNLKA----ALRQEFSNLEEILEYQ--NTTFF-GGTCISMIDYLLWPWFER--
+-----LDVY-GILDCVS--H-TPALRLWISAM-KWDPTVCALLMDKSIFQGFLN-LYFQN
+NPNAFDFGLC----
+>YKJ3_CAEEL
+-------------------MTVLAGVNSKIVKNGCWNHSYLQHAILPVAQRALIYASVKN
+IPSDVINVHLQEKPDWYFS----KHYKGQVPTLEHD----EGK-KHVIESAVIPEYLD--
+DIYP---ETRILPTDPYEK---VQQKLLLDRISGQVSPAFYGVVQAV-------------
+----KNPDLREEKFA-DIKKAYDNAEQLLT----GDFYS-GTSKPGFVDYLLYPNIQRAY
+WAAHIVPDFPLEAESFPGPN-YPRLSKWYKAL-ESIPEVAAASQPTENGVGFFKDYLGGS
+PNYDYGLTKLSETI
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"kalign_itest_BB30014.tfa" end time: Jan 10 13:15 GMT
+"kalign_itest_BB30014.tfa" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/12 Testing: DSSIM_takes_a_min
+12/12 Test: DSSIM_takes_a_min
+Command: "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/tests/dssim"
+Directory: /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/tests
+"DSSIM_takes_a_min" start time: Jan 10 13:15 GMT
+Output:
+----------------------------------------------------------
+[2025-01-10 13:15:09] :     LOG : DSSim - a simplistic sequence simulator.
+[2025-01-10 13:15:09] :     LOG : Protein alignments - 20 seq
+[                                                  ]   0%[                                                  ]   0%[                                                  ]   0%[                                                  ]   0%[                                                  ]   0%[                                                  ]   1%[                                                  ]   1%[                                                  ]   1%[                                                  ]   1%[                                                  ]   1%[=                                                 ]   1%[=                                                 ]   1%[=                                                 ]   1%[=                                                 ]   1%[=                                                 ]   1%[=                                                 ]   2%[=                                                 ]   2%[=                                                 ]   2%[=                                                 ]   2%[=                                                 ]   2%[=                                                 ]   2%[=                                                 ]   2%[=                                                 ]   2%[=                                                 ]   2%[=                                                 ]   2%[=                                                 ]   3%[=                                                 ]   3%[=                                                 ]   3%[=                                                 ]   3%[=                                                 ]   3%[==                                                ]   3%[==                                                ]   3%[==                                                ]   3%[==                                                ]   3%[==                                                ]   3%[==                                                ]   4%[==                                                ]   4%[==                                                ]   4%[==                                                ]   4%[==                                                ]   4%[==                                                ]   4%[==                                                ]   4%[==                                                ]   4%[==                                                ]   4%[==                                                ]   4%[==                                                ]   5%[==                                                ]   5%[==                                                ]   5%[==                                                ]   5%[==                                                ]   5%[===                                               ]   5%[===                                               ]   5%[===                                               ]   5%[===                                               ]   5%[===                                               ]   5%[===                                               ]   6%[===                                               ]   6%[===                                               ]   6%[===                                               ]   6%[===                                               ]   6%[===                                               ]   6%[===                                               ]   6%[===                                               ]   6%[===                                               ]   6%[===                                               ]   6%[===                                               ]   7%[===                                               ]   7%[===                                               ]   7%[===                                               ]   7%[===                                               ]   7%[====                                              ]   7%[====                                              ]   7%[====                                              ]   7%[====                                              ]   7%[====                                              ]   7%[====                                              ]   8%[====                                              ]   8%[====                                              ]   8%[====                                              ]   8%[====                                              ]   8%[====                                              ]   8%[====                                              ]   8%[====                                              ]   8%[====                                              ]   8%[====                                              ]   8%[====                                              ]   9%[====                                              ]   9%[====                                              ]   9%[====                                              ]   9%[====                                              ]   9%[=====                                             ]   9%[=====                                             ]   9%[=====                                             ]   9%[=====                                             ]   9%[=====                                             ]   9%[=====                                             ]  10%[=====                                             ]  10%[=====                                             ]  10%[=====                                             ]  10%[=====                                             ]  10%[=====                                             ]  10%[=====                                             ]  10%[=====                                             ]  10%[=====                                             ]  10%[=====                                             ]  10%[=====                                             ]  11%[=====                                             ]  11%[=====                                             ]  11%[=====                                             ]  11%[=====                                             ]  11%[======                                            ]  11%[======                                            ]  11%[======                                            ]  11%[======                                            ]  11%[======                                            ]  11%[======                                            ]  12%[======                                            ]  12%[======                                            ]  12%[======                                            ]  12%[======                                            ]  12%[======                                            ]  12%[======                                            ]  12%[======                                            ]  12%[======                                            ]  12%[======                                            ]  12%[======                                            ]  13%[======                                            ]  13%[======                                            ]  13%[======                                            ]  13%[======                                            ]  13%[=======                                           ]  13%[=======                                           ]  13%[=======                                           ]  13%[=======                                           ]  13%[=======                                           ]  13%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  15%[=======                                           ]  15%[=======                                           ]  15%[=======                                           ]  15%[========                                          ]  15%[========                                          ]  15%[========                                          ]  15%[========                                          ]  15%[========                                          ]  15%[========                                          ]  16%[========                                          ]  16%[========                                          ]  16%[========                                          ]  16%[========                                          ]  16%[========                                          ]  16%[========                                          ]  16%[========                                          ]  16%[========                                          ]  16%[========                                          ]  16%[========                                          ]  17%[========                                          ]  17%[========                                          ]  17%[========                                          ]  17%[========                                          ]  17%[=========                                         ]  17%[=========                                         ]  17%[=========                                         ]  17%[=========                                         ]  17%[=========                                         ]  17%[=========                                         ]  18%[=========                                         ]  18%[=========                                         ]  18%[=========                                         ]  18%[=========                                         ]  18%[=========                                         ]  18%[=========                                         ]  18%[=========                                         ]  18%[=========                                         ]  18%[=========                                         ]  18%[=========                                         ]  19%[=========                                         ]  19%[=========                                         ]  19%[=========                                         ]  19%[=========                                         ]  19%[==========                                        ]  19%[==========                                        ]  19%[==========                                        ]  19%[==========                                        ]  19%[==========                                        ]  19%[==========                                        ]  20%[==========                                        ]  20%[==========                                        ]  20%[==========                                        ]  20%[==========                                        ]  20%[==========                                        ]  20%[==========                                        ]  20%[==========                                        ]  20%[==========                                        ]  20%[==========                                        ]  20%[==========                                        ]  21%[==========                                        ]  21%[==========                                        ]  21%[==========                                        ]  21%[==========                                        ]  21%[===========                                       ]  21%[===========                                       ]  21%[===========                                       ]  21%[===========                                       ]  21%[===========                                       ]  21%[===========                                       ]  22%[===========                                       ]  22%[===========                                       ]  22%[===========                                       ]  22%[===========                                       ]  22%[===========                                       ]  22%[===========                                       ]  22%[===========                                       ]  22%[===========                                       ]  22%[===========                                       ]  22%[===========                                       ]  23%[===========                                       ]  23%[===========                                       ]  23%[===========                                       ]  23%[===========                                       ]  23%[============                                      ]  23%[============                                      ]  23%[============                                      ]  23%[============                                      ]  23%[============                                      ]  23%[============                                      ]  24%[============                                      ]  24%[============                                      ]  24%[============                                      ]  24%[============                                      ]  24%[============                                      ]  24%[============                                      ]  24%[============                                      ]  24%[============                                      ]  24%[============                                      ]  24%[============                                      ]  25%[============                                      ]  25%[============                                      ]  25%[============                                      ]  25%[============                                      ]  25%[=============                                     ]  25%[=============                                     ]  25%[=============                                     ]  25%[=============                                     ]  25%[=============                                     ]  25%[=============                                     ]  26%[=============                                     ]  26%[=============                                     ]  26%[=============                                     ]  26%[=============                                     ]  26%[=============                                     ]  26%[=============                                     ]  26%[=============                                     ]  26%[=============                                     ]  26%[=============                                     ]  26%[=============                                     ]  27%[=============                                     ]  27%[=============                                     ]  27%[=============                                     ]  27%[=============                                     ]  27%[==============                                    ]  27%[==============                                    ]  27%[==============                                    ]  27%[==============                                    ]  27%[==============                                    ]  27%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  29%[==============                                    ]  29%[==============                                    ]  29%[==============                                    ]  29%[==============                                    ]  29%[===============                                   ]  29%[===============                                   ]  29%[===============                                   ]  29%[===============                                   ]  29%[===============                                   ]  30%[===============                                   ]  30%[===============                                   ]  30%[===============                                   ]  30%[===============                                   ]  30%[===============                                   ]  30%[===============                                   ]  30%[===============                                   ]  30%[===============                                   ]  30%[===============                                   ]  30%[===============                                   ]  31%[===============                                   ]  31%[===============                                   ]  31%[===============                                   ]  31%[===============                                   ]  31%[================                                  ]  31%[================                                  ]  31%[================                                  ]  31%[================                                  ]  31%[================                                  ]  31%[================                                  ]  32%[================                                  ]  32%[================                                  ]  32%[================                                  ]  32%[================                                  ]  32%[================                                  ]  32%[================                                  ]  32%[================                                  ]  32%[================                                  ]  32%[================                                  ]  32%[================                                  ]  33%[================                                  ]  33%[================                                  ]  33%[================                                  ]  33%[================                                  ]  33%[=================                                 ]  33%[=================                                 ]  33%[=================                                 ]  33%[=================                                 ]  33%[=================                                 ]  33%[=================                                 ]  34%[=================                                 ]  34%[=================                                 ]  34%[=================                                 ]  34%[=================                                 ]  34%[=================                                 ]  34%[=================                                 ]  34%[=================                                 ]  34%[=================                                 ]  34%[=================                                 ]  34%[=================                                 ]  35%[=================                                 ]  35%[=================                                 ]  35%[=================                                 ]  35%[=================                                 ]  35%[==================                                ]  35%[==================                                ]  35%[==================                                ]  35%[==================                                ]  35%[==================                                ]  35%[==================                                ]  36%[==================                                ]  36%[==================                                ]  36%[==================                                ]  36%[==================                                ]  36%[==================                                ]  36%[==================                                ]  36%[==================                                ]  36%[==================                                ]  36%[==================                                ]  36%[==================                                ]  37%[==================                                ]  37%[==================                                ]  37%[==================                                ]  37%[==================                                ]  37%[===================                               ]  37%[===================                               ]  37%[===================                               ]  37%[===================                               ]  37%[===================                               ]  37%[===================                               ]  38%[===================                               ]  38%[===================                               ]  38%[===================                               ]  38%[===================                               ]  38%[===================                               ]  38%[===================                               ]  38%[===================                               ]  38%[===================                               ]  38%[===================                               ]  38%[===================                               ]  39%[===================                               ]  39%[===================                               ]  39%[===================                               ]  39%[===================                               ]  39%[====================                              ]  39%[====================                              ]  39%[====================                              ]  39%[====================                              ]  39%[====================                              ]  39%[====================                              ]  40%[====================                              ]  40%[====================                              ]  40%[====================                              ]  40%[====================                              ]  40%[====================                              ]  40%[====================                              ]  40%[====================                              ]  40%[====================                              ]  40%[====================                              ]  40%[====================                              ]  41%[====================                              ]  41%[====================                              ]  41%[====================                              ]  41%[====================                              ]  41%[=====================                             ]  41%[=====================                             ]  41%[=====================                             ]  41%[=====================                             ]  41%[=====================                             ]  41%[=====================                             ]  42%[=====================                             ]  42%[=====================                             ]  42%[=====================                             ]  42%[=====================                             ]  42%[=====================                             ]  42%[=====================                             ]  42%[=====================                             ]  42%[=====================                             ]  42%[=====================                             ]  42%[=====================                             ]  43%[=====================                             ]  43%[=====================                             ]  43%[=====================                             ]  43%[=====================                             ]  43%[======================                            ]  43%[======================                            ]  43%[======================                            ]  43%[======================                            ]  43%[======================                            ]  43%[======================                            ]  44%[======================                            ]  44%[======================                            ]  44%[======================                            ]  44%[======================                            ]  44%[======================                            ]  44%[======================                            ]  44%[======================                            ]  44%[======================                            ]  44%[======================                            ]  44%[======================                            ]  45%[======================                            ]  45%[======================                            ]  45%[======================                            ]  45%[======================                            ]  45%[=======================                           ]  45%[=======================                           ]  45%[=======================                           ]  45%[=======================                           ]  45%[=======================                           ]  45%[=======================                           ]  46%[=======================                           ]  46%[=======================                           ]  46%[=======================                           ]  46%[=======================                           ]  46%[=======================                           ]  46%[=======================                           ]  46%[=======================                           ]  46%[=======================                           ]  46%[=======================                           ]  46%[=======================                           ]  47%[=======================                           ]  47%[=======================                           ]  47%[=======================                           ]  47%[=======================                           ]  47%[========================                          ]  47%[========================                          ]  47%[========================                          ]  47%[========================                          ]  47%[========================                          ]  47%[========================                          ]  48%[========================                          ]  48%[========================                          ]  48%[========================                          ]  48%[========================                          ]  48%[========================                          ]  48%[========================                          ]  48%[========================                          ]  48%[========================                          ]  48%[========================                          ]  48%[========================                          ]  49%[========================                          ]  49%[========================                          ]  49%[========================                          ]  49%[========================                          ]  49%[=========================                         ]  49%[=========================                         ]  49%[=========================                         ]  49%[=========================                         ]  49%[=========================                         ]  49%[=========================                         ]  50%[=========================                         ]  50%[=========================                         ]  50%[=========================                         ]  50%[=========================                         ]  50%[=========================                         ]  50%[=========================                         ]  50%[=========================                         ]  50%[=========================                         ]  50%[=========================                         ]  50%[=========================                         ]  51%[=========================                         ]  51%[=========================                         ]  51%[=========================                         ]  51%[=========================                         ]  51%[==========================                        ]  51%[==========================                        ]  51%[==========================                        ]  51%[==========================                        ]  51%[==========================                        ]  51%[==========================                        ]  52%[==========================                        ]  52%[==========================                        ]  52%[==========================                        ]  52%[==========================                        ]  52%[==========================                        ]  52%[==========================                        ]  52%[==========================                        ]  52%[==========================                        ]  52%[==========================                        ]  52%[==========================                        ]  53%[==========================                        ]  53%[==========================                        ]  53%[==========================                        ]  53%[==========================                        ]  53%[===========================                       ]  53%[===========================                       ]  53%[===========================                       ]  53%[===========================                       ]  53%[===========================                       ]  53%[===========================                       ]  54%[===========================                       ]  54%[===========================                       ]  54%[===========================                       ]  54%[===========================                       ]  54%[===========================                       ]  54%[===========================                       ]  54%[===========================                       ]  54%[===========================                       ]  54%[===========================                       ]  54%[===========================                       ]  55%[===========================                       ]  55%[===========================                       ]  55%[===========================                       ]  55%[===========================                       ]  55%[============================                      ]  55%[============================                      ]  55%[============================                      ]  55%[============================                      ]  55%[============================                      ]  55%[============================                      ]  56%[============================                      ]  56%[============================                      ]  56%[============================                      ]  56%[============================                      ]  56%[============================                      ]  56%[============================                      ]  56%[============================                      ]  56%[============================                      ]  56%[============================                      ]  56%[============================                      ]  56%[============================                      ]  57%[============================                      ]  57%[============================                      ]  57%[============================                      ]  57%[============================                      ]  57%[=============================                     ]  57%[=============================                     ]  57%[=============================                     ]  57%[=============================                     ]  57%[=============================                     ]  57%[=============================                     ]  58%[=============================                     ]  58%[=============================                     ]  58%[=============================                     ]  58%[=============================                     ]  58%[=============================                     ]  58%[=============================                     ]  58%[=============================                     ]  58%[=============================                     ]  58%[=============================                     ]  59%[=============================                     ]  59%[=============================                     ]  59%[=============================                     ]  59%[=============================                     ]  59%[==============================                    ]  59%[==============================                    ]  59%[==============================                    ]  59%[==============================                    ]  59%[==============================                    ]  59%[==============================                    ]  60%[==============================                    ]  60%[==============================                    ]  60%[==============================                    ]  60%[==============================                    ]  60%[==============================                    ]  60%[==============================                    ]  60%[==============================                    ]  60%[==============================                    ]  60%[==============================                    ]  60%[==============================                    ]  61%[==============================                    ]  61%[==============================                    ]  61%[==============================                    ]  61%[==============================                    ]  61%[===============================                   ]  61%[===============================                   ]  61%[===============================                   ]  61%[===============================                   ]  61%[===============================                   ]  61%[===============================                   ]  62%[===============================                   ]  62%[===============================                   ]  62%[===============================                   ]  62%[===============================                   ]  62%[===============================                   ]  62%[===============================                   ]  62%[===============================                   ]  62%[===============================                   ]  62%[===============================                   ]  62%[===============================                   ]  63%[===============================                   ]  63%[===============================                   ]  63%[===============================                   ]  63%[===============================                   ]  63%[================================                  ]  63%[================================                  ]  63%[================================                  ]  63%[================================                  ]  63%[================================                  ]  63%[================================                  ]  64%[================================                  ]  64%[================================                  ]  64%[================================                  ]  64%[================================                  ]  64%[================================                  ]  64%[================================                  ]  64%[================================                  ]  64%[================================                  ]  64%[================================                  ]  64%[================================                  ]  65%[================================                  ]  65%[================================                  ]  65%[================================                  ]  65%[================================                  ]  65%[=================================                 ]  65%[=================================                 ]  65%[=================================                 ]  65%[=================================                 ]  65%[=================================                 ]  65%[=================================                 ]  66%[=================================                 ]  66%[=================================                 ]  66%[=================================                 ]  66%[=================================                 ]  66%[=================================                 ]  66%[=================================                 ]  66%[=================================                 ]  66%[=================================                 ]  66%[=================================                 ]  66%[=================================                 ]  67%[=================================                 ]  67%[=================================                 ]  67%[=================================                 ]  67%[=================================                 ]  67%[==================================                ]  67%[==================================                ]  67%[==================================                ]  67%[==================================                ]  67%[==================================                ]  67%[==================================                ]  68%[==================================                ]  68%[==================================                ]  68%[==================================                ]  68%[==================================                ]  68%[==================================                ]  68%[==================================                ]  68%[==================================                ]  68%[==================================                ]  68%[==================================                ]  68%[==================================                ]  69%[==================================                ]  69%[==================================                ]  69%[==================================                ]  69%[==================================                ]  69%[===================================               ]  69%[===================================               ]  69%[===================================               ]  69%[===================================               ]  69%[===================================               ]  69%[===================================               ]  70%[===================================               ]  70%[===================================               ]  70%[===================================               ]  70%[===================================               ]  70%[===================================               ]  70%[===================================               ]  70%[===================================               ]  70%[===================================               ]  70%[===================================               ]  70%[===================================               ]  71%[===================================               ]  71%[===================================               ]  71%[===================================               ]  71%[===================================               ]  71%[====================================              ]  71%[====================================              ]  71%[====================================              ]  71%[====================================              ]  71%[====================================              ]  71%[====================================              ]  72%[====================================              ]  72%[====================================              ]  72%[====================================              ]  72%[====================================              ]  72%[====================================              ]  72%[====================================              ]  72%[====================================              ]  72%[====================================              ]  72%[====================================              ]  72%[====================================              ]  73%[====================================              ]  73%[====================================              ]  73%[====================================              ]  73%[====================================              ]  73%[=====================================             ]  73%[=====================================             ]  73%[=====================================             ]  73%[=====================================             ]  73%[=====================================             ]  73%[=====================================             ]  74%[=====================================             ]  74%[=====================================             ]  74%[=====================================             ]  74%[=====================================             ]  74%[=====================================             ]  74%[=====================================             ]  74%[=====================================             ]  74%[=====================================             ]  74%[=====================================             ]  74%[=====================================             ]  75%[=====================================             ]  75%[=====================================             ]  75%[=====================================             ]  75%[=====================================             ]  75%[======================================            ]  75%[======================================            ]  75%[======================================            ]  75%[======================================            ]  75%[======================================            ]  75%[======================================            ]  76%[======================================            ]  76%[======================================            ]  76%[======================================            ]  76%[======================================            ]  76%[======================================            ]  76%[======================================            ]  76%[======================================            ]  76%[======================================            ]  76%[======================================            ]  76%[======================================            ]  77%[======================================            ]  77%[======================================            ]  77%[======================================            ]  77%[======================================            ]  77%[=======================================           ]  77%[=======================================           ]  77%[=======================================           ]  77%[=======================================           ]  77%[=======================================           ]  77%[=======================================           ]  78%[=======================================           ]  78%[=======================================           ]  78%[=======================================           ]  78%[=======================================           ]  78%[=======================================           ]  78%[=======================================           ]  78%[=======================================           ]  78%[=======================================           ]  78%[=======================================           ]  78%[=======================================           ]  79%[=======================================           ]  79%[=======================================           ]  79%[=======================================           ]  79%[=======================================           ]  79%[========================================          ]  79%[========================================          ]  79%[========================================          ]  79%[========================================          ]  79%[========================================          ]  79%[========================================          ]  80%[========================================          ]  80%[========================================          ]  80%[========================================          ]  80%[========================================          ]  80%[========================================          ]  80%[========================================          ]  80%[========================================          ]  80%[========================================          ]  80%[========================================          ]  80%[========================================          ]  81%[========================================          ]  81%[========================================          ]  81%[========================================          ]  81%[========================================          ]  81%[=========================================         ]  81%[=========================================         ]  81%[=========================================         ]  81%[=========================================         ]  81%[=========================================         ]  81%[=========================================         ]  82%[=========================================         ]  82%[=========================================         ]  82%[=========================================         ]  82%[=========================================         ]  82%[=========================================         ]  82%[=========================================         ]  82%[=========================================         ]  82%[=========================================         ]  82%[=========================================         ]  82%[=========================================         ]  83%[=========================================         ]  83%[=========================================         ]  83%[=========================================         ]  83%[=========================================         ]  83%[==========================================        ]  83%[==========================================        ]  83%[==========================================        ]  83%[==========================================        ]  83%[==========================================        ]  83%[==========================================        ]  84%[==========================================        ]  84%[==========================================        ]  84%[==========================================        ]  84%[==========================================        ]  84%[==========================================        ]  84%[==========================================        ]  84%[==========================================        ]  84%[==========================================        ]  84%[==========================================        ]  84%[==========================================        ]  85%[==========================================        ]  85%[==========================================        ]  85%[==========================================        ]  85%[==========================================        ]  85%[===========================================       ]  85%[===========================================       ]  85%[===========================================       ]  85%[===========================================       ]  85%[===========================================       ]  85%[===========================================       ]  86%[===========================================       ]  86%[===========================================       ]  86%[===========================================       ]  86%[===========================================       ]  86%[===========================================       ]  86%[===========================================       ]  86%[===========================================       ]  86%[===========================================       ]  86%[===========================================       ]  86%[===========================================       ]  87%[===========================================       ]  87%[===========================================       ]  87%[===========================================       ]  87%[===========================================       ]  87%[============================================      ]  87%[============================================      ]  87%[============================================      ]  87%[============================================      ]  87%[============================================      ]  87%[============================================      ]  88%[============================================      ]  88%[============================================      ]  88%[============================================      ]  88%[============================================      ]  88%[============================================      ]  88%[============================================      ]  88%[============================================      ]  88%[============================================      ]  88%[============================================      ]  88%[============================================      ]  89%[============================================      ]  89%[============================================      ]  89%[============================================      ]  89%[============================================      ]  89%[=============================================     ]  89%[=============================================     ]  89%[=============================================     ]  89%[=============================================     ]  89%[=============================================     ]  89%[=============================================     ]  90%[=============================================     ]  90%[=============================================     ]  90%[=============================================     ]  90%[=============================================     ]  90%[=============================================     ]  90%[=============================================     ]  90%[=============================================     ]  90%[=============================================     ]  90%[=============================================     ]  90%[=============================================     ]  91%[=============================================     ]  91%[=============================================     ]  91%[=============================================     ]  91%[=============================================     ]  91%[==============================================    ]  91%[==============================================    ]  91%[==============================================    ]  91%[==============================================    ]  91%[==============================================    ]  91%[==============================================    ]  92%[==============================================    ]  92%[==============================================    ]  92%[==============================================    ]  92%[==============================================    ]  92%[==============================================    ]  92%[==============================================    ]  92%[==============================================    ]  92%[==============================================    ]  92%[==============================================    ]  92%[==============================================    ]  93%[==============================================    ]  93%[==============================================    ]  93%[==============================================    ]  93%[==============================================    ]  93%[===============================================   ]  93%[===============================================   ]  93%[===============================================   ]  93%[===============================================   ]  93%[===============================================   ]  93%[===============================================   ]  94%[===============================================   ]  94%[===============================================   ]  94%[===============================================   ]  94%[===============================================   ]  94%[===============================================   ]  94%[===============================================   ]  94%[===============================================   ]  94%[===============================================   ]  94%[===============================================   ]  94%[===============================================   ]  95%[===============================================   ]  95%[===============================================   ]  95%[===============================================   ]  95%[===============================================   ]  95%[================================================  ]  95%[================================================  ]  95%[================================================  ]  95%[================================================  ]  95%[================================================  ]  95%[================================================  ]  96%[================================================  ]  96%[================================================  ]  96%[================================================  ]  96%[================================================  ]  96%[================================================  ]  96%[================================================  ]  96%[================================================  ]  96%[================================================  ]  96%[================================================  ]  96%[================================================  ]  97%[================================================  ]  97%[================================================  ]  97%[================================================  ]  97%[================================================  ]  97%[================================================= ]  97%[================================================= ]  97%[================================================= ]  97%[================================================= ]  97%[================================================= ]  97%[================================================= ]  98%[================================================= ]  98%[================================================= ]  98%[================================================= ]  98%[================================================= ]  98%[================================================= ]  98%[================================================= ]  98%[================================================= ]  98%[================================================= ]  98%[================================================= ]  98%[================================================= ]  99%[================================================= ]  99%[================================================= ]  99%[================================================= ]  99%[================================================= ]  99%[==================================================]  99%[==================================================]  99%[==================================================]  99%[==================================================]  99%[==================================================]  99%[==================================================] 100%[==================================================] 100%[==================================================] 100%[==================================================] 100%[==================================================] 100%[==================================================] 100%
+[2025-01-10 13:15:15] :     LOG : Protein alignments - 1000 seq
+[                                                  ]   0%[=====                                             ]  10%[==========                                        ]  20%[===============                                   ]  30%[====================                              ]  40%[=========================                         ]  50%[==============================                    ]  60%[===================================               ]  70%[========================================          ]  80%[=============================================     ]  90%[==================================================] 100%
+[2025-01-10 13:15:32] :     LOG : Protein alignments - 10000 seq
+[                                                  ]   0%[=========================                         ]  50%[==================================================] 100%
+[2025-01-10 13:15:46] :     LOG : DNA     alignments - 20 seq
+[                                                  ]   0%[                                                  ]   0%[                                                  ]   0%[                                                  ]   0%[                                                  ]   0%[                                                  ]   1%[                                                  ]   1%[                                                  ]   1%[                                                  ]   1%[                                                  ]   1%[=                                                 ]   1%[=                                                 ]   1%[=                                                 ]   1%[=                                                 ]   1%[=                                                 ]   1%[=                                                 ]   2%[=                                                 ]   2%[=                                                 ]   2%[=                                                 ]   2%[=                                                 ]   2%[=                                                 ]   2%[=                                                 ]   2%[=                                                 ]   2%[=                                                 ]   2%[=                                                 ]   2%[=                                                 ]   3%[=                                                 ]   3%[=                                                 ]   3%[=                                                 ]   3%[=                                                 ]   3%[==                                                ]   3%[==                                                ]   3%[==                                                ]   3%[==                                                ]   3%[==                                                ]   3%[==                                                ]   4%[==                                                ]   4%[==                                                ]   4%[==                                                ]   4%[==                                                ]   4%[==                                                ]   4%[==                                                ]   4%[==                                                ]   4%[==                                                ]   4%[==                                                ]   4%[==                                                ]   5%[==                                                ]   5%[==                                                ]   5%[==                                                ]   5%[==                                                ]   5%[===                                               ]   5%[===                                               ]   5%[===                                               ]   5%[===                                               ]   5%[===                                               ]   5%[===                                               ]   6%[===                                               ]   6%[===                                               ]   6%[===                                               ]   6%[===                                               ]   6%[===                                               ]   6%[===                                               ]   6%[===                                               ]   6%[===                                               ]   6%[===                                               ]   6%[===                                               ]   7%[===                                               ]   7%[===                                               ]   7%[===                                               ]   7%[===                                               ]   7%[====                                              ]   7%[====                                              ]   7%[====                                              ]   7%[====                                              ]   7%[====                                              ]   7%[====                                              ]   8%[====                                              ]   8%[====                                              ]   8%[====                                              ]   8%[====                                              ]   8%[====                                              ]   8%[====                                              ]   8%[====                                              ]   8%[====                                              ]   8%[====                                              ]   8%[====                                              ]   9%[====                                              ]   9%[====                                              ]   9%[====                                              ]   9%[====                                              ]   9%[=====                                             ]   9%[=====                                             ]   9%[=====                                             ]   9%[=====                                             ]   9%[=====                                             ]   9%[=====                                             ]  10%[=====                                             ]  10%[=====                                             ]  10%[=====                                             ]  10%[=====                                             ]  10%[=====                                             ]  10%[=====                                             ]  10%[=====                                             ]  10%[=====                                             ]  10%[=====                                             ]  10%[=====                                             ]  11%[=====                                             ]  11%[=====                                             ]  11%[=====                                             ]  11%[=====                                             ]  11%[======                                            ]  11%[======                                            ]  11%[======                                            ]  11%[======                                            ]  11%[======                                            ]  11%[======                                            ]  12%[======                                            ]  12%[======                                            ]  12%[======                                            ]  12%[======                                            ]  12%[======                                            ]  12%[======                                            ]  12%[======                                            ]  12%[======                                            ]  12%[======                                            ]  12%[======                                            ]  13%[======                                            ]  13%[======                                            ]  13%[======                                            ]  13%[======                                            ]  13%[=======                                           ]  13%[=======                                           ]  13%[=======                                           ]  13%[=======                                           ]  13%[=======                                           ]  13%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  14%[=======                                           ]  15%[=======                                           ]  15%[=======                                           ]  15%[=======                                           ]  15%[========                                          ]  15%[========                                          ]  15%[========                                          ]  15%[========                                          ]  15%[========                                          ]  15%[========                                          ]  16%[========                                          ]  16%[========                                          ]  16%[========                                          ]  16%[========                                          ]  16%[========                                          ]  16%[========                                          ]  16%[========                                          ]  16%[========                                          ]  16%[========                                          ]  16%[========                                          ]  17%[========                                          ]  17%[========                                          ]  17%[========                                          ]  17%[========                                          ]  17%[=========                                         ]  17%[=========                                         ]  17%[=========                                         ]  17%[=========                                         ]  17%[=========                                         ]  17%[=========                                         ]  18%[=========                                         ]  18%[=========                                         ]  18%[=========                                         ]  18%[=========                                         ]  18%[=========                                         ]  18%[=========                                         ]  18%[=========                                         ]  18%[=========                                         ]  18%[=========                                         ]  18%[=========                                         ]  19%[=========                                         ]  19%[=========                                         ]  19%[=========                                         ]  19%[=========                                         ]  19%[==========                                        ]  19%[==========                                        ]  19%[==========                                        ]  19%[==========                                        ]  19%[==========                                        ]  19%[==========                                        ]  20%[==========                                        ]  20%[==========                                        ]  20%[==========                                        ]  20%[==========                                        ]  20%[==========                                        ]  20%[==========                                        ]  20%[==========                                        ]  20%[==========                                        ]  20%[==========                                        ]  20%[==========                                        ]  21%[==========                                        ]  21%[==========                                        ]  21%[==========                                        ]  21%[==========                                        ]  21%[===========                                       ]  21%[===========                                       ]  21%[===========                                       ]  21%[===========                                       ]  21%[===========                                       ]  21%[===========                                       ]  22%[===========                                       ]  22%[===========                                       ]  22%[===========                                       ]  22%[===========                                       ]  22%[===========                                       ]  22%[===========                                       ]  22%[===========                                       ]  22%[===========                                       ]  22%[===========                                       ]  22%[===========                                       ]  23%[===========                                       ]  23%[===========                                       ]  23%[===========                                       ]  23%[===========                                       ]  23%[============                                      ]  23%[============                                      ]  23%[============                                      ]  23%[============                                      ]  23%[============                                      ]  23%[============                                      ]  24%[============                                      ]  24%[============                                      ]  24%[============                                      ]  24%[============                                      ]  24%[============                                      ]  24%[============                                      ]  24%[============                                      ]  24%[============                                      ]  24%[============                                      ]  24%[============                                      ]  25%[============                                      ]  25%[============                                      ]  25%[============                                      ]  25%[============                                      ]  25%[=============                                     ]  25%[=============                                     ]  25%[=============                                     ]  25%[=============                                     ]  25%[=============                                     ]  25%[=============                                     ]  26%[=============                                     ]  26%[=============                                     ]  26%[=============                                     ]  26%[=============                                     ]  26%[=============                                     ]  26%[=============                                     ]  26%[=============                                     ]  26%[=============                                     ]  26%[=============                                     ]  26%[=============                                     ]  27%[=============                                     ]  27%[=============                                     ]  27%[=============                                     ]  27%[=============                                     ]  27%[==============                                    ]  27%[==============                                    ]  27%[==============                                    ]  27%[==============                                    ]  27%[==============                                    ]  27%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  28%[==============                                    ]  29%[==============                                    ]  29%[==============                                    ]  29%[==============                                    ]  29%[==============                                    ]  29%[===============                                   ]  29%[===============                                   ]  29%[===============                                   ]  29%[===============                                   ]  29%[===============                                   ]  30%[===============                                   ]  30%[===============                                   ]  30%[===============                                   ]  30%[===============                                   ]  30%[===============                                   ]  30%[===============                                   ]  30%[===============                                   ]  30%[===============                                   ]  30%[===============                                   ]  30%[===============                                   ]  31%[===============                                   ]  31%[===============                                   ]  31%[===============                                   ]  31%[===============                                   ]  31%[================                                  ]  31%[================                                  ]  31%[================                                  ]  31%[================                                  ]  31%[================                                  ]  31%[================                                  ]  32%[================                                  ]  32%[================                                  ]  32%[================                                  ]  32%[================                                  ]  32%[================                                  ]  32%[================                                  ]  32%[================                                  ]  32%[================                                  ]  32%[================                                  ]  32%[================                                  ]  33%[================                                  ]  33%[================                                  ]  33%[================                                  ]  33%[================                                  ]  33%[=================                                 ]  33%[=================                                 ]  33%[=================                                 ]  33%[=================                                 ]  33%[=================                                 ]  33%[=================                                 ]  34%[=================                                 ]  34%[=================                                 ]  34%[=================                                 ]  34%[=================                                 ]  34%[=================                                 ]  34%[=================                                 ]  34%[=================                                 ]  34%[=================                                 ]  34%[=================                                 ]  34%[=================                                 ]  35%[=================                                 ]  35%[=================                                 ]  35%[=================                                 ]  35%[=================                                 ]  35%[==================                                ]  35%[==================                                ]  35%[==================                                ]  35%[==================                                ]  35%[==================                                ]  35%[==================                                ]  36%[==================                                ]  36%[==================                                ]  36%[==================                                ]  36%[==================                                ]  36%[==================                                ]  36%[==================                                ]  36%[==================                                ]  36%[==================                                ]  36%[==================                                ]  36%[==================                                ]  37%[==================                                ]  37%[==================                                ]  37%[==================                                ]  37%[==================                                ]  37%[===================                               ]  37%[===================                               ]  37%[===================                               ]  37%[===================                               ]  37%[===================                               ]  37%[===================                               ]  38%[===================                               ]  38%[===================                               ]  38%[===================                               ]  38%[===================                               ]  38%[===================                               ]  38%[===================                               ]  38%[===================                               ]  38%[===================                               ]  38%[===================                               ]  38%[===================                               ]  39%[===================                               ]  39%[===================                               ]  39%[===================                               ]  39%[===================                               ]  39%[====================                              ]  39%[====================                              ]  39%[====================                              ]  39%[====================                              ]  39%[====================                              ]  39%[====================                              ]  40%[====================                              ]  40%[====================                              ]  40%[====================                              ]  40%[====================                              ]  40%[====================                              ]  40%[====================                              ]  40%[====================                              ]  40%[====================                              ]  40%[====================                              ]  40%[====================                              ]  41%[====================                              ]  41%[====================                              ]  41%[====================                              ]  41%[====================                              ]  41%[=====================                             ]  41%[=====================                             ]  41%[=====================                             ]  41%[=====================                             ]  41%[=====================                             ]  41%[=====================                             ]  42%[=====================                             ]  42%[=====================                             ]  42%[=====================                             ]  42%[=====================                             ]  42%[=====================                             ]  42%[=====================                             ]  42%[=====================                             ]  42%[=====================                             ]  42%[=====================                             ]  42%[=====================                             ]  43%[=====================                             ]  43%[=====================                             ]  43%[=====================                             ]  43%[=====================                             ]  43%[======================                            ]  43%[======================                            ]  43%[======================                            ]  43%[======================                            ]  43%[======================                            ]  43%[======================                            ]  44%[======================                            ]  44%[======================                            ]  44%[======================                            ]  44%[======================                            ]  44%[======================                            ]  44%[======================                            ]  44%[======================                            ]  44%[======================                            ]  44%[======================                            ]  44%[======================                            ]  45%[======================                            ]  45%[======================                            ]  45%[======================                            ]  45%[======================                            ]  45%[=======================                           ]  45%[=======================                           ]  45%[=======================                           ]  45%[=======================                           ]  45%[=======================                           ]  45%[=======================                           ]  46%[=======================                           ]  46%[=======================                           ]  46%[=======================                           ]  46%[=======================                           ]  46%[=======================                           ]  46%[=======================                           ]  46%[=======================                           ]  46%[=======================                           ]  46%[=======================                           ]  46%[=======================                           ]  47%[=======================                           ]  47%[=======================                           ]  47%[=======================                           ]  47%[=======================                           ]  47%[========================                          ]  47%[========================                          ]  47%[========================                          ]  47%[========================                          ]  47%[========================                          ]  47%[========================                          ]  48%[========================                          ]  48%[========================                          ]  48%[========================                          ]  48%[========================                          ]  48%[========================                          ]  48%[========================                          ]  48%[========================                          ]  48%[========================                          ]  48%[========================                          ]  48%[========================                          ]  49%[========================                          ]  49%[========================                          ]  49%[========================                          ]  49%[========================                          ]  49%[=========================                         ]  49%[=========================                         ]  49%[=========================                         ]  49%[=========================                         ]  49%[=========================                         ]  49%[=========================                         ]  50%[=========================                         ]  50%[=========================                         ]  50%[=========================                         ]  50%[=========================                         ]  50%[=========================                         ]  50%[=========================                         ]  50%[=========================                         ]  50%[=========================                         ]  50%[=========================                         ]  50%[=========================                         ]  51%[=========================                         ]  51%[=========================                         ]  51%[=========================                         ]  51%[=========================                         ]  51%[==========================                        ]  51%[==========================                        ]  51%[==========================                        ]  51%[==========================                        ]  51%[==========================                        ]  51%[==========================                        ]  52%[==========================                        ]  52%[==========================                        ]  52%[==========================                        ]  52%[==========================                        ]  52%[==========================                        ]  52%[==========================                        ]  52%[==========================                        ]  52%[==========================                        ]  52%[==========================                        ]  52%[==========================                        ]  53%[==========================                        ]  53%[==========================                        ]  53%[==========================                        ]  53%[==========================                        ]  53%[===========================                       ]  53%[===========================                       ]  53%[===========================                       ]  53%[===========================                       ]  53%[===========================                       ]  53%[===========================                       ]  54%[===========================                       ]  54%[===========================                       ]  54%[===========================                       ]  54%[===========================                       ]  54%[===========================                       ]  54%[===========================                       ]  54%[===========================                       ]  54%[===========================                       ]  54%[===========================                       ]  54%[===========================                       ]  55%[===========================                       ]  55%[===========================                       ]  55%[===========================                       ]  55%[===========================                       ]  55%[============================                      ]  55%[============================                      ]  55%[============================                      ]  55%[============================                      ]  55%[============================                      ]  55%[============================                      ]  56%[============================                      ]  56%[============================                      ]  56%[============================                      ]  56%[============================                      ]  56%[============================                      ]  56%[============================                      ]  56%[============================                      ]  56%[============================                      ]  56%[============================                      ]  56%[============================                      ]  56%[============================                      ]  57%[============================                      ]  57%[============================                      ]  57%[============================                      ]  57%[============================                      ]  57%[=============================                     ]  57%[=============================                     ]  57%[=============================                     ]  57%[=============================                     ]  57%[=============================                     ]  57%[=============================                     ]  58%[=============================                     ]  58%[=============================                     ]  58%[=============================                     ]  58%[=============================                     ]  58%[=============================                     ]  58%[=============================                     ]  58%[=============================                     ]  58%[=============================                     ]  58%[=============================                     ]  59%[=============================                     ]  59%[=============================                     ]  59%[=============================                     ]  59%[=============================                     ]  59%[==============================                    ]  59%[==============================                    ]  59%[==============================                    ]  59%[==============================                    ]  59%[==============================                    ]  59%[==============================                    ]  60%[==============================                    ]  60%[==============================                    ]  60%[==============================                    ]  60%[==============================                    ]  60%[==============================                    ]  60%[==============================                    ]  60%[==============================                    ]  60%[==============================                    ]  60%[==============================                    ]  60%[==============================                    ]  61%[==============================                    ]  61%[==============================                    ]  61%[==============================                    ]  61%[==============================                    ]  61%[===============================                   ]  61%[===============================                   ]  61%[===============================                   ]  61%[===============================                   ]  61%[===============================                   ]  61%[===============================                   ]  62%[===============================                   ]  62%[===============================                   ]  62%[===============================                   ]  62%[===============================                   ]  62%[===============================                   ]  62%[===============================                   ]  62%[===============================                   ]  62%[===============================                   ]  62%[===============================                   ]  62%[===============================                   ]  63%[===============================                   ]  63%[===============================                   ]  63%[===============================                   ]  63%[===============================                   ]  63%[================================                  ]  63%[================================                  ]  63%[================================                  ]  63%[================================                  ]  63%[================================                  ]  63%[================================                  ]  64%[================================                  ]  64%[================================                  ]  64%[================================                  ]  64%[================================                  ]  64%[================================                  ]  64%[================================                  ]  64%[================================                  ]  64%[================================                  ]  64%[================================                  ]  64%[================================                  ]  65%[================================                  ]  65%[================================                  ]  65%[================================                  ]  65%[================================                  ]  65%[=================================                 ]  65%[=================================                 ]  65%[=================================                 ]  65%[=================================                 ]  65%[=================================                 ]  65%[=================================                 ]  66%[=================================                 ]  66%[=================================                 ]  66%[=================================                 ]  66%[=================================                 ]  66%[=================================                 ]  66%[=================================                 ]  66%[=================================                 ]  66%[=================================                 ]  66%[=================================                 ]  66%[=================================                 ]  67%[=================================                 ]  67%[=================================                 ]  67%[=================================                 ]  67%[=================================                 ]  67%[==================================                ]  67%[==================================                ]  67%[==================================                ]  67%[==================================                ]  67%[==================================                ]  67%[==================================                ]  68%[==================================                ]  68%[==================================                ]  68%[==================================                ]  68%[==================================                ]  68%[==================================                ]  68%[==================================                ]  68%[==================================                ]  68%[==================================                ]  68%[==================================                ]  68%[==================================                ]  69%[==================================                ]  69%[==================================                ]  69%[==================================                ]  69%[==================================                ]  69%[===================================               ]  69%[===================================               ]  69%[===================================               ]  69%[===================================               ]  69%[===================================               ]  69%[===================================               ]  70%[===================================               ]  70%[===================================               ]  70%[===================================               ]  70%[===================================               ]  70%[===================================               ]  70%[===================================               ]  70%[===================================               ]  70%[===================================               ]  70%[===================================               ]  70%[===================================               ]  71%[===================================               ]  71%[===================================               ]  71%[===================================               ]  71%[===================================               ]  71%[====================================              ]  71%[====================================              ]  71%[====================================              ]  71%[====================================              ]  71%[====================================              ]  71%[====================================              ]  72%[====================================              ]  72%[====================================              ]  72%[====================================              ]  72%[====================================              ]  72%[====================================              ]  72%[====================================              ]  72%[====================================              ]  72%[====================================              ]  72%[====================================              ]  72%[====================================              ]  73%[====================================              ]  73%[====================================              ]  73%[====================================              ]  73%[====================================              ]  73%[=====================================             ]  73%[=====================================             ]  73%[=====================================             ]  73%[=====================================             ]  73%[=====================================             ]  73%[=====================================             ]  74%[=====================================             ]  74%[=====================================             ]  74%[=====================================             ]  74%[=====================================             ]  74%[=====================================             ]  74%[=====================================             ]  74%[=====================================             ]  74%[=====================================             ]  74%[=====================================             ]  74%[=====================================             ]  75%[=====================================             ]  75%[=====================================             ]  75%[=====================================             ]  75%[=====================================             ]  75%[======================================            ]  75%[======================================            ]  75%[======================================            ]  75%[======================================            ]  75%[======================================            ]  75%[======================================            ]  76%[======================================            ]  76%[======================================            ]  76%[======================================            ]  76%[======================================            ]  76%[======================================            ]  76%[======================================            ]  76%[======================================            ]  76%[======================================            ]  76%[======================================            ]  76%[======================================            ]  77%[======================================            ]  77%[======================================            ]  77%[======================================            ]  77%[======================================            ]  77%[=======================================           ]  77%[=======================================           ]  77%[=======================================           ]  77%[=======================================           ]  77%[=======================================           ]  77%[=======================================           ]  78%[=======================================           ]  78%[=======================================           ]  78%[=======================================           ]  78%[=======================================           ]  78%[=======================================           ]  78%[=======================================           ]  78%[=======================================           ]  78%[=======================================           ]  78%[=======================================           ]  78%[=======================================           ]  79%[=======================================           ]  79%[=======================================           ]  79%[=======================================           ]  79%[=======================================           ]  79%[========================================          ]  79%[========================================          ]  79%[========================================          ]  79%[========================================          ]  79%[========================================          ]  79%[========================================          ]  80%[========================================          ]  80%[========================================          ]  80%[========================================          ]  80%[========================================          ]  80%[========================================          ]  80%[========================================          ]  80%[========================================          ]  80%[========================================          ]  80%[========================================          ]  80%[========================================          ]  81%[========================================          ]  81%[========================================          ]  81%[========================================          ]  81%[========================================          ]  81%[=========================================         ]  81%[=========================================         ]  81%[=========================================         ]  81%[=========================================         ]  81%[=========================================         ]  81%[=========================================         ]  82%[=========================================         ]  82%[=========================================         ]  82%[=========================================         ]  82%[=========================================         ]  82%[=========================================         ]  82%[=========================================         ]  82%[=========================================         ]  82%[=========================================         ]  82%[=========================================         ]  82%[=========================================         ]  83%[=========================================         ]  83%[=========================================         ]  83%[=========================================         ]  83%[=========================================         ]  83%[==========================================        ]  83%[==========================================        ]  83%[==========================================        ]  83%[==========================================        ]  83%[==========================================        ]  83%[==========================================        ]  84%[==========================================        ]  84%[==========================================        ]  84%[==========================================        ]  84%[==========================================        ]  84%[==========================================        ]  84%[==========================================        ]  84%[==========================================        ]  84%[==========================================        ]  84%[==========================================        ]  84%[==========================================        ]  85%[==========================================        ]  85%[==========================================        ]  85%[==========================================        ]  85%[==========================================        ]  85%[===========================================       ]  85%[===========================================       ]  85%[===========================================       ]  85%[===========================================       ]  85%[===========================================       ]  85%[===========================================       ]  86%[===========================================       ]  86%[===========================================       ]  86%[===========================================       ]  86%[===========================================       ]  86%[===========================================       ]  86%[===========================================       ]  86%[===========================================       ]  86%[===========================================       ]  86%[===========================================       ]  86%[===========================================       ]  87%[===========================================       ]  87%[===========================================       ]  87%[===========================================       ]  87%[===========================================       ]  87%[============================================      ]  87%[============================================      ]  87%[============================================      ]  87%[============================================      ]  87%[============================================      ]  87%[============================================      ]  88%[============================================      ]  88%[============================================      ]  88%[============================================      ]  88%[============================================      ]  88%[============================================      ]  88%[============================================      ]  88%[============================================      ]  88%[============================================      ]  88%[============================================      ]  88%[============================================      ]  89%[============================================      ]  89%[============================================      ]  89%[============================================      ]  89%[============================================      ]  89%[=============================================     ]  89%[=============================================     ]  89%[=============================================     ]  89%[=============================================     ]  89%[=============================================     ]  89%[=============================================     ]  90%[=============================================     ]  90%[=============================================     ]  90%[=============================================     ]  90%[=============================================     ]  90%[=============================================     ]  90%[=============================================     ]  90%[=============================================     ]  90%[=============================================     ]  90%[=============================================     ]  90%[=============================================     ]  91%[=============================================     ]  91%[=============================================     ]  91%[=============================================     ]  91%[=============================================     ]  91%[==============================================    ]  91%[==============================================    ]  91%[==============================================    ]  91%[==============================================    ]  91%[==============================================    ]  91%[==============================================    ]  92%[==============================================    ]  92%[==============================================    ]  92%[==============================================    ]  92%[==============================================    ]  92%[==============================================    ]  92%[==============================================    ]  92%[==============================================    ]  92%[==============================================    ]  92%[==============================================    ]  92%[==============================================    ]  93%[==============================================    ]  93%[==============================================    ]  93%[==============================================    ]  93%[==============================================    ]  93%[===============================================   ]  93%[===============================================   ]  93%[===============================================   ]  93%[===============================================   ]  93%[===============================================   ]  93%[===============================================   ]  94%[===============================================   ]  94%[===============================================   ]  94%[===============================================   ]  94%[===============================================   ]  94%[===============================================   ]  94%[===============================================   ]  94%[===============================================   ]  94%[===============================================   ]  94%[===============================================   ]  94%[===============================================   ]  95%[===============================================   ]  95%[===============================================   ]  95%[===============================================   ]  95%[===============================================   ]  95%[================================================  ]  95%[================================================  ]  95%[================================================  ]  95%[================================================  ]  95%[================================================  ]  95%[================================================  ]  96%[================================================  ]  96%[================================================  ]  96%[================================================  ]  96%[================================================  ]  96%[================================================  ]  96%[================================================  ]  96%[================================================  ]  96%[================================================  ]  96%[================================================  ]  96%[================================================  ]  97%[================================================  ]  97%[================================================  ]  97%[================================================  ]  97%[================================================  ]  97%[================================================= ]  97%[================================================= ]  97%[================================================= ]  97%[================================================= ]  97%[================================================= ]  97%[================================================= ]  98%[================================================= ]  98%[================================================= ]  98%[================================================= ]  98%[================================================= ]  98%[================================================= ]  98%[================================================= ]  98%[================================================= ]  98%[================================================= ]  98%[================================================= ]  98%[================================================= ]  99%[================================================= ]  99%[================================================= ]  99%[================================================= ]  99%[================================================= ]  99%[==================================================]  99%[==================================================]  99%[==================================================]  99%[==================================================]  99%[==================================================]  99%[==================================================] 100%[==================================================] 100%[==================================================] 100%[==================================================] 100%[==================================================] 100%[==================================================] 100%
+[2025-01-10 13:15:51] :     LOG : DNA     alignments - 1000 seq
+[                                                  ]   0%[=====                                             ]  10%[==========                                        ]  20%[===============                                   ]  30%[====================                              ]  40%[=========================                         ]  50%[==============================                    ]  60%[===================================               ]  70%[========================================          ]  80%[=============================================     ]  90%[==================================================] 100%
+[2025-01-10 13:16:00] :     LOG : DNA     alignments - 10000 seq
+[                                                  ]   0%[=========================                         ]  50%[==================================================] 100%
+<end of output>
+Test time =  57.59 sec
+----------------------------------------------------------
+Test Passed.
+"DSSIM_takes_a_min" end time: Jan 10 13:16 GMT
+"DSSIM_takes_a_min" time elapsed: 00:00:57
+----------------------------------------------------------
+
+End testing: Jan 10 13:16 GMT
