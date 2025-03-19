@@ -1,0 +1,21 @@
+
+#!/bin/bash
+#PBS -l walltime=00:50:00
+#PBS -l select=1:ncpus=8:mem=16gb:ompthreads=8
+#PBS -o ./blastp_rerun_output -e ./blastp_rerun_errors
+
+module load intel-suite/2019.4 
+module load blast+/2.11.1
+
+cd $PBS_O_WORKDIR
+
+
+# Copy the input file into the temporary directory used during the job.
+cp $PBS_O_WORKDIR/Lplantarum-prot-seq-file.txt $TMPDIR
+
+# Run the BLAST+ application's command.
+blastp -db refseq_select_prot -query Lplantarum-prot-seq-file.txt -remote -out blastp_rerun_result.txt -outfmt "6 sacc sstart send stitle staxid slen pident evalue sseq" -evalue 1e-7 -matrix BLOSUM62 -word_size 5 -max_target_seqs 5000
+
+
+# Print job's environment.
+printenv

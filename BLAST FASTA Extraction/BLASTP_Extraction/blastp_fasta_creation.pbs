@@ -1,0 +1,66 @@
+
+#!/bin/bash
+#PBS -l walltime=00:10:00
+#PBS -l select=1:ncpus=1:mem=2gb
+
+
+cd $PBS_O_WORKDIR
+
+# Copy input file/s into job's temporary directory.
+echo "Copying input file/s into TMPDIR..."
+cp blastp_sequences $TMPDIR
+cp blastp_names $TMPDIR
+cp blastp_rerun_result.txt $TMPDIR
+
+echo " "
+echo " "
+
+
+#---------------------------------------------------------------------------
+
+
+# Manipulate the results file.
+
+# Extract subjects' accessions (column 1).
+echo "Extracting subjects' accession IDs..."
+awk '{print $1}' blastp_rerun_result.txt > IDs
+cat IDs
+
+echo " "
+
+# Add '>' at beginning of each row of 'IDs' using sed.
+# (Where ^ represents the beginning of the line, and -i allows 'columns' to be overwritten.)
+echo "Adding '>' to the beginning of each ID..."
+sed -i 's/^/>/;' IDs
+cat IDs
+
+echo " "
+echo " "
+
+# Combining 'IDs' with the names of each subject (stored in 'blastp_names') using paste.
+# (Where -d specifies a space to be the delimiter between the two contents.)
+echo "Combining '>'-appended subject accession IDs with their names..."
+paste -d " " IDs blastp_names > combinedIDsnames
+
+echo " "
+echo " "
+
+
+#---------------------------------------------------------------------------
+
+
+# Edit 'blastp_sequences' to remove all gaps (indicated by '-') from the file.
+# (-i allows the file to be overwritten with the new edit.)
+sed -i 's/-//g' blastp_sequences
+
+
+#---------------------------------------------------------------------------
+
+
+# Combine 'combinedIDsnames' and 'blastp_sequences' so that each row of each file interchanges with the other in a new line.
+# (Where -d '\n' signifies that the delimiter between the files is a new line.)
+echo "Merging together 'combinedIDsnames' with 'blastp_sequences' as interchanging lines..."
+paste -d '\n' combinedIDsnames blastp_sequences > blastp_newfasta.fasta
+
+
+
