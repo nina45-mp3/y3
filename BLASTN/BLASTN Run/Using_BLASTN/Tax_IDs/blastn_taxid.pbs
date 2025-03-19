@@ -1,0 +1,20 @@
+#!/bin/bash
+#PBS -l walltime=02:00:00
+#PBS -l select=1:ncpus=12:mem=36gb:ompthreads=4
+
+module load intel-suite/2019.4 
+module load blast+/2.11.1
+
+cd $PBS_O_WORKDIR
+
+
+# Copy the input file into the temporary directory used during the job.
+cp ../../../../Lplantarum-nuc-seq-file.txt $TMPDIR
+
+# Run the BLAST+ application's command.
+blastn -task blastn -db core_nt -query ../../../../Lplantarum-nuc-seq-file.txt -remote -out blastn_taxidfirst_rerun -outfmt "6 staxid sacc stitle pident evalue sstart send" -evalue 1e-5 -word_size 11 -perc_identity 60 -max_target_seqs 100000
+
+
+# Print the job's environment.
+printenv
+
