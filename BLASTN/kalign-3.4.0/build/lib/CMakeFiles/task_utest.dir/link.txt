@@ -1,0 +1,1 @@
+/bin/cc  -mavx2 -DHAVE_AVX2 -fPIC -O3 -DNDEBUG CMakeFiles/task_utest.dir/src/tldevel.c.o CMakeFiles/task_utest.dir/src/tlrng.c.o CMakeFiles/task_utest.dir/src/task.c.o -o task_utest  -lm 
