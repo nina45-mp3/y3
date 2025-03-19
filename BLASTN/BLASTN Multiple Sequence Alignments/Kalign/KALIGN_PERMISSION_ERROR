@@ -1,0 +1,9 @@
+CMake Error at lib/cmake_install.cmake:57 (file):
+  file INSTALL cannot copy file
+  "/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/lib/libkalign.so.3.4.0"
+  to "/usr/local/lib64/libkalign.so.3.4.0": Permission denied.
+Call Stack (most recent call first):
+  cmake_install.cmake:47 (include)
+
+
+make: *** [Makefile:80: install] Error 1

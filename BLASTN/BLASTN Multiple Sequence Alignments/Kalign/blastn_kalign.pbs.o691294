@@ -1,0 +1,193 @@
+Copying input files into TMPDIR...
+ 
+Investigating TMPDIR...
+/var/tmp/pbs.691294.pbs
+blastn_representative.fasta
+ 
+ 
+Investigating PBS_O_WORKDIR...
+/rds/general/user/nb122/home/Y3_Project/BLASTN/MSA/Kalign/SUCCESSFUL_Kalign_Without_Conda
+blastn_aligned.aln
+blastn_kalign.pbs
+blastn_kalign.pbs.e690959
+blastn_kalign.pbs.e691294
+blastn_kalign.pbs.o690959
+blastn_kalign.pbs.o691294
+KALIGN_DIRECTORIES
+KALIGN_INSTALLATION_DETAILS
+KALIGN_PERMISSION_ERROR
+Kalign_Using_Full_Genomes
+ 
+ 
+'build' directory already made from prior runs.
+ 
+Kalign already compiled from prior runs.
+ 
+'test' already performed and successful from prior runs.
+ 
+'install' already performed and successful from prior runs.
+ 
+ 
+Adding kalign directory to PATH...
+ 
+Checking if kalign successfully copied into and found in TMPDIR...
+/var/tmp/pbs.691294.pbs/kalign-3.4.0/lib/include/kalign
+/var/tmp/pbs.691294.pbs/kalign-3.4.0/build/NINA_INSTALLATION/bin/kalign
+/var/tmp/pbs.691294.pbs/kalign-3.4.0/build/NINA_INSTALLATION/include/kalign
+/var/tmp/pbs.691294.pbs/kalign-3.4.0/build/NINA_INSTALLATION/lib64/cmake/kalign
+/var/tmp/pbs.691294.pbs/kalign-3.4.0/build/src/kalign
+/var/tmp/pbs.691294.pbs/kalign-3.4.0/build/lib/kalign
+/var/tmp/pbs.691294.pbs/kalign-3.4.0/build/lib/CMakeFiles/Export/lib64/cmake/kalign
+ 
+ 
+Running kalign...
+
+Kalign (3.4.0)
+
+Copyright (C) 2006,2019,2020,2021,2023 Timo Lassmann
+
+This program comes with ABSOLUTELY NO WARRANTY; for details type:
+`kalign -showw'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; consult the COPYING file for details.
+
+Please cite:
+  Lassmann, Timo.
+  "Kalign 3: multiple sequence alignment of large data sets."
+  Bioinformatics (2019) 
+  https://doi.org/10.1093/bioinformatics/btz795
+
+[2025-02-17 15:07:18] :     LOG : Detected DNA sequences.
+[2025-02-17 15:07:18] :     LOG : Read 149 sequences from /var/tmp/pbs.691294.pbs/blastn_representative.fasta.
+[2025-02-17 15:07:18] :     LOG : CPU Time: 0.00u 00:00:00.00 Elapsed: 00:00:00.00
+[2025-02-17 15:07:18] :     LOG : Calculating pairwise distances
+[2025-02-17 15:07:18] :     LOG : CPU Time: 0.40u 00:00:00.40 Elapsed: 00:00:00.00
+[2025-02-17 15:07:18] :     LOG : Building guide tree.
+[2025-02-17 15:07:19] :     LOG : CPU Time: 1.15u 00:00:01.14 Elapsed: 00:00:01.00
+[2025-02-17 15:07:19] :     LOG : Aligning
+[2025-02-17 15:07:20] :     LOG : CPU Time: 1.42u 00:00:01.41 Elapsed: 00:00:01.00
+ 
+ 
+Printing job environment...
+PBS_ENVIRONMENT=PBS_BATCH
+PBS_O_LANG=en_GB.UTF-8
+RDS=/rds/general/user/nb122
+LANG=en_GB.UTF-8
+HISTCONTROL=ignoredups
+HOSTNAME=cx3-14-6.cx3.hpc.ic.ac.uk
+OLDPWD=/var/tmp/pbs.691294.pbs
+PBS_O_HOME=/rds/general/user/nb122/home
+PBS_JOBID=691294.pbs
+ENVIRONMENT=BATCH
+PBS_JOBNAME=blastn_kalign.pbs
+NCPUS=4
+PBS_O_PATH=/usr/lib/qt-3.3/bin:/apps/modules/4.7.1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/rds/general/user/nb122/home/.dotnet/tools:/opt/ibutils/bin:/opt/pbs/bin:/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/
+DOTNET_ROOT=/usr/lib64/dotnet
+S_COLORS=auto
+which_declare=declare -f
+MODULES_CMD=/apps/modules/4.7.1/libexec/modulecmd.tcl
+DOTNET_BUNDLE_EXTRACT_BASE_DIR=/rds/general/user/nb122/home/.cache/dotnet_bundle_extract
+PBS_O_WORKDIR=/rds/general/user/nb122/home/Y3_Project/BLASTN/MSA/Kalign/SUCCESSFUL_Kalign_Without_Conda
+USER=nb122
+ENV=/apps/modules/4.7.1/init/profile.sh
+PBS_NODEFILE=/var/spool/PBS/aux/691294.pbs
+PBS_TASKNUM=1
+PWD=/rds/general/user/nb122/home/Y3_Project/BLASTN/MSA/Kalign/SUCCESSFUL_Kalign_Without_Conda
+HOME=/rds/general/user/nb122/home
+PBS_MOMPORT=15003
+WORK=/rds/general/user/nb122/home
+BASH_ENV=/apps/modules/4.7.1/init/bash
+XDG_DATA_DIRS=/rds/general/user/nb122/home/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+PBS_JOBCOOKIE=2F88A28222CBDDD42B7AA988514720A7
+PBS_O_SHELL=/bin/bash
+TMPDIR=/var/tmp/pbs.691294.pbs
+LOADEDMODULES=
+PBS_O_QUEUE=v1_short8
+MAIL=/var/spool/mail/nb122
+SHELL=/bin/bash
+DOTNET_CLI_TELEMETRY_OPTOUT=1
+CUDA_VISIBLE_DEVICES=
+SHLVL=2
+PBS_O_HOST=login-a-internal.cx1.hpc.ic.ac.uk
+EPHEMERAL=/rds/general/user/nb122/ephemeral
+PBS_O_SYSTEM=Linux
+MANPATH=::/opt/pbs/share/man
+PBS_O_LOGNAME=nb122
+PBS_NODENUM=0
+MODULEPATH=/etc/scl/modulefiles:/apps/modules/4.7.1/modulefiles
+PBS_JOBDIR=/rds/general/user/nb122/home
+LOGNAME=nb122
+MODULEPATH_modshare=/apps/modules/4.7.1/modulefiles:1
+PATH=/apps/modules/4.7.1/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/rds/general/user/nb122/home/.dotnet/tools:/opt/pbs/bin
+PBS_QUEUE=v1_short8
+MODULESHOME=/usr/share/Modules
+HISTSIZE=1000
+RDS_PROJECT=/rds/general/project/
+PBS_O_MAIL=/var/spool/mail/nb122
+OMP_NUM_THREADS=4
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot "$@"
+}
+BASH_FUNC_module%%=() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre} /usr/bin/tclsh /apps/modules/4.7.1/libexec/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh /apps/modules/4.7.1/libexec/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then
+ eval "module $@";
+ else
+ /usr/bin/scl "$@";
+ fi
+}
+BASH_FUNC_ml%%=() {  module ml "$@"
+}
+_=/bin/printenv

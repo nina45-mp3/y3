@@ -1,0 +1,174 @@
+Loading HPC's miniforge module...
+ 
+Installing conda...
+ 
+Copying input file/s into TMPDIR...
+ 
+Investigating TMPDIR...
+/var/tmp/pbs.691053.pbs
+blastn_representative.fasta
+ 
+ 
+Investigating PBS_O_WORKDIR...
+/rds/general/user/nb122/home/Y3_Project/BLASTN/MSA/MUSCLE/Conda_MUSCLE_Attempt
+blastn_condamuscle.pbs
+blastn_condamuscle.pbs.e691053
+blastn_condamuscle.pbs.o691053
+blastn_musclealigned.phy
+full_genome_alignment_error
+ 
+ 
+Activating 'blastn_muscle' conda environment...
+ 
+Installing muscle into conda environment...
+Channels:
+ - conda-forge
+ - bioconda
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+Identifying if muscle found in miniforge's HPC directory...
+/rds/general/user/nb122/home/miniforge3/pkgs/muscle-5.3-h4ac6f70_0/bin/muscle
+ 
+ 
+Running muscle...
+ 
+ 
+Deactivating conda environment...
+ 
+ 
+Printing job environment...
+CONDA_SHLVL=0
+PBS_ENVIRONMENT=PBS_BATCH
+CONDA_EXE=/rds/general/user/nb122/home/miniforge3/bin/conda
+PBS_O_LANG=en_GB.UTF-8
+RDS=/rds/general/user/nb122
+LANG=en_GB.UTF-8
+HISTCONTROL=ignoredups
+HOSTNAME=cx3-14-4.cx3.hpc.ic.ac.uk
+OLDPWD=/var/tmp/pbs.691053.pbs
+PBS_O_HOME=/rds/general/user/nb122/home
+PBS_JOBID=691053.pbs
+ENVIRONMENT=BATCH
+PATH_modshare=/bin:1:/usr/sbin:1:/rds/easybuild/noarch/apps/software/miniforge/3/bin:1:/usr/bin:1:/apps/modules/4.7.1/bin:1:/usr/local/sbin:1:/rds/general/user/nb122/home/.dotnet/tools:1:/opt/pbs/bin:1
+LOADEDMODULES_modshare=miniforge/3:1
+PBS_JOBNAME=blastn_condamuscle.pbs
+NCPUS=4
+PBS_O_PATH=/usr/lib/qt-3.3/bin:/apps/modules/4.7.1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/rds/general/user/nb122/home/.dotnet/tools:/opt/ibutils/bin:/opt/pbs/bin:/rds/general/user/nb122/home/miniforge3/
+DOTNET_ROOT=/usr/lib64/dotnet
+S_COLORS=auto
+_CE_M=
+which_declare=declare -f
+MODULES_CMD=/apps/modules/4.7.1/libexec/modulecmd.tcl
+DOTNET_BUNDLE_EXTRACT_BASE_DIR=/rds/general/user/nb122/home/.cache/dotnet_bundle_extract
+PBS_O_WORKDIR=/rds/general/user/nb122/home/Y3_Project/BLASTN/MSA/MUSCLE/Conda_MUSCLE_Attempt
+USER=nb122
+ENV=/apps/modules/4.7.1/init/profile.sh
+PBS_NODEFILE=/var/spool/PBS/aux/691053.pbs
+PBS_TASKNUM=1
+PWD=/rds/general/user/nb122/home/Y3_Project/BLASTN/MSA/MUSCLE/Conda_MUSCLE_Attempt
+HOME=/rds/general/user/nb122/home
+CONDA_PYTHON_EXE=/rds/general/user/nb122/home/miniforge3/bin/python
+PBS_MOMPORT=15003
+WORK=/rds/general/user/nb122/home
+BASH_ENV=/apps/modules/4.7.1/init/bash
+XDG_DATA_DIRS=/rds/general/user/nb122/home/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+_LMFILES__modshare=/apps/modules/4.7.1/modulefiles/miniforge/3:1
+_CE_CONDA=
+PBS_JOBCOOKIE=251E37C656B167B60B08114D384C3B41
+PBS_O_SHELL=/bin/bash
+TMPDIR=/var/tmp/pbs.691053.pbs
+LOADEDMODULES=miniforge/3
+PBS_O_QUEUE=v1_short8
+MAIL=/var/spool/mail/nb122
+SHELL=/bin/bash
+DOTNET_CLI_TELEMETRY_OPTOUT=1
+CUDA_VISIBLE_DEVICES=
+SHLVL=2
+PBS_O_HOST=login-a-internal.cx1.hpc.ic.ac.uk
+EPHEMERAL=/rds/general/user/nb122/ephemeral
+PBS_O_SYSTEM=Linux
+MANPATH=::/opt/pbs/share/man
+PBS_O_LOGNAME=nb122
+PBS_NODENUM=0
+MODULEPATH=/etc/scl/modulefiles:/apps/modules/4.7.1/modulefiles
+PBS_JOBDIR=/rds/general/user/nb122/home
+LOGNAME=nb122
+MODULEPATH_modshare=/apps/modules/4.7.1/modulefiles:1
+PATH=/rds/general/user/nb122/home/miniforge3/condabin:/rds/easybuild/noarch/apps/software/miniforge/3/bin:/apps/modules/4.7.1/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/rds/general/user/nb122/home/.dotnet/tools:/opt/pbs/bin
+_LMFILES_=/apps/modules/4.7.1/modulefiles/miniforge/3
+PBS_QUEUE=v1_short8
+MODULESHOME=/usr/share/Modules
+HISTSIZE=1000
+RDS_PROJECT=/rds/general/project/
+PBS_O_MAIL=/var/spool/mail/nb122
+OMP_NUM_THREADS=4
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot "$@"
+}
+BASH_FUNC_module%%=() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre} /usr/bin/tclsh /apps/modules/4.7.1/libexec/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh /apps/modules/4.7.1/libexec/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then
+ eval "module $@";
+ else
+ /usr/bin/scl "$@";
+ fi
+}
+BASH_FUNC_ml%%=() {  module ml "$@"
+}
+_=/bin/printenv

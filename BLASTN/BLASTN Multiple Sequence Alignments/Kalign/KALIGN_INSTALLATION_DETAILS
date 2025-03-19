@@ -1,0 +1,228 @@
+Unzipping and compiling kalign...
+Creating 'build' directory inside 'kalign-3.4.0'...
+Compiling kalign...
+-- OpenMP is enabled.
+-- SSE4.1 is enabled - target CPU must support it
+-- AVX is enabled - target CPU must support it
+-- AVX2 is enabled - target CPU must support it
+-- 
+-- Configuration:
+-- --------------------------------------
+-- Build type                : Release
+-- Compiler flags            : 
+-- Compiler c debug flags    : -g
+-- Compiler c release flags  : -O3 -DNDEBUG
+-- Compiler c min size flags : -Os -DNDEBUG
+-- Compiler c flags          :  -mavx2 -DHAVE_AVX2
+-- OpenMP version            : 4.5
+-- OpenMP flags              : -fopenmp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build
+Consolidate compiler generated dependencies of target kalign_OBJ
+[ 39%] Built target kalign_OBJ
+[ 40%] Built target kalign_static
+Consolidate compiler generated dependencies of target bpm_utest
+[ 50%] Built target bpm_utest
+Consolidate compiler generated dependencies of target edist_utest
+[ 56%] Built target edist_utest
+Consolidate compiler generated dependencies of target tldevel
+[ 63%] Built target tldevel
+Consolidate compiler generated dependencies of target alphabet_utest
+[ 67%] Built target alphabet_utest
+[ 68%] Built target kalign
+Consolidate compiler generated dependencies of target task_utest
+[ 74%] Built target task_utest
+Consolidate compiler generated dependencies of target kalignfmt
+[ 78%] Built target kalignfmt
+Consolidate compiler generated dependencies of target kalign-bin
+[ 82%] Built target kalign-bin
+Consolidate compiler generated dependencies of target kalign_io_test
+[ 85%] Built target kalign_io_test
+Consolidate compiler generated dependencies of target largebench
+[ 87%] Built target largebench
+Consolidate compiler generated dependencies of target kalign_lib_test
+[ 90%] Built target kalign_lib_test
+Consolidate compiler generated dependencies of target dssim
+[ 94%] Built target dssim
+Consolidate compiler generated dependencies of target kalign_cmp_test
+[ 97%] Built target kalign_cmp_test
+Consolidate compiler generated dependencies of target kaligncpp
+[100%] Built target kaligncpp
+Making 'test'...
+Running tests...
+Test project /rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build
+      Start  1: bpm_utest
+ 1/12 Test  #1: bpm_utest ........................   Passed    8.78 sec
+      Start  2: alphabet_utest
+ 2/12 Test  #2: alphabet_utest ...................   Passed    0.02 sec
+      Start  3: edist_utest
+ 3/12 Test  #3: edist_utest ......................   Passed    0.02 sec
+      Start  4: task_utest
+ 4/12 Test  #4: task_utest .......................   Passed    0.02 sec
+      Start  5: C++Lib
+ 5/12 Test  #5: C++Lib ...........................   Passed    0.03 sec
+      Start  6: kalign_itest_BB11001.tfa
+ 6/12 Test  #6: kalign_itest_BB11001.tfa .........   Passed    0.02 sec
+      Start  7: kalign_itest_BB11001_EOF.msf
+ 7/12 Test  #7: kalign_itest_BB11001_EOF.msf .....   Passed    0.01 sec
+      Start  8: kalign_itest_BB12006.msf
+ 8/12 Test  #8: kalign_itest_BB12006.msf .........   Passed    0.01 sec
+      Start  9: kalign_itest_BB12006.tfa
+ 9/12 Test  #9: kalign_itest_BB12006.tfa .........   Passed    0.01 sec
+      Start 10: kalign_itest_BB30014.msf
+10/12 Test #10: kalign_itest_BB30014.msf .........   Passed    0.01 sec
+      Start 11: kalign_itest_BB30014.tfa
+11/12 Test #11: kalign_itest_BB30014.tfa .........   Passed    0.07 sec
+      Start 12: DSSIM_takes_a_min
+12/12 Test #12: DSSIM_takes_a_min ................   Passed   39.10 sec
+
+100% tests passed, 0 tests failed out of 12
+
+Total Test time (real) =  48.13 sec
+Making 'install'...
+[ 39%] Built target kalign_OBJ
+[ 40%] Built target kalign_static
+[ 50%] Built target bpm_utest
+[ 56%] Built target edist_utest
+[ 63%] Built target tldevel
+[ 67%] Built target alphabet_utest
+[ 68%] Built target kalign
+[ 74%] Built target task_utest
+[ 78%] Built target kalignfmt
+[ 82%] Built target kalign-bin
+[ 85%] Built target kalign_io_test
+[ 87%] Built target largebench
+[ 90%] Built target kalign_lib_test
+[ 94%] Built target dssim
+[ 97%] Built target kalign_cmp_test
+[100%] Built target kaligncpp
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /usr/local/lib64/libkalign.so.3.4.0
+ 
+ 
+ 
+Printing job environment...
+PBS_ENVIRONMENT=PBS_BATCH
+PBS_O_LANG=en_GB.UTF-8
+RDS=/rds/general/user/nb122
+LANG=en_GB.UTF-8
+HISTCONTROL=ignoredups
+HOSTNAME=cx3-12-1.cx3.hpc.ic.ac.uk
+OLDPWD=/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0
+PBS_O_HOME=/rds/general/user/nb122/home
+PBS_JOBID=454760.pbs
+ENVIRONMENT=BATCH
+PBS_JOBNAME=blastn_kalign.pbs
+NCPUS=1
+PBS_O_PATH=/usr/lib/qt-3.3/bin:/apps/modules/4.7.1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/rds/general/user/nb122/home/.dotnet/tools:/opt/ibutils/bin:/opt/pbs/bin
+DOTNET_ROOT=/usr/lib64/dotnet
+S_COLORS=auto
+which_declare=declare -f
+MODULES_CMD=/apps/modules/4.7.1/libexec/modulecmd.tcl
+DOTNET_BUNDLE_EXTRACT_BASE_DIR=/rds/general/user/nb122/home/.cache/dotnet_bundle_extract
+PBS_O_WORKDIR=/rds/general/user/nb122/home/Y3_Project/BLASTN
+USER=nb122
+ENV=/apps/modules/4.7.1/init/profile.sh
+PBS_NODEFILE=/var/spool/PBS/aux/454760.pbs
+PBS_TASKNUM=1
+PWD=/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build
+HOME=/rds/general/user/nb122/home
+PBS_MOMPORT=15003
+WORK=/rds/general/user/nb122/home
+BASH_ENV=/apps/modules/4.7.1/init/bash
+XDG_DATA_DIRS=/rds/general/user/nb122/home/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+PBS_JOBCOOKIE=1178C3B3549B4CDA210BCE62295A1533
+PBS_O_SHELL=/bin/bash
+TMPDIR=/var/tmp/pbs.454760.pbs
+LOADEDMODULES=
+PBS_O_QUEUE=v1_short8
+MAIL=/var/spool/mail/nb122
+SHELL=/bin/bash
+DOTNET_CLI_TELEMETRY_OPTOUT=1
+CUDA_VISIBLE_DEVICES=
+SHLVL=2
+PBS_O_HOST=cx3-3-29.cx3.hpc.ic.ac.uk
+EPHEMERAL=/rds/general/user/nb122/ephemeral
+PBS_O_SYSTEM=Linux
+MANPATH=::/opt/pbs/share/man
+PBS_O_LOGNAME=nb122
+PBS_NODENUM=0
+MODULEPATH=/etc/scl/modulefiles:/apps/modules/4.7.1/modulefiles
+PBS_JOBDIR=/rds/general/user/nb122/home
+LOGNAME=nb122
+MODULEPATH_modshare=/apps/modules/4.7.1/modulefiles:1
+PATH=/apps/modules/4.7.1/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/rds/general/user/nb122/home/.dotnet/tools:/opt/pbs/bin
+PBS_QUEUE=v1_short8
+MODULESHOME=/usr/share/Modules
+HISTSIZE=1000
+RDS_PROJECT=/rds/general/project/
+PBS_O_MAIL=/var/spool/mail/nb122
+OMP_NUM_THREADS=1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot "$@"
+}
+BASH_FUNC_module%%=() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre} /usr/bin/tclsh /apps/modules/4.7.1/libexec/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh /apps/modules/4.7.1/libexec/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then
+ eval "module $@";
+ else
+ /usr/bin/scl "$@";
+ fi
+}
+BASH_FUNC_ml%%=() {  module ml "$@"
+}
+_=/bin/printenv
