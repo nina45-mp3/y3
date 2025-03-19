@@ -1,0 +1,1 @@
+/bin/cc  -mavx2 -DHAVE_AVX2 -O3 -DNDEBUG CMakeFiles/kalign-bin.dir/run_kalign.c.o CMakeFiles/kalign-bin.dir/parameters.c.o -o kalign  ../lib/libtldevel.a ../lib/libkalign_static.a -lm /usr/lib/gcc/x86_64-redhat-linux/8/libgomp.so /usr/lib64/libpthread.so 

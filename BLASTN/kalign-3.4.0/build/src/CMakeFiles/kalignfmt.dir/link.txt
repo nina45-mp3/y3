@@ -1,0 +1,1 @@
+/bin/cc  -mavx2 -DHAVE_AVX2 -O3 -DNDEBUG CMakeFiles/kalignfmt.dir/run_reformat.c.o CMakeFiles/kalignfmt.dir/parameters.c.o -o kalignfmt  -Wl,-rpath,/rds/general/user/nb122/home/Y3_Project/BLASTN/kalign-3.4.0/build/lib ../lib/libtldevel.a ../lib/libkalign.so.3.4.0 -lm 
