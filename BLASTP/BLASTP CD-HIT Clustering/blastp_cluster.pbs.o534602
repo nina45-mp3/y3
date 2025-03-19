@@ -1,0 +1,257 @@
+Copying input files into TMPDIR...
+ 
+Investigating TMPDIR...
+/var/tmp/pbs.534602.pbs
+blastp_clustered
+blastp_clustered.clstr
+blastp_cluster.pbs
+blastp_cluster.pbs.e482625
+blastp_cluster.pbs.e534602
+blastp_cluster.pbs.o482625
+blastp_cluster.pbs.o534602
+blastp_dataset
+blastp_newfasta.fasta
+cd-hit-v4.8.1-2019-0228
+CDHIT_with_conda
+Cluster_FASTAs
+details_of_blastpcluster
+Lplantarum-prot-seq-file.txt
+make_multi_seq_outputlog
+Making_Dataset_For_CDHIT_Input
+resolved_invalid_sequence_error
+ 
+Investigating PBS_O_WORKDIR...
+/rds/general/user/nb122/home/Y3_Project/BLASTP/Refseq_select_prot_e7/Clustering/CDHIT_Clustering
+blastp_clustered
+blastp_clustered.clstr
+blastp_cluster.pbs
+blastp_cluster.pbs.e482625
+blastp_cluster.pbs.e534602
+blastp_cluster.pbs.o482625
+blastp_cluster.pbs.o534602
+blastp_dataset
+blastp_newfasta.fasta
+cd-hit-v4.8.1-2019-0228
+CDHIT_with_conda
+Cluster_FASTAs
+details_of_blastpcluster
+Lplantarum-prot-seq-file.txt
+make_multi_seq_outputlog
+Making_Dataset_For_CDHIT_Input
+resolved_invalid_sequence_error
+ 
+ 
+Loading required HPC modules...
+ 
+ 
+cd-hit package already installed and compiled from prior runs.
+ 
+cd-hit-auxtools already installed and compiled from prior runs.
+ 
+ 
+Checking whether 'cd-hit' is found in TMPDIR...
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/usecases/Miseq-16S/cd-hit-otu-miseq-PE.pl
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/cd-hit-2d-para.pl
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/cd-hit-auxtools
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/cd-hit-auxtools/cd-hit-dup-PE-out.pl
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/cd-hit-auxtools/cd-hit-dup
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/cd-hit-auxtools/cd-hit-lap
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/cd-hit-clstr_2_blm8.pl
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/cd-hit-div.pl
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/cd-hit-para.pl
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/doc/cd-hit-otu-miseq-Figure-1.png
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/psi-cd-hit/cd-hit-div.pl
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/cd-hit
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/cd-hit-est
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/cd-hit-2d
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/cd-hit-est-2d
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/cd-hit-div
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/cd-hit-454
+ 
+Checking whether 'make_multi_seq.pl' is found in TMPDIR...
+/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/make_multi_seq.pl
+Running CD-HIT...
+================================================================
+Program: CD-HIT, V4.8.1 (+OpenMP), Jan 08 2025, 13:00:30
+Command:
+         /var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/cd-hit
+         -i blastp_dataset -o blastp_clustered -c 0.95 -G 1 -M
+         0 -d 0 -n 5
+
+Started: Wed Jan 29 11:06:32 2025
+================================================================
+                            Output                              
+----------------------------------------------------------------
+total seq: 2185
+longest and shortest : 363 and 37
+Total letters: 678071
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 0M
+Buffer          : 1 X 10M = 10M
+Table           : 1 X 65M = 65M
+Miscellaneous   : 0M
+Total           : 76M
+
+Table limit with the given memory limit:
+Max number of representatives: 4000000
+Max number of word counting entries: 209181500
+
+comparing sequences from          0  to       2185
+..
+     2185  finished       1894  clusters
+
+Approximated maximum memory consumption: 81M
+writing new database
+writing clustering information
+program completed !
+
+Total CPU time 0.31
+ 
+ 
+ 
+Printing job environment...
+PBS_ENVIRONMENT=PBS_BATCH
+LD_LIBRARY_PATH=/apps/intel/2019.4/compilers_and_libraries_2019.4.243/linux/mkl/lib:/apps/intel/2019.4/compilers_and_libraries_2019.4.243/linux/compiler/lib/intel64/:/apps/blast+/2.11.1/lib
+PBS_O_LANG=en_GB.UTF-8
+RDS=/rds/general/user/nb122
+LANG=en_GB.UTF-8
+HISTCONTROL=ignoredups
+BLAST_HOME=/apps/blast+/2.11.1
+HOSTNAME=cx3-14-8.cx3.hpc.ic.ac.uk
+OLDPWD=/var/tmp/pbs.534602.pbs
+PBS_O_HOME=/rds/general/user/nb122/home
+PBS_JOBID=534602.pbs
+ENVIRONMENT=BATCH
+PATH_modshare=/bin:1:/usr/sbin:1:/apps/intel/2019.4/compilers_and_libraries_2019.4.243/linux/bin/intel64/:1:/usr/bin:1:/apps/blast+/2.11.1/:1:/apps/modules/4.7.1/bin:1:/usr/local/sbin:1:/rds/general/user/nb122/home/.dotnet/tools:1:/opt/pbs/bin:1:/apps/blast+/2.11.1/bin:1
+LOADEDMODULES_modshare=intel-suite/2019.4:1:blast+/2.11.1:1
+PBS_JOBNAME=blastp_cluster.pbs
+NCPUS=1
+PBS_O_PATH=/usr/lib/qt-3.3/bin:/apps/modules/4.7.1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/rds/general/user/nb122/home/.dotnet/tools:/opt/ibutils/bin:/opt/pbs/bin:/var/tmp/pbs.534602.pbs/cd-hit-v4.8.1-2019-0228/
+IFC_HOME=/apps/intel/2017.6
+DOTNET_ROOT=/usr/lib64/dotnet
+S_COLORS=auto
+which_declare=declare -f
+LD_LIBRARY_PATH_modshare=/apps/blast+/2.11.1/lib:1:/apps/intel/2019.4/compilers_and_libraries_2019.4.243/linux/compiler/lib/intel64/:1:/apps/intel/2019.4/compilers_and_libraries_2019.4.243/linux/mkl/lib:1
+CC=icc
+MODULES_CMD=/apps/modules/4.7.1/libexec/modulecmd.tcl
+DOTNET_BUNDLE_EXTRACT_BASE_DIR=/rds/general/user/nb122/home/.cache/dotnet_bundle_extract
+PBS_O_WORKDIR=/rds/general/user/nb122/home/Y3_Project/BLASTP/Refseq_select_prot_e7/Clustering/CDHIT_Clustering
+USER=nb122
+MODULES_LMPREREQ=blast+/2.11.1&intel-suite/2019.4
+ENV=/apps/modules/4.7.1/init/profile.sh
+PBS_NODEFILE=/var/spool/PBS/aux/534602.pbs
+PBS_TASKNUM=1
+PWD=/rds/general/user/nb122/home/Y3_Project/BLASTP/Refseq_select_prot_e7/Clustering/CDHIT_Clustering
+HOME=/rds/general/user/nb122/home
+PBS_MOMPORT=15003
+WORK=/rds/general/user/nb122/home
+F77=ifort
+BASH_ENV=/apps/modules/4.7.1/init/bash
+XDG_DATA_DIRS=/rds/general/user/nb122/home/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+_LMFILES__modshare=/apps/modules/4.7.1/modulefiles/intel-suite/2019.4:1:/apps/modules/4.7.1/modulefiles/blast+/2.11.1:1
+PBS_JOBCOOKIE=370A3AD01740AC656803EB5E3777EFD6
+PBS_O_SHELL=/bin/bash
+TMPDIR=/var/tmp/pbs.534602.pbs
+INTEL_HOME=/apps/intel/2017.6
+LOADEDMODULES=intel-suite/2019.4:blast+/2.11.1
+FC=ifort
+INTEL_LICENSE_FILE=28518@intel6.cc.ic.ac.uk
+PBS_O_QUEUE=v1_short8
+MAIL=/var/spool/mail/nb122
+MKL_HOME=/apps/intel/2019.4/compilers_and_libraries_2019.4.243/linux/mkl/
+CXX=icpc
+SHELL=/bin/bash
+DOTNET_CLI_TELEMETRY_OPTOUT=1
+CUDA_VISIBLE_DEVICES=
+ICC_HOME=/apps/intel/2017.6
+SHLVL=2
+PBS_O_HOST=cx3-7-15.cx3.hpc.ic.ac.uk
+EPHEMERAL=/rds/general/user/nb122/ephemeral
+PBS_O_SYSTEM=Linux
+MANPATH=::/opt/pbs/share/man
+PBS_O_LOGNAME=nb122
+F90=ifort
+PBS_NODENUM=0
+MODULEPATH=/etc/scl/modulefiles:/apps/modules/4.7.1/modulefiles
+PBS_JOBDIR=/rds/general/user/nb122/home
+LOGNAME=nb122
+MODULES_LMPREREQ_modshare=blast+/2.11.1&intel-suite/2019.4:1
+MKLROOT=/apps/intel/2019.4/compilers_and_libraries_2019.4.243/linux/mkl/
+MODULEPATH_modshare=/apps/modules/4.7.1/modulefiles:1
+PATH=/apps/intel/2019.4/compilers_and_libraries_2019.4.243/linux/bin/intel64/:/apps/modules/4.7.1/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/rds/general/user/nb122/home/.dotnet/tools:/opt/pbs/bin:/apps/blast+/2.11.1/bin:/apps/blast+/2.11.1/
+_LMFILES_=/apps/modules/4.7.1/modulefiles/intel-suite/2019.4:/apps/modules/4.7.1/modulefiles/blast+/2.11.1
+PBS_QUEUE=v1_short8
+MODULESHOME=/usr/share/Modules
+HISTSIZE=1000
+RDS_PROJECT=/rds/general/project/
+PBS_O_MAIL=/var/spool/mail/nb122
+OMP_NUM_THREADS=1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot "$@"
+}
+BASH_FUNC_module%%=() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre} /usr/bin/tclsh /apps/modules/4.7.1/libexec/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh /apps/modules/4.7.1/libexec/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then
+ eval "module $@";
+ else
+ /usr/bin/scl "$@";
+ fi
+}
+BASH_FUNC_ml%%=() {  module ml "$@"
+}
+_=/bin/printenv
