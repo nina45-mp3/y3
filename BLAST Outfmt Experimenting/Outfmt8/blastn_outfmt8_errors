@@ -1,0 +1,39 @@
+Error: (302.26) [blastn] SSOCK#15000[5]@130.14.29.110:443: [SOCK::Connect]  Failed pending connect(): Timeout[30.000000]
+Error: (303.7) [blastn] [URL_Connect; https://www.ncbi.nlm.nih.gov/Service/dispd.cgi?service=blast4&address=cx3-14-3.cx3.hpc.ic.ac.uk&platform=x86_64-unknown-linux-gnu]  Failed to connect: Timeout[30.000000]
+Error: (304.5) [blastn] [blast4]  Unable to create connection with network dispatcher at "https://www.ncbi.nlm.nih.gov/Service/dispd.cgi?service=blast4&address=cx3-14-3.cx3.hpc.ic.ac.uk&platform=x86_64-unknown-linux-gnu": Timeout
+Error: (308.5) [blastn] [blast4]  Service not found
+Error: (301.5) [blastn] [CONN_Open(blast4)]  Failed to open connection: Closed
+Error: (315.4) [blastn] CConn_Streambuf::overflow():  CONN_Write() failed (blast4): Closed
+Error: (315.4) [blastn] CConn_Streambuf::overflow():  CONN_Write() failed (blast4): Closed
+Error: (315.4) [blastn] CConn_Streambuf::overflow():  CONN_Write() failed (blast4): Closed
+Error: (802.5) [blastn] CObjectOStream: error at byte 53: stack is empty: cannot close output stream
+Error: (CIOException::eFlush) [blastn] COStreamBuffer::Flush: failed
+Error: (CSerialException::eIoError) [blastn] byte 53: cannot close output stream
+Error: (802.4) [blastn] Cannot close serializing output stream (CSerialException::eIoError) byte 53: cannot close output stream
+Error: (302.26) [blastn] SSOCK#16000[5]@130.14.29.110:443: [SOCK::Connect]  Failed pending connect(): Timeout[30.000000]
+Error: (303.7) [blastn] [URL_Connect; https://www.ncbi.nlm.nih.gov/Service/dispd.cgi?service=blast4&address=cx3-14-3.cx3.hpc.ic.ac.uk&platform=x86_64-unknown-linux-gnu]  Failed to connect: Timeout[30.000000]
+Error: (304.5) [blastn] [blast4]  Unable to create connection with network dispatcher at "https://www.ncbi.nlm.nih.gov/Service/dispd.cgi?service=blast4&address=cx3-14-3.cx3.hpc.ic.ac.uk&platform=x86_64-unknown-linux-gnu": Timeout
+Error: (308.5) [blastn] [blast4]  Service not found
+Error: (301.5) [blastn] [CONN_Open(blast4)]  Failed to open connection: Closed
+Error: (315.4) [blastn] CConn_Streambuf::overflow():  CONN_Write() failed (blast4): Closed
+Error: (315.4) [blastn] CConn_Streambuf::overflow():  CONN_Write() failed (blast4): Closed
+Error: (315.4) [blastn] CConn_Streambuf::overflow():  CONN_Write() failed (blast4): Closed
+Error: (802.5) [blastn] CObjectOStream: error at byte 53: stack is empty: cannot close output stream
+Error: (CIOException::eFlush) [blastn] COStreamBuffer::Flush: failed
+Error: (CSerialException::eIoError) [blastn] byte 53: cannot close output stream
+Error: (802.4) [blastn] Cannot close serializing output stream (CSerialException::eIoError) byte 53: cannot close output stream
+Error: (302.26) [blastn] SSOCK#17000[5]@130.14.29.110:443: [SOCK::Connect]  Failed pending connect(): Timeout[30.000000]
+Error: (303.7) [blastn] [URL_Connect; https://www.ncbi.nlm.nih.gov/Service/dispd.cgi?service=blast4&address=cx3-14-3.cx3.hpc.ic.ac.uk&platform=x86_64-unknown-linux-gnu]  Failed to connect: Timeout[30.000000]
+Error: (304.5) [blastn] [blast4]  Unable to create connection with network dispatcher at "https://www.ncbi.nlm.nih.gov/Service/dispd.cgi?service=blast4&address=cx3-14-3.cx3.hpc.ic.ac.uk&platform=x86_64-unknown-linux-gnu": Timeout
+Error: (308.5) [blastn] [blast4]  Service not found
+Error: (301.5) [blastn] [CONN_Open(blast4)]  Failed to open connection: Closed
+Error: (315.4) [blastn] CConn_Streambuf::overflow():  CONN_Write() failed (blast4): Closed
+Error: (315.4) [blastn] CConn_Streambuf::overflow():  CONN_Write() failed (blast4): Closed
+Error: (315.4) [blastn] CConn_Streambuf::overflow():  CONN_Write() failed (blast4): Closed
+Error: (802.5) [blastn] CObjectOStream: error at byte 53: stack is empty: cannot close output stream
+Error: (CIOException::eFlush) [blastn] COStreamBuffer::Flush: failed
+Error: (CSerialException::eIoError) [blastn] byte 53: cannot close output stream
+Error: (802.4) [blastn] Cannot close serializing output stream (CSerialException::eIoError) byte 53: cannot close output stream
+Error: NCBI C++ Exception:
+    T0 "/home/coremake/release_build/build/PrepareRelease_Linux64-Centos_JSID_01_400117_130.14.18.128_9008__PrepareRelease_Linux64-Centos_1601968763/c++/compilers/unix/../../src/serial/rpcbase.cpp", line 307: Error: (CRPCClientException::eFailed) ncbi::CRPCClient_Base::x_Ask() - Failed to receive reply after 3 tries (Blast4-request)
+

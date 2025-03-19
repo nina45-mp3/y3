@@ -1,0 +1,1600 @@
+{
+  "Seq_annot": {
+    "desc": [
+      {
+        "user": {
+          "type": {
+            "str": "Hist Seqalign"
+          },
+          "data": [
+            {
+              "label": {
+                "str": "Hist Seqalign"
+              },
+              "data": {
+                "bool": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "user": {
+          "type": {
+            "str": "Blast Type"
+          },
+          "data": [
+            {
+              "label": {
+                "str": "blastn"
+              },
+              "data": {
+                "int": 1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "user": {
+          "type": {
+            "str": "Blast Database Title"
+          },
+          "data": [
+            {
+              "label": {
+                "str": "nt without eukaryotic nuclear assembly sequences"
+              },
+              "data": {
+                "bool": true
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "data": {
+      "align": [
+        {
+          "type": "partial",
+          "dim": 2,
+          "score": [
+            {
+              "id": {
+                "str": "score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "blast_score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "e_value"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "num_ident"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "hsp_percent_coverage"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "pc_ident"
+              },
+              "value": {
+                "real": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_evalue"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "seq_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_total_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_coverage"
+              },
+              "value": {
+                "int": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_identity"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_hspnum"
+              },
+              "value": {
+                "int": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_align_totlen"
+              },
+              "value": {
+                "real": 975
+              }
+            }
+          ],
+          "segs": {
+            "denseg": {
+              "dim": 2,
+              "numseg": 1,
+              "ids": [
+                {
+                  "local": {
+                    "str": "Query_1"
+                  }
+                },
+                {
+                  "gi": 2860284631
+                }
+              ],
+              "starts": [
+                0,
+                3153461
+              ],
+              "lens": [
+                975
+              ],
+              "strands": [
+                "minus",
+                "plus"
+              ]
+            }
+          }
+        },
+        {
+          "type": "partial",
+          "dim": 2,
+          "score": [
+            {
+              "id": {
+                "str": "score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "blast_score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "e_value"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "num_ident"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "hsp_percent_coverage"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "pc_ident"
+              },
+              "value": {
+                "real": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_evalue"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "seq_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_total_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_coverage"
+              },
+              "value": {
+                "int": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_identity"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_hspnum"
+              },
+              "value": {
+                "int": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_align_totlen"
+              },
+              "value": {
+                "real": 975
+              }
+            }
+          ],
+          "segs": {
+            "denseg": {
+              "dim": 2,
+              "numseg": 1,
+              "ids": [
+                {
+                  "local": {
+                    "str": "Query_1"
+                  }
+                },
+                {
+                  "gi": 2775835953
+                }
+              ],
+              "starts": [
+                0,
+                2387539
+              ],
+              "lens": [
+                975
+              ],
+              "strands": [
+                "minus",
+                "plus"
+              ]
+            }
+          }
+        },
+        {
+          "type": "partial",
+          "dim": 2,
+          "score": [
+            {
+              "id": {
+                "str": "score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "blast_score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "e_value"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "num_ident"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "hsp_percent_coverage"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "pc_ident"
+              },
+              "value": {
+                "real": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_evalue"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "seq_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_total_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_coverage"
+              },
+              "value": {
+                "int": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_identity"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_hspnum"
+              },
+              "value": {
+                "int": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_align_totlen"
+              },
+              "value": {
+                "real": 975
+              }
+            }
+          ],
+          "segs": {
+            "denseg": {
+              "dim": 2,
+              "numseg": 1,
+              "ids": [
+                {
+                  "local": {
+                    "str": "Query_1"
+                  }
+                },
+                {
+                  "gi": 2850818866
+                }
+              ],
+              "starts": [
+                0,
+                1174297
+              ],
+              "lens": [
+                975
+              ],
+              "strands": [
+                "plus",
+                "plus"
+              ]
+            }
+          }
+        },
+        {
+          "type": "partial",
+          "dim": 2,
+          "score": [
+            {
+              "id": {
+                "str": "score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "blast_score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "e_value"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "num_ident"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "hsp_percent_coverage"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "pc_ident"
+              },
+              "value": {
+                "real": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_evalue"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "seq_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_total_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_coverage"
+              },
+              "value": {
+                "int": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_identity"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_hspnum"
+              },
+              "value": {
+                "int": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_align_totlen"
+              },
+              "value": {
+                "real": 975
+              }
+            }
+          ],
+          "segs": {
+            "denseg": {
+              "dim": 2,
+              "numseg": 1,
+              "ids": [
+                {
+                  "local": {
+                    "str": "Query_1"
+                  }
+                },
+                {
+                  "gi": 2563364603
+                }
+              ],
+              "starts": [
+                0,
+                3094112
+              ],
+              "lens": [
+                975
+              ],
+              "strands": [
+                "minus",
+                "plus"
+              ]
+            }
+          }
+        },
+        {
+          "type": "partial",
+          "dim": 2,
+          "score": [
+            {
+              "id": {
+                "str": "score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "blast_score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "e_value"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "num_ident"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "hsp_percent_coverage"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "pc_ident"
+              },
+              "value": {
+                "real": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_evalue"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "seq_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_total_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_coverage"
+              },
+              "value": {
+                "int": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_identity"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_hspnum"
+              },
+              "value": {
+                "int": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_align_totlen"
+              },
+              "value": {
+                "real": 975
+              }
+            }
+          ],
+          "segs": {
+            "denseg": {
+              "dim": 2,
+              "numseg": 1,
+              "ids": [
+                {
+                  "local": {
+                    "str": "Query_1"
+                  }
+                },
+                {
+                  "gi": 2662342343
+                }
+              ],
+              "starts": [
+                0,
+                3154540
+              ],
+              "lens": [
+                975
+              ],
+              "strands": [
+                "minus",
+                "plus"
+              ]
+            }
+          }
+        },
+        {
+          "type": "partial",
+          "dim": 2,
+          "score": [
+            {
+              "id": {
+                "str": "score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "blast_score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "e_value"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "num_ident"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "hsp_percent_coverage"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "pc_ident"
+              },
+              "value": {
+                "real": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_evalue"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "seq_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_total_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_coverage"
+              },
+              "value": {
+                "int": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_identity"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_hspnum"
+              },
+              "value": {
+                "int": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_align_totlen"
+              },
+              "value": {
+                "real": 975
+              }
+            }
+          ],
+          "segs": {
+            "denseg": {
+              "dim": 2,
+              "numseg": 1,
+              "ids": [
+                {
+                  "local": {
+                    "str": "Query_1"
+                  }
+                },
+                {
+                  "gi": 2697106910
+                }
+              ],
+              "starts": [
+                0,
+                3043344
+              ],
+              "lens": [
+                975
+              ],
+              "strands": [
+                "minus",
+                "plus"
+              ]
+            }
+          }
+        },
+        {
+          "type": "partial",
+          "dim": 2,
+          "score": [
+            {
+              "id": {
+                "str": "score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "blast_score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "e_value"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "num_ident"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "hsp_percent_coverage"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "pc_ident"
+              },
+              "value": {
+                "real": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_evalue"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "seq_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_total_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_coverage"
+              },
+              "value": {
+                "int": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_identity"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_hspnum"
+              },
+              "value": {
+                "int": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_align_totlen"
+              },
+              "value": {
+                "real": 975
+              }
+            }
+          ],
+          "segs": {
+            "denseg": {
+              "dim": 2,
+              "numseg": 1,
+              "ids": [
+                {
+                  "local": {
+                    "str": "Query_1"
+                  }
+                },
+                {
+                  "gi": 1799503493
+                }
+              ],
+              "starts": [
+                0,
+                1198324
+              ],
+              "lens": [
+                975
+              ],
+              "strands": [
+                "minus",
+                "plus"
+              ]
+            }
+          }
+        },
+        {
+          "type": "partial",
+          "dim": 2,
+          "score": [
+            {
+              "id": {
+                "str": "score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "blast_score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "e_value"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "num_ident"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "hsp_percent_coverage"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "pc_ident"
+              },
+              "value": {
+                "real": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_evalue"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "seq_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_total_bit_score"
+              },
+              "value": {
+                "real": 3603.20741052629
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_coverage"
+              },
+              "value": {
+                "int": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_identity"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_hspnum"
+              },
+              "value": {
+                "int": 2
+              }
+            },
+            {
+              "id": {
+                "str": "seq_align_totlen"
+              },
+              "value": {
+                "real": 1950
+              }
+            }
+          ],
+          "segs": {
+            "denseg": {
+              "dim": 2,
+              "numseg": 1,
+              "ids": [
+                {
+                  "local": {
+                    "str": "Query_1"
+                  }
+                },
+                {
+                  "gi": 2576198070
+                }
+              ],
+              "starts": [
+                0,
+                4575
+              ],
+              "lens": [
+                975
+              ],
+              "strands": [
+                "plus",
+                "plus"
+              ]
+            }
+          }
+        },
+        {
+          "type": "partial",
+          "dim": 2,
+          "score": [
+            {
+              "id": {
+                "str": "score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "blast_score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "e_value"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "num_ident"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "hsp_percent_coverage"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "pc_ident"
+              },
+              "value": {
+                "real": 1
+              }
+            }
+          ],
+          "segs": {
+            "denseg": {
+              "dim": 2,
+              "numseg": 1,
+              "ids": [
+                {
+                  "local": {
+                    "str": "Query_1"
+                  }
+                },
+                {
+                  "gi": 2576198070
+                }
+              ],
+              "starts": [
+                0,
+                3236193
+              ],
+              "lens": [
+                975
+              ],
+              "strands": [
+                "plus",
+                "plus"
+              ]
+            }
+          }
+        },
+        {
+          "type": "partial",
+          "dim": 2,
+          "score": [
+            {
+              "id": {
+                "str": "score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "blast_score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "e_value"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "num_ident"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "hsp_percent_coverage"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "pc_ident"
+              },
+              "value": {
+                "real": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_evalue"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "seq_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_total_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_coverage"
+              },
+              "value": {
+                "int": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_identity"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_hspnum"
+              },
+              "value": {
+                "int": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_align_totlen"
+              },
+              "value": {
+                "real": 975
+              }
+            }
+          ],
+          "segs": {
+            "denseg": {
+              "dim": 2,
+              "numseg": 1,
+              "ids": [
+                {
+                  "local": {
+                    "str": "Query_1"
+                  }
+                },
+                {
+                  "gi": 2022145539
+                }
+              ],
+              "starts": [
+                0,
+                3154438
+              ],
+              "lens": [
+                975
+              ],
+              "strands": [
+                "minus",
+                "plus"
+              ]
+            }
+          }
+        },
+        {
+          "type": "partial",
+          "dim": 2,
+          "score": [
+            {
+              "id": {
+                "str": "score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "blast_score"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "e_value"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "num_ident"
+              },
+              "value": {
+                "int": 975
+              }
+            },
+            {
+              "id": {
+                "str": "hsp_percent_coverage"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "pc_ident"
+              },
+              "value": {
+                "real": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_evalue"
+              },
+              "value": {
+                "real": 0
+              }
+            },
+            {
+              "id": {
+                "str": "seq_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_total_bit_score"
+              },
+              "value": {
+                "real": 1801.60370526314
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_coverage"
+              },
+              "value": {
+                "int": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_percent_identity"
+              },
+              "value": {
+                "real": 100
+              }
+            },
+            {
+              "id": {
+                "str": "seq_hspnum"
+              },
+              "value": {
+                "int": 1
+              }
+            },
+            {
+              "id": {
+                "str": "seq_align_totlen"
+              },
+              "value": {
+                "real": 975
+              }
+            }
+          ],
+          "segs": {
+            "denseg": {
+              "dim": 2,
+              "numseg": 1,
+              "ids": [
+                {
+                  "local": {
+                    "str": "Query_1"
+                  }
+                },
+                {
+                  "gi": 2621934924
+                }
+              ],
+              "starts": [
+                0,
+                3049007
+              ],
+              "lens": [
+                975
+              ],
+              "strands": [
+                "minus",
+                "plus"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

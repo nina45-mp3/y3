@@ -1,0 +1,281 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: RefSeq Select proteins
+           59,665,754 sequences; 19,508,232,757 total letters
+
+
+
+Query= gnl|GCF_000203855|LP_RS14790-MONOMER gn=bsh choloylglycine hydrolase
+(complement(3154512..3155486)) Lactobacillus plantarum WCFS1
+NC_004567
+
+Length=324
+
+RID: NJUC979B013
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+WP_274871259.1 choloylglycine hydrolase [Candidatus Methanosphaer...  445     1e-156
+WP_040682642.1 choloylglycine hydrolase [Methanobrevibacter bovis...  442     9e-156
+WP_042707886.1 choloylglycine hydrolase [Methanobrevibacter wolin...  439     2e-154
+WP_116591383.1 choloylglycine hydrolase [Methanobrevibacter thaue...  432     2e-151
+WP_012956167.1 choloylglycine hydrolase [Methanobrevibacter rumin...  431     4e-151
+WP_149731321.1 choloylglycine hydrolase [Methanobrevibacter mille...  415     7e-145
+WP_011406353.1 MULTISPECIES: choloylglycine hydrolase [Methanosph...  412     7e-144
+WP_067146637.1 choloylglycine hydrolase [Methanobrevibacter olley...  412     1e-143
+WP_004035757.1 MULTISPECIES: choloylglycine hydrolase [Methanobre...  394     1e-136
+WP_015505066.1 choloylglycine hydrolase [Methanomethylophilus alv...  363     1e-124
+WP_071906683.1 choloylglycine hydrolase [Methanobacterium congole...  256     2e-82 
+WP_248612294.1 choloylglycine hydrolase [Methanobacterium alcalip...  247     8e-79 
+WP_331708997.1 choloylglycine hydrolase [Methanobacterium formici...  241     2e-76 
+WP_100906637.1 MULTISPECIES: choloylglycine hydrolase [Methanobac...  237     1e-74 
+WP_095609261.1 choloylglycine hydrolase [Methanosphaera cuniculi]...  229     8e-72 
+WP_080460095.1 choloylglycine hydrolase family protein [Methanobr...  144     2e-38 
+
+
+
+Query_1         1    MCTAITYQSYNNYFGRNFDYEISYNEMVTITPRKYPLVFRKVENLDHHYAIIGITADVES  60
+WP_274871259.1  1    MCTAANYISKDHYFGRNFDYELSYNEKITITPRNYPLEFRVEDTIDNHYAFIGVTAGIET  60
+WP_040682642.1  1    MCTAANYLSKDHYFGRNFDYELSYNEKITITPRNYPLEFRVEDTINNHYAFIGITAGIET  60
+WP_042707886.1  1    MCTAANYLSKDHYFGRNFDYELSYNEKITITPRNYPLKFRVENTIENHYAFIGITAGIDV  60
+WP_116591383.1  1    MCTASNYITDDHYFGRNFDYEISYNERVTITPRNYKFEFRKIDAIESHYAIIGIAAGIDS  60
+WP_012956167.1  1    MCTASEYLTENHYFGRNFDYEISYKERVCITPRNYEFKYRKIDDMKSHYAIIGIAAGIDE  60
+WP_149731321.1  1    MCTASNYITKDHYFGRNFDYEISYNERVTITPRNYKFEYRLIDDIESHYAIIGVAAGVDG  60
+WP_011406353.1  1    MCSAANYTTKNHYFGRNFDYEISYNEQVMITPRNYPLKFRKINDITTHYAIIGISAGINE  61
+                                                                    \            
+                                                                    |            
+                                                                    T
+WP_067146637.1  1    MCTASEYFTENHYFGRNFDYEISYNERVCITPRNYEFKFRKIEDMESHYAIIGIAAGIDE  60
+WP_004035757.1  1    MCTAANYLTKCHYFGRNFDYEISYNERVTITPRNYPLIFRDTEDIENHYGIIGIAAGIDE  60
+WP_015505066.1  1    MCMAATYKDKDHYFGRNLDLEISYGQKVVVTPRNKEFAYRHENAEKTHLALIGMAAVVDG  60
+WP_071906683.1  1    MCTSFNIQSKHNFFGRNLDLAYNVNECPLILPRNYQLEDKVTGNLKTKKAIIGMGTVIDG  63
+                              \                                  \               
+                              |                                  |               
+                             EE                                  M
+WP_248612294.1  1    MCTTFSIQTENNFVGRNLDLAYNVNEYPIILPRNYILQDKVTDNLISNKAIIGMGTVIDD  63
+                               \                               \                 
+                               |                               |                 
+                              EG                               G
+WP_331708997.1  6    MCTTFSIQTKNNFVGRNLDLAYNVNECPLILPRNYLMEDKVTGNMQTDKALIGIGTVIDD  68
+                               \                                    \            
+                               |                                    |            
+                              DG                                    T
+WP_100906637.1  1    MCTTFSIQTKNNFVGRNLDLAYNVNECPIILPRNYLLEDKVTGNMQTDKALIGIGTVIDD  63
+                               \                                    \            
+                               |                                    |            
+                              DG                                    T
+WP_095609261.1  1    MCSGLTLKTQDDLFGRNMDLSYEFGQQVVVVPRKYTFNLKKIEN---KYAIITMATVIDN  63
+                                 \                           \                   
+                                 |                           |                   
+                                KH                        ANND
+WP_080460095.1  1    MCTSIFTKTEDNFLARTMDFSFPLEGNPVFLPREYSWVFGK--EMTNKYAMLGTGRGIAG  61
+                                 \                        \                      
+                                 |                        |                      
+                                KH                        H
+
+Query_1         61   YPLYYDAMNEKGLCIAGLNFAGYADYKKYDADKVNITPFELIPWLLGQFSSVREVKKNIQ  120
+WP_274871259.1  61   YPLYYDATNEKGLSVAGLNFSEFADYKEVDNEKTNVASFEFIPWILSQCSNVKEARKLLD  120
+WP_040682642.1  61   YPLYYDATNEKGLSVAGLNFTDFADYKEIDENKTNVASFEFIPWILSQCKDVKEARKLLE  120
+WP_042707886.1  61   YPLYYDATNEKGLSVAGLNFSDFADYKKVDKSKVNVASFEFIPWILSQCSNVEEARKLLK  120
+WP_116591383.1  61   YPLYYDACNEKGLAIAGLNFAGNAVYKEFDEDMVNVTPFELIPYLLGQAGNVAEARKLLS  120
+WP_012956167.1  61   YPLYYDACNEKGVAIAGLNFAGNAIYREMEEDMVNVTPFEFIPYLLSQADSVEDVKELLQ  120
+WP_149731321.1  61   YPLYYDACNEKGLSIAGLNFEGNAVYLEEKEGMVNVTPFEFIPYILGTYSNVSEVKKALE  120
+WP_011406353.1  62   YPLYYDATNEKGLSMAGLNFAGYTKYHEYDSNKLNITPFEFIPYILSKYESVDDVKEALE  121
+WP_067146637.1  61   YPLYYDACNEKGVAIAGLNFAGNAVYREIDEDMVNVTPFEFIPYLLSQADSIEDVKNLLE  120
+WP_004035757.1  61   YPLYYDACNEKGLAMGGLNFPDYCDYKPLDKSKVNIASFEIIPYILSQAKTISDAERLLE  120
+WP_015505066.1  61   CPLYFDATNENGLSMAGLNFPGNAYYGEMKEGSHNIAPFEFIPWVLCKCSTVEEARALIS  120
+WP_071906683.1  64   HPSMVDAMNEKGLVCAGLNFEGFAHFEKPVPGKINIAPYDFIYWVVSNHETIDEVKGALS  124
+                                                \                                
+                                                |                                
+                                                E
+WP_248612294.1  64   HPSMVDAMNENGLVCAGLNFEGFAHFEKPVPGKTNITPYDFIYWVVSNYDTIDEVKSALS  124
+                                                \                                
+                                                |                                
+                                                E
+WP_331708997.1  69   HPSLVDAMNENGLVCAGLNFEGFAHFEKPVPEKTNITPYDFIYWVVSNYDTVDEVKTALS  129
+                                                \                                
+                                                |                                
+                                                E
+WP_100906637.1  64   HPSLVDAMNENGLVCAGLNFEGFAHFEKPVPGKTNITPYDFIYWVVSNYDTINEVKSALS  124
+                                                \                                
+                                                |                                
+                                                E
+WP_095609261.1  64   YPLIADGCNEAGLGVAGLNFPHYASFEKEPVDKFNLTPYELPLWLLGNFETVDEVKSELE  124
+                                                     \                           
+                                                     |                           
+                                                     D
+WP_080460095.1  62   NYIFTDGINEHGLAMAELYLPGEAVYNKNEVKKNNLAPWEFLNWVLGNYKSIADLEKNLK  122
+                                                     \                           
+                                                     |                           
+                                                     G
+
+Query_1         121  KLNLVNINFSEQLPLSPLHWLVADKQESIVIESVKEGLKIYDNPVGVLTNNPNFDYQLFN  180
+WP_274871259.1  121  NLNIVNIQFSDELPNSSLHWIISDRNESITVETVKEGLKVYDNPVGVLTNNPPFDKQLFN  180
+WP_040682642.1  121  NLNIVNIQFSDELPNSSLHWIISDRNESITVETVEEGLKVYDNPVGVLTNNPPFDKQLFN  180
+WP_042707886.1  121  NLNIVDIQFSDELPNSSLHWIISDRNESITVETVKEGLKVYDNPVGVLTNNPPFDKQLFN  180
+WP_116591383.1  121  EINLVNINFADELPLSPLHWMLSDGKEAIVVEPLEEGLKIYDNPVGVLTNNPPFDKQLFY  180
+WP_012956167.1  121  NLNLVNINYSENLPLSPLHWMISDKDSSIIVEPLEDGLKVYDNPVGVLTNNPKFDMQLFN  180
+WP_149731321.1  121  NINLVNINFSEELPLSPLHWMISDDTGAIVVEPLKDGLKVYDNPVGVLTNNPPFDKQLFT  180
+WP_011406353.1  122  NINLVNINYSDKLPLSPLHWIISDSESSITVECLKDELKVYDNPLGILTNNPPFDLQMFN  181
+WP_067146637.1  121  NLNLVNINFSESLPLSPLHWMISDKNSSIIVEPLEDGLKVYDNPVGVLTNNPTFDIQLFN  180
+WP_004035757.1  121  NLNISDEKFSAQLPPSPLHWIISDRNASIVVEVVEEGLDIYDNPVGVLTNNPPFDKQLFN  180
+WP_015505066.1  121  GTNLIDEDFSDALPASPLHWIVSDRESSIVVEYMESGLSIYDDPAGILTNNPPFPFHMHN  180
+WP_071906683.1  125  NIELVNVPLNEKTPVPTLHWMITDKTQSIVVEKTKDKLAVYDNPVGVMTNQPTFDWHLMN  185
+                                               \                                 
+                                               |                                 
+                                               G
+WP_248612294.1  125  NIDLVDVPLNDQTPVPTLHWMITDKTSSIVVEKTKEQLAVYDNPVGVMTNQPTFDWHLMN  185
+                                               \                                 
+                                               |                                 
+                                               G
+WP_331708997.1  130  NIDLVDVPLNDQTPVPTLHWMITDKTSSIVVEKTKEQLAVYDNPVGVMTNQPTFDWHLMN  190
+                                               \                                 
+                                               |                                 
+                                               G
+WP_100906637.1  125  NIDLVDVPLNDQTPVPTLHWMITDKTRSIVVEKTKEQLAVFDNPVGVMTNQPTFDWHLMN  185
+                                               \                                 
+                                               |                                 
+                                               G
+WP_095609261.1  125  NIELVDIPFNDKVGVSTLHWFISDKTKSLVVEKTCEKLNVYDNPVGILTNSPGFDWHMIN  185
+                                               \                                 
+                                               |                                 
+                                               G
+WP_080460095.1  123  NIRLIDTEIPIMNKSIPLHYIFADTGRVVVIEPSGGELKFKENPVGVMTNTPNLEWHTQN  183
+                                             \                                   
+                                             |                                   
+                                             I
+
+Query_1         181  LNNYRALSNSTPQNSFSEKVDLDSYSRGMGGLGLPGDLSSMSRFVRAAFTKLNSLSMQTE  240
+WP_274871259.1  181  LNNYRYLSSKTPDNTFSTELDLMPYSRGMGGLGLPGDLSSMSRFVKASFTKMNSLSSEDE  240
+WP_040682642.1  181  LNNYRYLSSKTPDNTFSDDLDLMAYSRGMGGLGLPGDLSSMSRFVKASFTKMNSLSSEDE  240
+WP_042707886.1  181  LNNYRYLSSKTPDNTFSKDLDLMAYSRGMGGLGLPGDLSSMSRFVKASFTKMNSLSSEDE  240
+WP_116591383.1  181  LNNYRNLSNRNPENTFGGDIDLDEYSRGMGGIGLPGDLSSASRFAKVAFTRANSYSDSDE  240
+WP_012956167.1  181  LNDYRNLSVKTPENTFSKNLNLDDYSRGMGAIGLPGDLSSASRFVKVAFTKENSFSGTSE  240
+WP_149731321.1  181  LNDYRSLSNRNPENTFSKDFDLDEYSRGMGAIGLPGDLSSSSRFAKVAFTRANSFSSDGE  240
+WP_011406353.1  182  LNNYRRVSNKTPSNDFLKDYNLDVYSRGMGGMGIPGDLSSMSRFVKLAFTLTNSLSDDSE  241
+WP_067146637.1  181  LNNYRNLSIKTPENTFSKNLELDAYSRGMGAIGLPGDLSSLSRFVKAAFTRENSTSETGE  240
+WP_004035757.1  181  LNNYMALSNRTPENTFGGNLDLATYSRGMGSIGLPGDVSSQSRFVKAAFVKENSVSGDSE  240
+WP_015505066.1  181  LANYMNLSAGVPENRFSKDIDLRPYSRGMGAMGLPGDLSSASRFVKAAFTKLNSLSDGTE  240
+WP_071906683.1  186  LNRYLYITPHQPKETWSDQV-LKIHGVGAGTLGMPGDSHSISRFVRIAYARAHMPVIKDD  245
+                                    \                                            
+                                    |                                            
+                                    K
+WP_248612294.1  186  LNRYLSINPNQPEPKWSDQL-LQIHGVGAGTLGLPGDSHSVSRFVRIAYARSHMPTLEDD  245
+                                   \                                             
+                                   |                                             
+                                   V
+WP_331708997.1  191  LNRYISINPNQPEPKWSDQL-LQIHGVGAGTLGLPGDSHSVARFVRIAYARAHMPVLEDD  250
+                                   \                                             
+                                   |                                             
+                                   V
+WP_100906637.1  186  LNRYLSISPNQPEPVKWSDQLLQIHGVGAGTLGLPGDSHSVTRFVRIAYARAHMPFLEDD  245
+WP_095609261.1  186  LNEYIGLKPEQPEDVKWSNADLHTIGIGAGTKGMPGGAGGVDRFIRLAYIRANTKEPENT  245
+WP_080460095.1  184  LRNYIHIQ----PKQFSPKFTATPFSQATGTTGLPGGFTPSNRFVRAAFFKEYINKAKNE  243
+                                        \                                        
+                                        |                                        
+                                     KYGE
+
+Query_1         241  SGSVSQFFHILGSVEQQKGLCEVTDGKYEYTIYSSCCDMDKGVYYYRTYDNSQINSVSLN  300
+WP_274871259.1  241  LESVSQFFHILGSVEQQRGLAFISEDKYEITIYSSCVNTDKGIYYYKTYENSQINAVNMN  301
+                                              \                                  
+                                              |                                  
+                                              P
+WP_040682642.1  241  LESVSQFFHILGSVEQQRGLAFIEEDKYEITIYSSCVNTDKGIYYYRTYENSQINAVDMH  301
+                                              \                                  
+                                              |                                  
+                                              P
+WP_042707886.1  241  LESVSQFFHILGSVEQQRGLAFIEEDKYEITIYSSCVNTDKGIYYYKTYENSQINAVNMY  301
+                                              \                                  
+                                              |                                  
+                                              P
+WP_116591383.1  241  ASSVGQFFHILGSVEQQNGCTFIDDPDYEYTIYTSCYNTNKAILYYRTYHNSQITAVDLN  301
+                                                \                                
+                                                |                                
+                                                L
+WP_012956167.1  241  SESVSQFFHILGSVEQQKGLTFINDPDYEYTIYSSCYNTNKGILYYKTYDNHQITAVDLN  301
+                                                \                                
+                                                |                                
+                                                L
+WP_149731321.1  241  EESVSQFFHILGSVEQQNGCTFINDPDYEYTIYTSCYNTNKAVLYYRTYSNSQITAVKLM  301
+                                                \                                
+                                                |                                
+                                                L
+WP_011406353.1  242  ESSVNQFFHILASVEQQNGCTFISPDKYEYTIYSSCVNTSCGIYYYRTYGNSQINAVNMH  302
+                                            \                                    
+                                            |                                    
+                                            E
+WP_067146637.1  241  SESVSQFFHILSSVEQQKGLTFIDDPDYEYTIYTSCYNTDECILYYKTYYNHQITAVDLN  301
+                                                \                                
+                                                |                                
+                                                V
+WP_004035757.1  241  KESVSQFFHILASVEQQKGCTLVEEDKFEYTIYSDCYNTDKGILYYKTYDGPQ-TSVNIH  300
+                                              \                                  
+                                              |                                  
+                                              P
+WP_015505066.1  241  EGGMTQFFHIMDSVQQQMGCCYLGDEKYEYTIYTSCCDTDKGIYYYRTYGNSQITGVDMH  300
+WP_071906683.1  246  ITAVTQCFHMLDYVKMVKGGV-ITDGMEEKTTYSACMDQEKGIYYYKTYGNNRINAVDMN  304
+WP_248612294.1  246  ISAVTQCMHMLDSVKMVKAGV-LTEGMAEKTTYSACMDQENGIYYYKNYENSRINAVNMH  304
+WP_331708997.1  251  ISAVTQCMHMLDYVKMVKAGV-LTEGMAEKTTYSACMDQENGIYYYKNYGNSRINAVNMH  309
+WP_100906637.1  246  ISAVTQCMHMLDYVKMVKAGV-LTEGMEEKTTYSACMDQQNGIYYYKNYGNSRINAVNMH  304
+WP_095609261.1  246  ELGISQFFHMLDYVAAPKGSV-IEQENEDYTLYSSCMDLEEGIYYYKSYKSYGINAVNMH  304
+WP_080460095.1  244  EEGVTNIWQILSTVRIPKGVVEDSEGE-DYTEYLAGICLESRSFYFTPYENNRITKVRLT  303
+                                          \                                      
+                                          |                                      
+                                          I
+
+Query_1         301  HEHLDTTELISYPLRSEAQYYAVN  324
+WP_274871259.1  302  NEDLNSDTLISYPL            315
+WP_040682642.1  302  KEDLDSESLISYPL            315
+WP_042707886.1  302  KEDLDSNNLITYPL            315
+WP_116591383.1  302  REDLDSSELINYLLINEEQFNFIN  325
+WP_012956167.1  302  REDLDGDGLIIYPLINEAQINFIN  325
+WP_149731321.1  302  SEDLDSAELINYRLETEEQIAYIN  325
+WP_011406353.1  303  NENLDTDKLITYPLVNKEKF      322
+WP_067146637.1  302  KENLDGDNLIVYPFIDEAQINFIN  325
+WP_004035757.1  301  DEDLETNQLINFEL            314
+WP_015505066.1  301  RTDLDSDVLAEFPL            314
+WP_071906683.1  305  KEDLDGDELISF              316
+WP_248612294.1  305  KEDLDGDEIIKCP             317
+WP_331708997.1  310  KEDLDGDEIIKCP             322
+WP_100906637.1  305  KEDLNGDELI                314
+WP_095609261.1  305  NVDLNSNELYEF              316
+WP_080460095.1  304  DELIDDGNVVIF              315
+
+
+Lambda      K        H
+   0.317    0.135    0.395 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 68943346200
+
+
+  Database: RefSeq Select proteins
+    Posted date:  Mar 7, 2024 08:59 PM
+  Number of letters in database: 19,508,232,757
+  Number of sequences in database:  59,665,754
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
