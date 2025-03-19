@@ -1,0 +1,203 @@
+Physical cores: 4
+Logical cores:  8
+Memory:         15.8GB
+Extensions:     AVX
+
+WARNING: MSA has not enough sites to infer reliable results
+Creating new checkpoint file: C:\Users\Nina\Downloads\RAxML_GUI_ModelTest_blastp_rep_aligned50_modified.ckp
+--------------------------------------------------------------------------------
+ModelTest-NG v0.1.7
+
+Input data:
+  MSA:        C:\Users\Nina\Downloads\blastp_rep_aligned50_modified.fasta
+  Tree:       Maximum parsimony
+    file:           -
+  #taxa:            219
+  #sites:           613
+  #patterns:        586
+  Max. thread mem:  312 MB
+
+Output:
+  Log:           C:\Users\Nina\Downloads\RAxML_GUI_ModelTest_blastp_rep_aligned50_modified.log
+  Starting tree: C:\Users\Nina\Downloads\RAxML_GUI_ModelTest_blastp_rep_aligned50_modified.tree
+  Results:       C:\Users\Nina\Downloads\RAxML_GUI_ModelTest_blastp_rep_aligned50_modified.out
+
+Selection options:
+  # protein matrices: 19
+  # protein models:   152
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: false
+    #categories:     4
+  gamma rates mode:   mean
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.05
+  keep branches:      false
+
+Additional options:
+  verbosity:        very low
+  threads:          2/4
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+modeltest-ng was called as follows: 
+>> /usr/bin/modeltest-ng -d aa -i C:\Users\Nina\Downloads\blastp_rep_aligned50_modified.fasta -o C:\Users\Nina\Downloads\RAxML_GUI_ModelTest_blastp_rep_aligned50_modified --force -p 2 
+
+
+Partition 1/1
+
+ ----ID---  ----MODEL---- ---Time--- -Elapsed--- -------LnL------- -Alpha- -P-inv-
+
+Computation of likelihood scores completed. It took 0h:05:55
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  LG+I+G4+F         21   -126772.6717    256472.1179         0.0000    1.0000
+       2  LG+G4+F           20   -126799.0738    256518.5037        46.3858    0.0000
+       3  LG+I+G4            2   -126909.0301    256622.8857       150.7679    0.0000
+       4  LG+G4              1   -126938.2189    256674.8448       202.7270    0.0000
+       5  RTREV+I+G4+F      21   -127108.8013    257144.3769       672.2591    0.0000
+       6  RTREV+G4+F        20   -127138.6939    257197.7438       725.6259    0.0000
+       7  WAG+I+G4+F        21   -127168.0415    257262.8574       790.7395    0.0000
+       8  WAG+G4+F          20   -127190.9801    257302.3162       830.1984    0.0000
+       9  WAG+I+G4           2   -127288.7363    257382.2981       910.1803    0.0000
+      10  WAG+G4             1   -127317.1351    257432.6774       960.5595    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              LG+I+G4+F
+lnL:                -126772.6717
+Frequencies:        0.0694 0.0344 0.0615 0.0569 0.0104 0.0358 0.0525 0.0761 0.0245 0.0553 0.0879 0.0458 0.0244 0.0487 0.0530 0.0637 0.0715 0.0129 0.0460 0.0694
+Inv. sites prop:    0.0222
+Gamma shape:        1.3169
+Score:              256472.1179
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              1.2927
+Alpha-P.Inv:        1.3169
+P.Inv-Alpha:        0.0222
+Frequencies:        0.0694 0.0344 0.0615 0.0569 0.0104 0.0358 0.0525 0.0761 0.0245 0.0553 0.0879 0.0458 0.0244 0.0487 0.0530 0.0637 0.0715 0.0129 0.0460 0.0694 
+
+Commands:
+  > phyml  -i C:\Users\Nina\Downloads\blastp_rep_aligned50_modified.fasta -d aa -m LG -f e -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s C:\Users\Nina\Downloads\blastp_rep_aligned50_modified.fasta -m PROTGAMMAILGF -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa C:\Users\Nina\Downloads\blastp_rep_aligned50_modified.fasta --model LG+I+G4+F
+  > paup -s C:\Users\Nina\Downloads\blastp_rep_aligned50_modified.fasta
+  > iqtree -s C:\Users\Nina\Downloads\blastp_rep_aligned50_modified.fasta -m LG+I+G4+F
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  LG+I+G4+F         21   -126772.6717    254457.3434         0.0000    1.0000
+       2  LG+G4+F           20   -126799.0738    254508.1476        50.8042    0.0000
+       3  LG+I+G4            2   -126909.0301    254692.0603       234.7168    0.0000
+       4  LG+G4              1   -126938.2189    254748.4377       291.0943    0.0000
+       5  RTREV+I+G4+F      21   -127108.8013    255129.6025       672.2591    0.0000
+       6  RTREV+G4+F        20   -127138.6939    255187.3877       730.0443    0.0000
+       7  WAG+I+G4+F        21   -127168.0415    255248.0830       790.7395    0.0000
+       8  WAG+G4+F          20   -127190.9801    255291.9602       834.6167    0.0000
+       9  WAG+I+G4           2   -127288.7363    255451.4726       994.1292    0.0000
+      10  WAG+G4             1   -127317.1351    255506.2703      1048.9268    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              LG+I+G4+F
+lnL:                -126772.6717
+Frequencies:        0.0694 0.0344 0.0615 0.0569 0.0104 0.0358 0.0525 0.0761 0.0245 0.0553 0.0879 0.0458 0.0244 0.0487 0.0530 0.0637 0.0715 0.0129 0.0460 0.0694
+Inv. sites prop:    0.0222
+Gamma shape:        1.3169
+Score:              254457.3434
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              1.2927
+Alpha-P.Inv:        1.3169
+P.Inv-Alpha:        0.0222
+Frequencies:        0.0694 0.0344 0.0615 0.0569 0.0104 0.0358 0.0525 0.0761 0.0245 0.0553 0.0879 0.0458 0.0244 0.0487 0.0530 0.0637 0.0715 0.0129 0.0460 0.0694 
+
+Commands:
+  > phyml  -i C:\Users\Nina\Downloads\blastp_rep_aligned50_modified.fasta -d aa -m LG -f e -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s C:\Users\Nina\Downloads\blastp_rep_aligned50_modified.fasta -m PROTGAMMAILGF -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa C:\Users\Nina\Downloads\blastp_rep_aligned50_modified.fasta --model LG+I+G4+F
+  > paup -s C:\Users\Nina\Downloads\blastp_rep_aligned50_modified.fasta
+  > iqtree -s C:\Users\Nina\Downloads\blastp_rep_aligned50_modified.fasta -m LG+I+G4+F
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  LG+I+G4            2   -126909.0301    256879.0603         0.0000    1.0000
+       2  LG+G4              1   -126938.2189    256913.4377        34.3775    0.0000
+       3  LG+I+G4+F         21   -126772.6717    257128.3434       249.2832    0.0000
+       4  LG+G4+F           20   -126799.0738    257151.1476       272.0874    0.0000
+       5  WAG+I+G4           2   -127288.7363    257638.4726       759.4124    0.0000
+       6  WAG+G4             1   -127317.1351    257671.2703       792.2100    0.0000
+       7  VT+I+G4            2   -127354.0067    257769.0133       889.9531    0.0000
+       8  VT+G4              1   -127379.6379    257796.2757       917.2155    0.0000
+       9  RTREV+I+G4+F      21   -127108.8013    257800.6025       921.5423    0.0000
+      10  RTREV+G4+F        20   -127138.6939    257830.3877       951.3275    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              LG+I+G4
+lnL:                -126909.0301
+Frequencies:        0.0791 0.0559 0.0420 0.0531 0.0129 0.0408 0.0716 0.0573 0.0224 0.0622 0.0991 0.0646 0.0230 0.0423 0.0440 0.0612 0.0533 0.0121 0.0342 0.0691
+Inv. sites prop:    0.0220
+Gamma shape:        1.3603
+Score:              256879.0603
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        0.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              1.2913
+Alpha-P.Inv:        1.3603
+P.Inv-Alpha:        0.0220
+Frequencies:        0.0694 0.0344 0.0615 0.0569 0.0104 0.0358 0.0525 0.0761 0.0245 0.0553 0.0879 0.0458 0.0244 0.0487 0.0530 0.0637 0.0715 0.0129 0.0460 0.0694 
+
+Commands:
+  > phyml  -i C:\Users\Nina\Downloads\blastp_rep_aligned50_modified.fasta -d aa -m LG -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s C:\Users\Nina\Downloads\blastp_rep_aligned50_modified.fasta -m PROTGAMMAILG -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa C:\Users\Nina\Downloads\blastp_rep_aligned50_modified.fasta --model LG+I+G4
+  > paup -s C:\Users\Nina\Downloads\blastp_rep_aligned50_modified.fasta
+  > iqtree -s C:\Users\Nina\Downloads\blastp_rep_aligned50_modified.fasta -m LG+I+G4
+Summary:
+
+Partition 1/1:
+                         Model         Score        Weight
+----------------------------------------------------------
+       BIC           LG+I+G4+F   256472.1179        1.0000
+       AIC           LG+I+G4+F   254457.3434        1.0000
+      AICc             LG+I+G4   256879.0603        1.0000
+
+Execution results written to C:\Users\Nina\Downloads\RAxML_GUI_ModelTest_blastp_rep_aligned50_modified.out
+Starting tree written to C:\Users\Nina\Downloads\RAxML_GUI_ModelTest_blastp_rep_aligned50_modified.tree
